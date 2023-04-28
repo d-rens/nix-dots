@@ -1,24 +1,28 @@
-## Dotfiles
-Estos son mis dotfiles, los archivos de configuración que uso para personalizar
-mi sistema operativo. Quiero compartirlos con la comunidad para que otros
-puedan aprender de ellos, modificarlos a su gusto o simplemente curiosear. Sin
-embargo, quiero aclarar que mis mensajes de commit pueden ser un poco
-desordenados, ya que suelo hacer muchos cambios en el sistema y no siempre
-documentarlos de forma exhaustiva. Además, no siempre escribo un mensaje para
-cada commit, por lo que la historia de cambios puede parecer un poco confusa.
-¡Espero que aun así encuentres estos archivos útiles o interesantes! Si tienes
-sugerencias, preguntas o comentarios, no dudes en hacérmelos saber.
+# Dotfiles
+Those are my dotfiles for Asahi linux so the arm arch for apple silicon devices.
+
+Some thing are not working too well, due to drivers missing but generally all
+configs should universally work.
+
+## Sources I got my configs from:
+
+- 20% made oneself
+- 40% stolen (but i try to give credit)
+- 40% made with chatgpt
+
 
 ## Programs
-OS: Asahi (ARM Arch en apple silicon) y endeavour.
+OS: Asahi (ARM Arch en apple silicon)
 
 WM: bwpwm
 
-Terminalo: Alacritty
+Terminal: Alacritty
 
-Texteditor: hinchado neovim
+Texteditor: bloated neovim
 
 viewer: zathura
+
+rss: newsboat
 
 Shell: zsh
 
