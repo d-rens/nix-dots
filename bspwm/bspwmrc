@@ -1,0 +1,40 @@
+#! /bin/sh
+~/.local/bin/start-apps.sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+bspc rule -r "*"
+
+bspc monitor -d 1 2 3 4 5 6 7 8 9 10
+
+# wal not in use currently
+#. "${HOME}/.cache/wal/colors.sh"
+
+#bspc config window_gap         20 
+
+bspc config top_padding 40
+bspc config bottom_padding 10
+bspc config left_padding 10
+bspc config right_padding 10
+
+bspc config border_width         2
+bspc config focused_border_color "#81A1C1"
+bspc config active_border_color "#4C566A"
+bspc config normal_border_color "#2E3440"
+#bspc config focused_border_color "#ffffff"
+#bspc config active_border_color "#999999"
+#bspc config normal_border_color "#343434"
+
+bspc config ignore_ewmh_focus true
+
+bspc config split_ratio          0.5
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc config pointer_motion_interval 7ms
+bspc config focus_follows_pointer true
+bspc config pointer_follows_monitor true
+
+#eigenes
+sxhkd &
+/home/daniel/start-apps.sh &

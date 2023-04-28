@@ -1,0 +1,44 @@
+# Ignore backup files
+*~
+
+# Ignore temporary files
+*.swp
+*.swo
+*.bak
+
+# Ignore cache directories
+.cache/
+.local/share/gvfs-metadata/
+thumbnails/
+Trash/
+
+# Ignore log files
+*.log
+*.log.*
+
+# Ignore compiled code
+*.pyc
+*.pyo
+*.class
+
+# Ignore system files
+.DS_Store
+.Trashes
+._*
+.Spotlight-V100
+.DocumentRevisions-V100
+
+# Ignore GTK folders
+gtk-2.0/
+gtk-3.0/
+
+# Ignore DConf settings
+user.dconf/
+dconf/user
+
+# btop
+btop/btop.log
+*btop.log
+
+*.log
+

@@ -1,0 +1,99 @@
+# need to order this..
+
+# Journals
+#http://arxiv.org/rss/cs journal computer-science "~arxiv computer-science"
+#http://export.arxiv.org/rss/math journal maths
+#http://export.arxiv.org/rss/stat journal stats
+https://www.science.org/rss/news_current.xml "~science.org"
+
+https://www.reddit.com/r/AsahiLinux/.rss reddit linux
+
+# reddit linguistics
+#https://www.reddit.com/r/linguistics/hot/.rss reddit humanities language
+
+# reddit latin
+#https://www.reddit.com/r/latin/.rss reddit humanities latin
+
+# reddit betterment book club hot
+#https://www.reddit.com/r/BettermentBookClub/hot/.rss reddit books
+
+# reddit literature hot
+#https://www.reddit.com/r/literature/hot/.rss reddit books
+
+# 4chan /lit/, i highly recommend to not check, 4chan is a horrible place to be
+#https://boards.4channel.org/lit/index.rss 4chan books
+
+# luke smith
+https://lukesmith.xyz/index.xml "rss" website blog tech
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "youtube" youtube linux 
+
+# Mental outlaw
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA "youtube" youtube linux
+
+# lex
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA "youtube" youtube podcast
+
+#fefe
+https://blog.fefe.de/rss.xml?html news german
+
+# scholz
+https://www.youtube.com/feeds/videos.xml?channel_id=UCcaTUtGzOiS4cqrgtcsHYWg "youtube" productivity youtube
+
+# NOT TECH:
+#untis
+https://kephiso.webuntis.com/WebUntis/NewsFeed.do?school=Rolf%20Benz%20Schule school
+
+# its learning (wichtiges)
+# mathe
+https://bwkabs.itslearning.com/Dashboard/NotificationRss.aspx?LocationType=1&LocationID=1616&PersonId=400528&CustomerId=901121&Guid=0f3c3b9bb562d7991b4dfadfd82f1139&Culture=en-US its-learning school maths "~its-l Mathe"
+
+# physik 1
+https://bwkabs.itslearning.com/Dashboard/NotificationRss.aspx?LocationType=1&LocationID=1626&PersonId=400528&CustomerId=901121&Guid=93516e140e664a2e78cf8e30ac3697af&Culture=en-US its-learning school "~its-l Physik"
+
+# physik 2
+https://bwkabs.itslearning.com/Dashboard/NotificationRss.aspx?LocationType=1&LocationID=1625&PersonId=400528&CustomerId=901121&Guid=0407d4dadc8dea1243a31eb7a678d7e4&Culture=en-US its-learning school "~its-l Physik-Lab"
+
+
+# pug
+https://bwkabs.itslearning.com/Dashboard/NotificationRss.aspx?LocationType=1&LocationID=1448&PersonId=400528&CustomerId=901121&Guid=c6cc20ed7279cdbac052805c823ad487&Culture=en-US its-learning school "~its-l PuG"
+
+# ethik
+https://bwkabs.itslearning.com/Dashboard/NotificationRss.aspx?LocationType=1&LocationID=1447&PersonId=400528&CustomerId=901121&Guid=346ab2f83d76d9055fece658dce62b24&Culture=en-US its-learning school "~its-l Ethik"
+
+# ggk
+https://bwkabs.itslearning.com/Dashboard/NotificationRss.aspx?LocationType=1&LocationID=1710&PersonId=400528&CustomerId=901121&Guid=5bec990c5f93ee3cf44eabafe37e3c7f&Culture=en-US its-learning school "~its-l GGK"
+
+
+
+# Robin Waldun
+https://www.youtube.com/feeds/videos.xml?channel_id=UCafEZMU5s8geb9oIly6xTrg "youtube" books youtube
+
+# State of mund
+https://www.youtube.com/feeds/videos.xml?channel_id=UCuD-OWq0lLKLGkuWuNs35sA "youtube" youtube
+
+#olisunvia
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVHxJghKAB_kA_5LMM8MD3w "youtube" youtube
+
+#primer 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCKzJFdi57J53Vr_BkTfN3uQ "youtube" maths youtube
+
+#dami lee
+#https://www.youtube.com/feeds/videos.xml?channel_id=UCJ_2hNMxOzNjviJBiLWHMqg "youtube" youtube
+
+#3blue1brown
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw "youtube" maths youtube
+
+# Junferno
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRb6Mw3fJ6OFzp-cB9X29aA "youtube" maths computer-science youtube
+
+# peterson
+https://www.youtube.com/feeds/videos.xml?channel_id=UCL_f53ZEJxp8TtlOkHwMV9Q "youtube" youtube podcast
+
+# sisyphus
+https://www.youtube.com/feeds/videos.xml?channel_id=UCDETFHKteb-C_EaXmRKvP4w "youtube" youtube
+
+# Georgy B. Sadler
+#https://www.youtube.com/feeds/videos.xml?channel_id=UCEtxsMx4qsoitFwjBdLU_gA "youtube" youtube
+
+# Youtube template
+#https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL-ID-HERE "youtube"
