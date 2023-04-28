@@ -28,9 +28,32 @@ Trash/
 .Spotlight-V100
 .DocumentRevisions-V100
 
-# Ignore GTK folders
+# ignores some uselss folders
 gtk-2.0/
 gtk-3.0/
+gtk-4.0/
+
+btop/
+calibre/
+dconf/
+htop/
+neofetch/
+npm/
+procps/
+pulse/
+qutebrowser/
+systemd/
+VSCodium/
+yarn/
+yay/
+
+QtProject.conf
+user-dirs.conf
+user-dirs.dirs
+user-dirs.locale
+
+
+
 
 # Ignore DConf settings
 user.dconf/
