@@ -3,7 +3,6 @@
 https://www.science.org/rss/news_current.xml "~science.org"
 
 # git
-https://rss.app/feeds/lXi7Nq3OltRqT4FC.xml "~lukesmith "
 https://gitlab.com/blutlauge/dotfiles/-/commits/master?format=atom "~schl dotfs 1"
 https://codeberg.org/blutlauge/dmenu.rss "~schl dotfs 2"
 
