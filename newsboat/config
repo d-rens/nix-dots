@@ -1,23 +1,20 @@
 auto-reload yes
 
-bind-key j down
-bind-key k up
-bind-key j next articlelist
-bind-key k prev articlelist
-bind-key J next-feed articlelist
-bind-key K prev-feed articlelist
-bind-key G end
-bind-key g home
-bind-key u pageup
 bind-key l open
 bind-key h quit
+bind-key j down
+bind-key k up
+bind-key J next-feed articlelist
+bind-key K prev-feed articlelist
+
+bind-key G end
+bind-key g home
+
 bind-key a toggle-article-read
+
 bind-key n next-unread
-bind-key N prev-unread
-bind-key D pb-download
+
 bind-key U show-urls
-bind-key x pb-delete
-bind-key ^t next-unread
 
 color listnormal green default
 color listnormal_unread magenta default
@@ -25,5 +22,12 @@ color listfocus green default bold
 color listfocus_unread magenta default bold
 color info blue default bold
 color article default default
+
+external-url-viewer "urlscan -dc -r 'linkhandler {}'"
+
+browser linkhandler
+macro , open-in-browser
+macro d set browser "yt-dlp --restrict-filenames" ; open-in-browser ; set browser linkhandler
+macro f set browser "firefox" ; open-in-browser ; set browser linkhandler
 
 cache-file ~/.config/newsboat/cache.db
