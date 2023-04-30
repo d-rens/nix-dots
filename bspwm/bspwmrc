@@ -36,5 +36,9 @@ bspc config focus_follows_pointer true
 bspc config pointer_follows_monitor true
 
 #eigenes
+
+# Set rule for Zathura to start in tiled mode
+bspc rule -a Zathura -o state=tiled
+
 sxhkd &
 /home/daniel/start-apps.sh &
