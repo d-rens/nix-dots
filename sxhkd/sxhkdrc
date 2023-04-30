@@ -186,3 +186,6 @@ super + shift + w
 super + n
   alacritty -e newsboat
 
+super + a
+  alacritty -e sh -c 'cd /home/daniel/audio/music/; exec $SHELL'
+
