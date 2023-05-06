@@ -1,6 +1,16 @@
 # need to order this..
-# Journals
-https://www.science.org/rss/news_current.xml "~science.org"
+
+# maths
+#3blue1brown
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw "youtube" maths youtube
+# mick puff
+https://www.youtube.com/feeds/videos.xml?channel_id=UCIb2hI6hCrHKgJkdlcjv3DA "youtube" maths youtube
+# blackpenredpen
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_SvYP0k05UKiJ_2ndB02IA "youtube" maths youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMUu2lQ_ilNsb26oWrc5ENw "youtube" maths youtube
+# Leonard
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoHhuummRZaIVX7bD4t2czg "youtube" maths youtube
+
 
 # git
 https://gitlab.com/blutlauge/dotfiles/-/commits/master?format=atom "~schl dotfs 1"
@@ -50,8 +60,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCuD-OWq0lLKLGkuWuNs35sA "yo
 https://www.youtube.com/feeds/videos.xml?channel_id=UCVHxJghKAB_kA_5LMM8MD3w "youtube" youtube
 #primer 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCKzJFdi57J53Vr_BkTfN3uQ "youtube" maths youtube
-#3blue1brown
-https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw "youtube" maths youtube
 # Junferno
 https://www.youtube.com/feeds/videos.xml?channel_id=UCRb6Mw3fJ6OFzp-cB9X29aA "youtube" maths computer-science youtube
 # peterson
