@@ -1,5 +1,17 @@
 # Ignore backup files
 *~
+*QtProject.conf
+VSCodium/
+*VSCodium/
+# Ignore VSCodium folder
+VSCodium/*
+
+# Exclude VSCodium settings and keybindings files
+!VSCodium/User/settings.json
+!VSCodium/User/keybindings.json
+
+# Ignore other files and folders
+QtProject.conf
 
 # Ignore temporary files
 *.swp
