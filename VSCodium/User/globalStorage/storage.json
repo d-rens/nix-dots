@@ -2,11 +2,10 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/daniel/page": "__default__profile__"
+            "file:///home/daniel/page": "__default__profile__",
+            "file:///home/daniel/documents/it": "__default__profile__"
         },
-        "emptyWindows": {
-            "1681991034007": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "5a39d8360b85d575e4a4286665cb76807d16826bab18bcb1d222dec5f6100fb5",
@@ -15,13 +14,12 @@
         "folders": [
             {
                 "folderUri": "file:///home/daniel/page"
+            },
+            {
+                "folderUri": "file:///home/daniel/documents/it"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1681991034007"
-            }
-        ]
+        "emptyWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -66,6 +64,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/daniel/documents/it",
+                                        "path": "/home/daniel/documents/it",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/documents/it"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -134,13 +143,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -700,8 +702,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "checked": true
+                        "label": "&&Word Wrap"
                     },
                     {
                         "id": "editor.action.toggleStickyScroll",
@@ -722,8 +723,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -792,54 +792,45 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3",
-                                    "enabled": false
+                                    "label": "Group &&3"
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4",
-                                    "enabled": false
+                                    "label": "Group &&4"
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5",
-                                    "enabled": false
+                                    "label": "Group &&5"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group",
-                                    "enabled": false
+                                    "label": "&&Next Group"
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group",
-                                    "enabled": false
+                                    "label": "&&Previous Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left",
-                                    "enabled": false
+                                    "label": "Group &&Left"
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right",
-                                    "enabled": false
+                                    "label": "Group &&Right"
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above",
-                                    "enabled": false
+                                    "label": "Group &&Above"
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below",
-                                    "enabled": false
+                                    "label": "Group &&Below"
                                 }
                             ]
                         }
@@ -1609,19 +1600,19 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1e1e",
+    "themeBackground": "#2e3440",
     "windowSplash": {
-        "zoomLevel": 0,
+        "zoomLevel": 1,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1e1e1e",
-            "editorBackground": "#1e1e1e",
-            "titleBarBackground": "#3c3c3c",
-            "activityBarBackground": "#333333",
-            "sideBarBackground": "#252526",
-            "statusBarBackground": "#007acc",
-            "statusBarNoFolderBackground": "#68217a"
+            "foreground": "#d8dee9",
+            "background": "#2e3440",
+            "editorBackground": "#2e3440",
+            "titleBarBackground": "#2e3440",
+            "activityBarBackground": "#2e3440",
+            "sideBarBackground": "#2e3440",
+            "statusBarBackground": "#3b4252",
+            "statusBarNoFolderBackground": "#3b4252"
         },
         "layoutInfo": {
             "sideBarSide": "left",
@@ -1635,14 +1626,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/daniel/page",
-            "backupPath": "/home/daniel/.config/VSCodium/Backups/e2dfbb6ea387b390c357e868f0b278cd",
+            "folder": "file:///home/daniel/documents/it",
+            "backupPath": "/home/daniel/.config/VSCodium/Backups/d636d2291d245d17701bb8b157c59131",
             "uiState": {
                 "mode": 1,
-                "x": 1292,
-                "y": 62,
-                "width": 1236,
-                "height": 1506
+                "x": 1285,
+                "y": 48,
+                "width": 1257,
+                "height": 1534
             }
         },
         "openedWindows": []
