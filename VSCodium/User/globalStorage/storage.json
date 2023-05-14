@@ -3,7 +3,8 @@
     "profileAssociations": {
         "workspaces": {
             "file:///home/daniel/page": "__default__profile__",
-            "file:///home/daniel/documents/it": "__default__profile__"
+            "file:///home/daniel/documents/it": "__default__profile__",
+            "file:///home/daniel/gits/website_portfolio": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -13,7 +14,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/daniel/documents/it"
+                "folderUri": "file:///home/daniel/gits/website_portfolio"
             }
         ],
         "emptyWindows": []
@@ -60,6 +61,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/daniel/gits/website_portfolio",
+                                        "path": "/home/daniel/gits/website_portfolio",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/gits/website_portfolio"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -141,6 +153,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -469,7 +488,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -487,7 +507,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1043,8 +1064,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1633,21 +1653,21 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 171,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/daniel/documents/it",
-            "backupPath": "/home/daniel/.config/VSCodium/Backups/d636d2291d245d17701bb8b157c59131",
+            "folder": "file:///home/daniel/gits/website_portfolio",
+            "backupPath": "/home/daniel/.config/VSCodium/Backups/61fa148366eabbb8a8d5200f5f3f3f95",
             "uiState": {
                 "mode": 1,
-                "x": 1285,
-                "y": 820,
-                "width": 1257,
-                "height": 762
+                "x": 18,
+                "y": 48,
+                "width": 2524,
+                "height": 1534
             }
         },
         "openedWindows": []
