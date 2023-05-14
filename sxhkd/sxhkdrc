@@ -7,6 +7,9 @@ super + Return
   alacritty
 
 # program launcher
+super + r
+  rofi -show run --verbose
+
 super + d
 	rofi -modi drun -show drun -line-padding 4 \
                 -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
