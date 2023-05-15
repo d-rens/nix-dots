@@ -27,3 +27,7 @@ rss: newsboat
 Shell: zsh
 
 audio something: pipewire
+
+## Pictures :)
+![neofetch](~./misc/neofetch.png)
+![note taking setup](~./misc/note-taking-setup.png)
