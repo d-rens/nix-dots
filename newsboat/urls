@@ -16,6 +16,9 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCoHhuummRZaIVX7bD4t2czg "yo
 https://gitlab.com/blutlauge/dotfiles/-/commits/master?format=atom "~schl dotfs 1"
 https://codeberg.org/blutlauge/dmenu.rss "~schl dotfs 2"
 
+# Senior mars
+https://seniormars.github.io/rss.xml '~SeniorMars'
+
 # LaTeX
 https://aareyanmanzoor.github.io/feed.xml "~some latex"
 # asahi reddit
