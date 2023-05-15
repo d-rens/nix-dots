@@ -9,9 +9,23 @@ import:
 #- ~/.config/alacritty/themes/nord.yml
   #- ~/.config/alacritty/themes/rose-pine-dawn.yml
   #- ~/.config/alacritty/themes/spaceduck.yml
-  - ~/.config/alacritty/themes/tokyo-night.yml
+  - ./themes/tokyo-night.yml
   #- ~/.config/alacritty/themes/vimbones.yml
-  #colors: *tokyo-night
+  #colors: *bright
+
+normal:
+  black:   '#1a1b26'
+  red:     '#ff7a93'
+  green:   '#b9f27c'
+  yellow:  '#ff9e64'
+  blue:    '#7da6ff'
+  magenta: '#bb9af7'
+  cyan:    '#0db9d7'
+  white:   '#acb0d0'
+        #Default colors
+primary:
+  background: '#1a1b26'
+  foreground: '#a9b1d6'
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
