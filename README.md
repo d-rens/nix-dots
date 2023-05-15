@@ -18,7 +18,7 @@ WM: bwpwm
 
 Terminal: Alacritty
 
-Texteditor: bloated neovim
+Texteditor: unbloated vim 😌
 
 viewer: zathura
 
@@ -26,4 +26,4 @@ rss: newsboat
 
 Shell: zsh
 
-audio cualquier: pipewire
+audio something: pipewire
