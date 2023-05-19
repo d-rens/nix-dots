@@ -169,7 +169,7 @@
        style="fill:none;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-linecap:butt;">
       <eventcontext
          id="pencil"
-         tolerance="15.0"
+         tolerance="53"
          selcue="1"
          style="stroke-width:1px;"
          usecurrent="1"
@@ -386,7 +386,8 @@
     <eventcontext
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
-       selcue="1" />
+       selcue="1"
+       curvature="0" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -531,7 +532,8 @@
     <group
        id="toolbox" />
     <group
-       id="fillstroke" />
+       id="fillstroke"
+       page="1" />
     <group
        id="filtereffects" />
     <group
@@ -557,7 +559,8 @@
        state="1" />
     <group
        id="preferences"
-       state="1" />
+       state="1"
+       page="27" />
     <group
        id="gradienteditor" />
     <group
@@ -574,7 +577,7 @@
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.svg.inkscape"
+       default="org.inkscape.print.eps.cairo"
        append_extension="1"
        enable_preview="1"
        path=""
@@ -690,7 +693,7 @@
        value="4.0" />
     <group
        id="grabsize"
-       value="4" />
+       value="7" />
     <group
        id="displayprofile"
        enable="0"
@@ -723,7 +726,7 @@
        value="1.414213562" />
     <group
        id="zoomcorrection"
-       value="1.0"
+       value="1.3869"
        unit="mm" />
     <group
        id="keyscroll"
@@ -918,7 +921,8 @@
        unitType="2" />
     <group
        id="boot"
-       theme="colorful">
+       theme="custom"
+       enabled="0">
       <group
          id="shown"
          ver1.2.2="1" />
@@ -930,10 +934,20 @@
      id="extensions"
      org.inkscape.output.png.inkscape.png_bitdepth="99"
      org.inkscape.output.png.inkscape.png_compression="6"
-     org.inkscape.output.png.inkscape.png_antialias="2" />
+     org.inkscape.output.png.inkscape.png_antialias="2"
+     org.inkscape.print.eps.cairo.PSlevel="PS3"
+     org.inkscape.print.eps.cairo.textToPath="LaTeX"
+     org.ekips.filter.plot.serialBaudRate="9600"
+     org.ekips.filter.plot.serialByteSize="eight"
+     org.ekips.filter.plot.serialStopBits="one"
+     org.ekips.filter.plot.serialParity="none"
+     org.ekips.filter.plot.serialFlowControl="xonxoff"
+     org.ekips.filter.plot.commandLanguage="HPGL"
+     org.ekips.filter.plot.orientation="0"
+     org.ekips.filter.plot.tab="plot_features" />
   <group
      id="desktop"
-     style="fill:#000000">
+     style="fill:none;-inkscape-font-specification:nerd;font-family:nerd;font-size:17.33333333px;stroke:#000000">
     <group
        width="640"
        height="480"
@@ -967,14 +981,14 @@
        id="tools"
        icononly="1"
        small="0"
-       iconsize="16"
+       iconsize="21"
        width="32">
       <group
          id="buttons" />
     </group>
     <group
        id="controlbars"
-       iconsize="16" />
+       iconsize="21" />
   </group>
   <group
      id="statusbar">
@@ -1057,12 +1071,12 @@
      flattening="0" />
   <group
      id="theme"
-     defaultPreferDarkTheme="1"
-     defaultIconTheme="breeze-dark"
-     defaultGtkTheme="Breeze-Dark"
+     defaultPreferDarkTheme="0"
+     defaultIconTheme="breeze"
+     defaultGtkTheme="Breeze"
      narrowSpinButton="1"
-     preferDarkTheme="0"
-     darkTheme="0"
+     preferDarkTheme="1"
+     darkTheme="1"
      symbolicIcons="1"
      symbolicDefaultBaseColors="0"
      symbolicDefaultHighColors="0"
@@ -1070,7 +1084,7 @@
      iconTheme="multicolor">
     <group
        id="multicolor"
-       symbolicBaseColor="255"
+       symbolicBaseColor="3958107135"
        symbolicSuccessColor="10029823"
        symbolicWarningColor="4279865599"
        symbolicErrorColor="10086143" />

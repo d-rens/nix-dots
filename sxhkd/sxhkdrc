@@ -19,9 +19,6 @@ super + d
 super + e
   rofimoji
 
-# Rofi script menu
-super + x
-    $HOME/rofi-scripts/rofi-scripts.sh
 
 # show open window
 super + ctrl + d
