@@ -28,6 +28,7 @@ return require('packer').startup(function(use)
   use('tpope/vim-fugitive')
   use('lervag/vimtex')
   use('Sirver/ultisnips')
+  use('github/copilot.vim')
 
   use{
 	  'VonHeikemen/lsp-zero.nvim',
