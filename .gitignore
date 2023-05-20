@@ -1,4 +1,6 @@
 # Ignore backup files
+*.db
+*.lock
 *~
 *QtProject.conf
 VSCodium/
