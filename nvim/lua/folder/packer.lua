@@ -29,6 +29,7 @@ return require('packer').startup(function(use)
       use('lervag/vimtex')
       use('Sirver/ultisnips')
       use('github/copilot.vim')
+      use('windwp/nvim-autopairs')
       
      use{
          'VonHeikemen/lsp-zero.nvim',
