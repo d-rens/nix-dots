@@ -1,0 +1,1 @@
+/home/daniel/change-keys.sh
