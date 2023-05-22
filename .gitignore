@@ -79,3 +79,11 @@ btop/btop.log
 
 *.log
 
+*hosts.json
+*./github-copilot/
+*github-copilot/
+
+*./github-copilot/hosts.json
+*github-copilot/hosts.json
+
+
