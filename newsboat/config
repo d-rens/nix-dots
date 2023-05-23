@@ -23,11 +23,6 @@ color listfocus_unread magenta default bold
 color info blue default bold
 color article default default
 
-external-url-viewer "urlscan -dc -r 'linkhandler {}'"
-
-browser linkhandler
-macro , open-in-browser
-macro d set browser "yt-dlp --restrict-filenames" ; open-in-browser ; set browser linkhandler
-macro f set browser "firefox" ; open-in-browser ; set browser linkhandler
+browser "firefox %u"
 
 cache-file ~/.config/newsboat/cache.db
