@@ -302,7 +302,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -1071,8 +1071,8 @@
      flattening="0" />
   <group
      id="theme"
-     defaultPreferDarkTheme="0"
-     defaultIconTheme="breeze"
+     defaultPreferDarkTheme="1"
+     defaultIconTheme="breeze-dark"
      defaultGtkTheme="Breeze"
      narrowSpinButton="1"
      preferDarkTheme="1"
