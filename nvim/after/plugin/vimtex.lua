@@ -10,3 +10,7 @@ vim.g.vimtex_quickfix_ignore_filters = {
   'Overfull',
   'Negative'
 }
+
+vim.api.nvim_set_keymap('i', '<C-f>', '<Esc>:silent exec "!inkscape-figures create \'"..vim.fn.getline(vim.fn.line(\'.\')).."\' \'"..vim.fn.expand(\'%:h\').."/figures/\'"<CR><CR>:w<CR>', {silent = true})
+vim.api.nvim_set_keymap('n', '<C-f>', ':silent exec "!inkscape-figures edit \'"..vim.fn.expand(\'%:h\').."/figures/\' > /dev/null 2>&1 &"<CR><CR>:redraw!<CR>', {silent = true})
+
