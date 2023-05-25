@@ -21,6 +21,13 @@ return require('packer').startup(function(use)
           end
       })
 
+      use {'nvim-treesitter/nvim-treesitter'}
+      
+      use {'nvim-orgmode/orgmode', config = function()
+          require('orgmode').setup{}
+      end
+      }       
+
       use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
       use('nvim-treesitter/playground')
       use('theprimeagen/harpoon')
