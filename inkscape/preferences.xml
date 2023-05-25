@@ -565,7 +565,7 @@
     <group
        id="preferences"
        state="1"
-       page="12" />
+       page="13" />
     <group
        id="gradienteditor" />
     <group
@@ -957,7 +957,7 @@
      org.ekips.filter.plot.tab="plot_features" />
   <group
      id="desktop"
-     style="fill:#000000;-inkscape-font-specification:nerd;font-family:nerd;font-size:17.33333333px;stroke-width:0.75590551">
+     style="fill:#000000;-inkscape-font-specification:nerd;font-family:nerd;font-size:17.33333333px;stroke-width:3.77952756">
     <group
        width="640"
        height="480"
@@ -1104,4 +1104,7 @@
        symbolicWarningColor="4279865599"
        symbolicErrorColor="10086143" />
   </group>
+  <group
+     id="gradient-edit"
+     stoplist="1" />
 </inkscape>
