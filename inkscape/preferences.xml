@@ -582,10 +582,10 @@
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.svg.inkscape"
+       default="org.inkscape.output.pdf.cairorenderer"
        append_extension="1"
        enable_preview="1"
-       path="/home/daniel/documents/docs/LaTeX/notes/maths"
+       path="/home/daniel/documents/docs/LaTeX/notes/maths/figures"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -939,6 +939,12 @@
     <group
        id="snapping"
        snap-global-toggle="0" />
+    <group
+       id="commandpalette">
+      <group
+         id="showfullactionname"
+         value="1" />
+    </group>
   </group>
   <group
      id="extensions"
@@ -954,10 +960,12 @@
      org.ekips.filter.plot.serialFlowControl="xonxoff"
      org.ekips.filter.plot.commandLanguage="HPGL"
      org.ekips.filter.plot.orientation="0"
-     org.ekips.filter.plot.tab="plot_features" />
+     org.ekips.filter.plot.tab="plot_features"
+     org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
+     org.inkscape.output.pdf.cairorenderer.textToPath="LaTeX" />
   <group
      id="desktop"
-     style="fill:none;-inkscape-font-specification:nerd;font-family:nerd;font-size:17.33333333px;stroke-width:3.77952756;stroke:#000000">
+     style="fill:none;-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:3.77952756;stroke:#000000">
     <group
        width="640"
        height="480"
@@ -991,14 +999,15 @@
        id="tools"
        icononly="1"
        small="0"
-       iconsize="21"
-       width="32">
+       iconsize="24"
+       width="59">
       <group
-         id="buttons" />
+         id="buttons"
+         showSelect="1" />
     </group>
     <group
        id="controlbars"
-       iconsize="21" />
+       iconsize="24" />
   </group>
   <group
      id="statusbar">
@@ -1096,7 +1105,8 @@
      symbolicDefaultBaseColors="0"
      symbolicDefaultHighColors="0"
      gtkTheme="Adwaita"
-     iconTheme="multicolor">
+     iconTheme="multicolor"
+     fontscale="131">
     <group
        id="multicolor"
        symbolicBaseColor="3958107135"
