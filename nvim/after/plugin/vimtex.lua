@@ -11,9 +11,9 @@ vim.g.vimtex_quickfix_ignore_filters = {
   'Negative'
 }
 
-vim.keymap.set("i", "<Leader>fg", '<Esc>:!inkscape-figures create ')
+--vim.keymap.set("i", "<Leader>fg", '<Esc>:!inkscape-figures create ')
 vim.keymap.set("n", "<Leader>fg", '<Esc>:!inkscape-figures create')
-vim.keymap.set("i", "<Leader>efg", ':!inkscape-figures edit figures/ <Enter>')
+--vim.keymap.set("i", "<Leader>efg", ':!inkscape-figures edit figures/ <Enter>')
 vim.keymap.set("n", "<Leader>efg", ':!inkscape-figures edit figures/ <Enter>')
 
 --vim.api.nvim_set_keymap('i', '<C-f>', '<Esc>:silent exec "!inkscape-figures create \'"..vim.fn.getline(vim.fn.line(\'.\')).."\' \'"..vim.fn.expand(\'%:h\').."/figures/\'"<CR><CR>:w<CR>', {silent = true})
