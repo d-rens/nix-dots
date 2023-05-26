@@ -15,4 +15,5 @@ configuration {
 }
 
 
-@theme "~/.config/rofi/tokyo-night.rasi"
+//@theme "~/.config/rofi/tokyo-night.rasi"
+@theme "/usr/share/rofi/themes/sidebar.rasi"
