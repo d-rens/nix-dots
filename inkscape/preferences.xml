@@ -582,10 +582,10 @@
     </group>
     <group
        id="save_as"
-       default="org.inkscape.print.eps.cairo"
+       default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/daniel/documents/docs/LaTeX/notes/maths/figures"
+       path="/home/daniel/documents/docs/LaTeX/notes/maths"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -957,7 +957,7 @@
      org.ekips.filter.plot.tab="plot_features" />
   <group
      id="desktop"
-     style="fill:#000000;-inkscape-font-specification:nerd;font-family:nerd;font-size:17.33333333px;stroke-width:3.77952756">
+     style="fill:none;-inkscape-font-specification:nerd;font-family:nerd;font-size:17.33333333px;stroke-width:3.77952756;stroke:#000000">
     <group
        width="640"
        height="480"
