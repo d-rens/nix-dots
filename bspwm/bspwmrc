@@ -1,5 +1,5 @@
 #! /bin/sh
-~/.local/bin/start-apps.sh
+#~/.local/bin/start-apps.sh
 xmodmap ~/.Xmodmap
 
 pgrep -x sxhkd > /dev/null || sxhkd &

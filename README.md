@@ -16,9 +16,9 @@ OS: Asahi (ARM Arch en apple silicon)
 
 WM: bwpwm
 
-Terminal: Alacritty
+Terminal: alacritty
 
-Texteditor: unbloated vim 😌
+Texteditor: nvim
 
 viewer: zathura
 
