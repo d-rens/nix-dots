@@ -195,3 +195,12 @@ super + a
 
 super + m
   alacritty -e sh -c 'cd /home/daniel/documents/docs/LaTeX/; exec $SHELL'
+
+super + shift + n
+  alacritty -e sh -c 'cd /home/daniel/documents/docs/LaTeX/notes/maths/; exec $SHELL'
+
+super + shift + m
+  alacritty -e sh -c 'nvim /home/daniel/documents/docs/LaTeX/notes/maths/j1.tex'
+
+super + shift + j
+  zathura '/home/daniel/documents/docs/LaTeX/notes/maths/j1.pdf'
