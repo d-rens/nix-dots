@@ -965,7 +965,7 @@
      org.inkscape.output.pdf.cairorenderer.textToPath="LaTeX" />
   <group
      id="desktop"
-     style="fill:none;-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:3.77952756;stroke:#000000">
+     style="fill:#000000;-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:3.77952756">
     <group
        width="640"
        height="480"
