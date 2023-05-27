@@ -2,12 +2,9 @@ vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 -- ultisnips
---vim.g.UltiSnipsExpandTrigger = "<tab>"
+vim.g.UltiSnipsExpandTrigger = "<c-d>"
 vim.g.UltiSnipsJumpForwardTrigger = "<s-tab>"
---vim.g.UltiSnipsJumpBackwardTrigger = "<s-tab>"
---vim.api.nvim_set_keymap('i', '<tab>', 'pumvisible() ? "<c-n>" : "<tab>"', { expr = true })
---vim.api.nvim_set_keymap('i', '<tab>', '<Nop>', { silent = true })
---vim.api.nvim_set_keymap('i', '<tab>', 'v:lua.snippets_expand_or_advance()', { expr = true })
+--vim.g.UltiSnipsJumpBackwardTrigger = "<c-tab>"
 
 
 
