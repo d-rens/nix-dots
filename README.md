@@ -31,4 +31,4 @@ audio something: pipewire
 
 ## Pictures :)
 ![neofetch](/misc/neofetch2.png)
-![note taking setup](misc/note-taking-setup.png)
+![note taking setup](misc/setup.png)
