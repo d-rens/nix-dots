@@ -171,7 +171,7 @@
          id="pencil"
          tolerance="53"
          selcue="1"
-         style="stroke-width:1px;"
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99999874px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
          usecurrent="0"
          average_all_sketches="1"
          pressure="0"
@@ -183,8 +183,8 @@
          id="pen"
          mode="drag"
          selcue="1"
-         style="stroke-width:1px;"
-         usecurrent="1" />
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.0015748;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         usecurrent="0" />
     </group>
     <eventcontext
        id="calligraphic"
@@ -310,12 +310,12 @@
        show_bbox="1" />
     <eventcontext
        id="text"
-       usecurrent="1"
+       usecurrent="0"
        gradientdrag="1"
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;"
+       style="line-height:1.25;font-family:'Hack Nerd Font Mono';font-size:40px;-inkscape-font-specification:'Hack Nerd Font Mono'"
        selcue="1"
        align_mode="0" />
     <eventcontext
@@ -361,7 +361,7 @@
        selcue="1"
        gradientdrag="0"
        usepressure="1"
-       width="15"
+       width="12"
        population="70"
        mode="1"
        rotation_variation="0"
@@ -565,7 +565,7 @@
     <group
        id="preferences"
        state="1"
-       page="13" />
+       page="24" />
     <group
        id="gradienteditor" />
     <group
@@ -700,7 +700,7 @@
        value="4.0" />
     <group
        id="grabsize"
-       value="11" />
+       value="1" />
     <group
        id="displayprofile"
        enable="0"
@@ -965,7 +965,7 @@
      org.inkscape.output.pdf.cairorenderer.textToPath="LaTeX" />
   <group
      id="desktop"
-     style="fill:#000000;-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:1.88976378">
+     style="fill:#800080;-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:1.0015748;stroke:#000000">
     <group
        width="640"
        height="480"
@@ -1101,16 +1101,17 @@
      narrowSpinButton="1"
      preferDarkTheme="1"
      darkTheme="1"
-     symbolicIcons="1"
-     symbolicDefaultBaseColors="0"
-     symbolicDefaultHighColors="0"
-     gtkTheme="Adwaita"
+     symbolicIcons="0"
+     symbolicDefaultBaseColors="1"
+     symbolicDefaultHighColors="1"
      iconTheme="multicolor"
-     fontscale="131">
+     fontscale="131"
+     contrast="10"
+     gtkTheme="Breeze-Dark">
     <group
        id="multicolor"
-       symbolicBaseColor="3958107135"
-       symbolicSuccessColor="10029823"
+       symbolicBaseColor="255"
+       symbolicSuccessColor="180295167"
        symbolicWarningColor="4279865599"
        symbolicErrorColor="10086143" />
   </group>
