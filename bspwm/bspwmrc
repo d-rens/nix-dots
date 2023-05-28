@@ -2,6 +2,8 @@
 #~/.local/bin/start-apps.sh
 xmodmap ~/.Xmodmap
 
+
+
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc rule -r "*"
@@ -40,6 +42,9 @@ bspc config pointer_follows_monitor true
 
 # Set rule for Zathura to start in tiled mode
 bspc rule -a Zathura -o state=tiled
+
+# alacritty thingy
+bspc rule -a kitty state=floating rectangle=200x100
 
 sxhkd &
 /home/daniel/start-apps.sh &
