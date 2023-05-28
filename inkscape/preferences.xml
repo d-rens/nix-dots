@@ -117,7 +117,9 @@
       <eventcontext
          id="rect"
          style="fill:blue;"
-         usecurrent="1" />
+         usecurrent="1"
+         width="173.808728315699"
+         height="143.985259288876" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -169,7 +171,7 @@
        style="fill:none;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-linecap:butt;">
       <eventcontext
          id="pencil"
-         tolerance="53"
+         tolerance="70"
          selcue="1"
          style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99999874px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
          usecurrent="0"
@@ -565,7 +567,7 @@
     <group
        id="preferences"
        state="1"
-       page="24" />
+       page="28" />
     <group
        id="gradienteditor" />
     <group
@@ -604,7 +606,8 @@
        ask="1"
        ask_svg="1"
        link="link"
-       scale="optimizeSpeed" />
+       scale="auto"
+       import_mode_svg="include" />
     <group
        id="debug"
        redirect="0" />
@@ -938,7 +941,7 @@
        id="rendering" />
     <group
        id="snapping"
-       snap-global-toggle="0" />
+       snap-global-toggle="1" />
     <group
        id="commandpalette">
       <group
@@ -965,7 +968,7 @@
      org.inkscape.output.pdf.cairorenderer.textToPath="LaTeX" />
   <group
      id="desktop"
-     style="fill:#800080;-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:1.0015748;stroke:#000000">
+     style="-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:1.0616;stroke:black;fill:none;stroke-dasharray:1.0616, 2.654">
     <group
        width="640"
        height="480"
