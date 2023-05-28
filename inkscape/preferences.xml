@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="45.0562905138864"
-         height="73.8416848971159" />
+         width="571.245001845471"
+         height="253.234834445739" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -600,7 +600,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="" />
+       path="/home/daniel/documents/docs/LaTeX/notes/maths/figures/" />
     <group
        id="import"
        enable_preview="1"
@@ -970,7 +970,7 @@
      org.inkscape.output.pdf.cairorenderer.textToPath="LaTeX" />
   <group
      id="desktop"
-     style="-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:1.5924;stroke:black;fill:none">
+     style="-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:1.5924;stroke:black;fill:white">
     <group
        width="640"
        height="480"
