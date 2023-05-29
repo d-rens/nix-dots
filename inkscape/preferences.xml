@@ -569,7 +569,7 @@
     <group
        id="preferences"
        state="1"
-       page="28" />
+       page="33" />
     <group
        id="gradienteditor" />
     <group
@@ -970,14 +970,14 @@
      org.inkscape.output.pdf.cairorenderer.textToPath="LaTeX" />
   <group
      id="desktop"
-     style="-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:1.5924;stroke:black;fill-opacity:0.12">
+     style="-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:1.5924">
     <group
        width="640"
        height="480"
        x="0"
        y="0"
        maximized="1"
-       fullscreen="1"
+       fullscreen="0"
        id="geometry" />
     <group
        id="XYfront" />
@@ -1004,7 +1004,7 @@
        id="tools"
        icononly="1"
        small="0"
-       iconsize="24"
+       iconsize="25"
        width="59">
       <group
          id="buttons"
@@ -1012,7 +1012,7 @@
     </group>
     <group
        id="controlbars"
-       iconsize="24" />
+       iconsize="31" />
   </group>
   <group
      id="statusbar">
@@ -1100,9 +1100,9 @@
   </group>
   <group
      id="theme"
-     defaultPreferDarkTheme="1"
-     defaultIconTheme="breeze-dark"
-     defaultGtkTheme="Breeze"
+     defaultPreferDarkTheme="0"
+     defaultIconTheme="Adwaita"
+     defaultGtkTheme="Adwaita"
      narrowSpinButton="1"
      preferDarkTheme="1"
      darkTheme="1"
@@ -1111,8 +1111,7 @@
      symbolicDefaultHighColors="1"
      iconTheme="multicolor"
      fontscale="131"
-     contrast="10"
-     gtkTheme="Breeze-Dark">
+     contrast="10">
     <group
        id="multicolor"
        symbolicBaseColor="255"
