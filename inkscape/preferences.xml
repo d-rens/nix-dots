@@ -337,8 +337,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="283.749705319193"
-       y="211.311288188976"
+       x="342.408502677165"
+       y="153.811842519685"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -970,14 +970,14 @@
      org.inkscape.output.pdf.cairorenderer.textToPath="LaTeX" />
   <group
      id="desktop"
-     style="-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:1.5924;stroke:black;fill:white">
+     style="-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:1.5924;stroke:black;fill-opacity:0.12">
     <group
        width="640"
        height="480"
        x="0"
        y="0"
        maximized="1"
-       fullscreen="0"
+       fullscreen="1"
        id="geometry" />
     <group
        id="XYfront" />
