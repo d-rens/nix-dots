@@ -1,14 +1,14 @@
 #!/bin/sh
 # shellcheck disable=SC2016,SC2059
 
-KEYBOARD_ID="6"
+KEYBOARD_ID="12"
 
 # cpm: characters per minute
 # wpm: words per minute (1 word = 5 characters)
 METRIC=wpm
 FORMAT="# %d $METRIC"
 
-INTERVAL=15
+INTERVAL=3
 
 # If you have a keyboard layout that is not listed here yet, create a condition
 # yourself. $3 is the key index. Use `xinput test "AT Translated Set 2 keyboard"`
