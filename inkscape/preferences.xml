@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="571.245001845471"
-         height="253.234834445739" />
+         width="150.59406911294"
+         height="28.0029465082127" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -155,8 +155,9 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="31.0008047509381"
-         ry="37.9559758704472" />
+         rx="17.8805247629724"
+         ry="22.5951085128173"
+         arc_type="0" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -292,12 +293,12 @@
     </eventcontext>
     <eventcontext
        id="eraser"
-       mode="1"
+       mode="2"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
        mass="3.00"
        drag="1"
        angle="30"
-       width="10"
+       width="33"
        thinning="0.1"
        flatness="0.0"
        cap_rounding="1.4"
@@ -970,7 +971,7 @@
      org.inkscape.output.pdf.cairorenderer.textToPath="LaTeX" />
   <group
      id="desktop"
-     style="-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:1.5924">
+     style="-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:1.0616;stroke:black;fill:none">
     <group
        width="640"
        height="480"
