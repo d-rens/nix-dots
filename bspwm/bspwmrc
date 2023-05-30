@@ -44,7 +44,7 @@ bspc config pointer_follows_monitor true
 bspc rule -a Zathura -o state=tiled
 
 # alacritty thingy
-bspc rule -a kitty state=floating rectangle=200x100
+bspc rule -a kitty state=floating rectangle=100x60
 
 sxhkd &
 /home/daniel/start-apps.sh &
