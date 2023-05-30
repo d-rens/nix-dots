@@ -1,28 +1,3 @@
-# Imports are loaded in order, skipping all missing files, with the importing
-# file being loaded last. If a field is already present in a previous import, it
-# will be replaced.
-#
-# All imports must either be absolute paths starting with `/`, or paths relative
-# to the user's home directory starting with `~/`.
-#import:
-#./themes/tokyo-night.yml
-#colors: *normal
-
-#normal:
-#black:   '#1a1b26'
-#red:     '#ff7a93'
-#green:   '#b9f27c'
-#yellow:  '#ff9e64'
-#blue:    '#7da6ff'
-#magenta: '#bb9af7'
-#cyan:    '#0db9d7'
-#white:   '#a9b1d6'
-        #Default colors
-        #primary:
-        #background: '#1a1b26'
-        #foreground: '#a9b1d6'
-# TokyoNight Alacritty Colors
-# https://github.com/folke/tokyonight.nvim/blob/main/extras/alacritty_tokyonight_night.yml
 colors:
   name: TokyoNight Night
   author: Folke
@@ -58,73 +33,13 @@ colors:
     - { index: 17, color: '0xdb4b4b' }
 
 
-# Any items in the `env` entry below will be added as
-# environment variables. Some entries may override variables
-# set by alacritty itself.
-#env:
-  # TERM variable
-  #
-  # This value is used to set the `$TERM` environment variable for
-  # each instance of Alacritty. If it is not present, alacritty will
-  # check the local terminfo database and use `alacritty` if it is
-  # available, otherwise `xterm-256color` is used.
-  #TERM: alacritty
-
 window:
   padding:
     x: 3
     y: 3
 
-  # Spread additional padding evenly around the terminal content.
-  #dynamic_padding: false
-
-  # Window decorations
-  #
-  # Values for `decorations`:
-  #     - full: Borders and title bar
-  #     - none: Neither borders nor title bar
-  #
-  # Values for `decorations` (macOS only):
-  #     - transparent: Title bar, transparent background and title bar buttons
-  #     - buttonless: Title bar, transparent background and no title bar buttons
   decorations: none
-
-  # Background opacity
-  #
-  # Window opacity as a floating point number from `0.0` to `1.0`.
-  # The value `0.0` is completely transparent and `1.0` is opaque.
   opacity: 0.9
-
-  # Startup Mode (changes require restart)
-  #
-  # Values for `startup_mode`:
-  #   - Windowed
-  #   - Maximized
-  #   - Fullscreen
-  #
-  # Values for `startup_mode` (macOS only):
-  #   - SimpleFullscreen
-  #startup_mode: Windowed
-
-  # Window title
-  #title: Alacritty
-
-  # Allow terminal applications to change Alacritty's window title.
-  #dynamic_title: true
-
-  # Window class (Linux/BSD only):
-  #class:
-    # Application instance name
-    #instance: Alacritty
-    # General application class
-    #general: Alacritty
-
-  # Decorations theme variant (Linux/BSD only)
-  #
-  # Override the variant of the GTK theme/Wayland client side decorations.
-  # Commonly supported values are `dark` and `light`. Set this to `None` to use
-  # the default theme variant.
-  #decorations_theme_variant: None
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -135,10 +50,19 @@ scrolling:
   multiplier: 3
 
 # Font configuration
-font:
-  family: Hack Nerd Font Mono
-  style: Regular
-  size: 9.0
+font:  
+  normal:
+    #family: "JetBrains Mono"
+    family: "Hack Nerd Font Mono"
+  size: 8.0
+      #style: mono
+
+  # The `style` can be specified to pick a specific face.
+  #style: Regular
+  #font:
+  #family: "Hack Nerd"
+  #style: Regular
+  #size: 8.0
 
   # Normal (roman) font face
   #normal:
