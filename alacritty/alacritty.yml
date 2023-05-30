@@ -52,8 +52,8 @@ scrolling:
 # Font configuration
 font:  
   normal:
-    #family: "JetBrains Mono"
-    family: "Hack Nerd Font Mono"
+    #family: "Hack Nerd Font Mono"
+    family: "JetBrains Mono"
   size: 8.0
       #style: mono
 
