@@ -39,7 +39,7 @@ window:
     y: 3
 
   decorations: none
-  opacity: 0.6
+  opacity: 0.75
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -52,8 +52,8 @@ scrolling:
 # Font configuration
 font:  
   normal:
-    #family: "Hack Nerd Font Mono"
     family: "JetBrains Mono"
+    #family: "Hack Nerd Font Mono"
   size: 6.0
       #style: mono
 

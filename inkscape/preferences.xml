@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="150.59406911294"
-         height="28.0029465082127" />
+         width="281.352827417568"
+         height="71.8823482483392" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -944,7 +944,7 @@
        id="rendering" />
     <group
        id="snapping"
-       snap-global-toggle="1" />
+       snap-global-toggle="0" />
     <group
        id="commandpalette">
       <group
@@ -971,7 +971,7 @@
      org.inkscape.output.pdf.cairorenderer.textToPath="LaTeX" />
   <group
      id="desktop"
-     style="-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:1.0616;stroke:black;fill:none">
+     style="-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:0.5308;stroke:black">
     <group
        width="640"
        height="480"
