@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="281.352827417568"
-         height="71.8823482483392" />
+         width="348.062301996186"
+         height="156.239715335878" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -152,12 +152,12 @@
       <eventcontext
          id="arc"
          style="fill:red;"
-         end="0"
+         end="180.000002659109"
          start="0"
          usecurrent="1"
-         rx="17.8805247629724"
-         ry="22.5951085128173"
-         arc_type="0" />
+         rx="86.6537836029779"
+         ry="86.6537836029759"
+         arc_type="1" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -311,7 +311,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -338,8 +338,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="342.408502677165"
-       y="153.811842519685"
+       x="188.85200665027"
+       y="75.6096050448909"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -944,7 +944,7 @@
        id="rendering" />
     <group
        id="snapping"
-       snap-global-toggle="0" />
+       snap-global-toggle="1" />
     <group
        id="commandpalette">
       <group
@@ -971,7 +971,7 @@
      org.inkscape.output.pdf.cairorenderer.textToPath="LaTeX" />
   <group
      id="desktop"
-     style="-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:0.5308;stroke:black">
+     style="-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:0.5308;stroke:black;fill:none">
     <group
        width="640"
        height="480"
