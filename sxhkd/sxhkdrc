@@ -163,11 +163,11 @@ XF86AudioMute
 # Brightness does not work due to Asahi, one fix i read could be using Arch Edge, but rather not.
  #Brightness up
 XF86MonBrightnessUp
-  brightnessctl s +10%
+  brightnessctl s +5%
 
  #And brightness down
 XF86MonBrightnessDown
-  brightnessctl s 10%-
+  brightnessctl s 5%-
 
 
 # Screenshot
@@ -194,13 +194,11 @@ super + a
   alacritty -e sh -c 'cd /home/daniel/audio/music/; exec $SHELL'
 
 super + m
-  alacritty -e sh -c 'cd /home/daniel/documents/docs/LaTeX/; exec $SHELL'
-
-super + shift + n
   alacritty -e sh -c 'cd /home/daniel/documents/docs/LaTeX/notes/maths/; exec $SHELL'
 
-super + shift + m
-  alacritty -e sh -c 'nvim /home/daniel/documents/docs/LaTeX/notes/maths/j1.tex'
+super + F7
+  ARandR
 
-super + shift + j
-  zathura '/home/daniel/documents/docs/LaTeX/notes/maths/j1.pdf'
+
+
+
