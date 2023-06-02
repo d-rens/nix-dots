@@ -1,6 +1,6 @@
 configuration {
 
-	font: "DejaVuSansMono Nerd Font Bold 10";
+	font: "JetBrains Mono 12";
 	width: 30;
 	line-margin: 10;
 	lines: 6;
@@ -14,8 +14,4 @@ configuration {
     show-icons:     true;
 }
 
-
-//@theme "~/.config/rofi/tokyo-night.rasi"
-//@theme "/usr/share/rofi/themes/sidebar.rasi"
-//@theme "/usr/share/rofi/themes/arthur.rasi"
 @theme "./tokyo.rasi"
