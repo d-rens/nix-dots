@@ -54,7 +54,7 @@ font:
   normal:
     family: "JetBrains Mono"
     #family: "Hack Nerd Font Mono"
-  size: 6.0
+  size: 8.0
       #style: mono
 
   # The `style` can be specified to pick a specific face.
