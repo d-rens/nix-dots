@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="125.967493733083"
-         height="64.4449717604278" />
+         width="199.425226647081"
+         height="142.129233052411" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -293,7 +293,7 @@
     </eventcontext>
     <eventcontext
        id="eraser"
-       mode="2"
+       mode="0"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
        mass="3.00"
        drag="1"
@@ -338,8 +338,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="188.85200665027"
-       y="75.6096050448909"
+       x="75.6665574803149"
+       y="213.406915492994"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -590,7 +590,7 @@
        default="org.inkscape.output.pdf.cairorenderer"
        append_extension="1"
        enable_preview="1"
-       path="/home/daniel/documents/courses/calculus-1/figures"
+       path="/home/daniel/notes/j1/statistics-1/figures"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -601,7 +601,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/daniel/documents/docs/LaTeX/notes/maths/figures/" />
+       path="/home/daniel/notes/j1/statistics-1/figures/" />
     <group
        id="import"
        enable_preview="1"
@@ -618,7 +618,8 @@
        id="clonetiler"
        dotrace="0" />
     <group
-       id="gridtiler" />
+       id="gridtiler"
+       SpacingType="20" />
     <group
        id="extension-error"
        show-on-startup="0" />
@@ -700,7 +701,7 @@
        value="12" />
     <group
        id="cursortolerance"
-       value="8.0" />
+       value="8" />
     <group
        id="dragtolerance"
        value="4.0" />
@@ -969,15 +970,73 @@
      org.ekips.filter.plot.tab="plot_features"
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
      org.inkscape.output.pdf.cairorenderer.textToPath="LaTeX"
-     org.inkscape.output.pdf.cairorenderer.resolution="300" />
+     org.inkscape.output.pdf.cairorenderer.resolution="300"
+     org.inkscape.render.grid_cartesian.border_th_unit="px"
+     org.inkscape.render.grid_cartesian.dx_unit="mm"
+     org.inkscape.render.grid_cartesian.x_div_unit="px"
+     org.inkscape.render.grid_cartesian.dy_unit="mm"
+     org.inkscape.render.grid_cartesian.y_div_unit="px"
+     org.inkscape.render.grid_cartesian.__live_effect__="0"
+     org.inkscape.render.grid_cartesian.tab="x_tab"
+     org.inkscape.effect.func_plot.xend="5"
+     org.inkscape.effect.func_plot.ytop="2"
+     org.inkscape.effect.func_plot.__live_effect__="0"
+     org.inkscape.effect.func_plot.fponum="1"
+     org.inkscape.effect.func_plot.samples="800"
+     org.inkscape.effect.func_plot.tab="sampling"
+     org.inkscape.effect.func_plot.times2pi="1"
+     org.inkscape.effect.func_plot.xstart="0"
+     org.inkscape.effect.func_plot.drawaxis="1"
+     org.inkscape.effect.func_plot.clip="1"
+     org.inkscape.effect.func_plot.endpts="1"
+     org.inkscape.effect.func_plot.remove="1"
+     org.inkscape.effect.func_plot.isoscale="1"
+     org.inkscape.effect.func_plot.polar="0"
+     org.inkscape.render.grid_cartesian.y_subsubdivs_th="1"
+     org.inkscape.render.grid_cartesian.y_divs="7"
+     org.inkscape.render.grid_cartesian.x_divs="6"
+     org.inkscape.render.grid_cartesian.x_subsubdivs="1"
+     org.inkscape.render.grid_cartesian.x_half_freq="2"
+     org.inkscape.render.grid_cartesian.border_th="1"
+     org.inkscape.effect.grid.lineWidth="1"
+     org.inkscape.effect.grid.__live_effect__="0"
+     org.inkscape.effect.grid.xoffset="0"
+     org.inkscape.effect.grid.yoffset="0"
+     org.inkscape.effect.grid.yspacing="50"
+     org.inkscape.effect.grid.xspacing="50"
+     org.inkscape.filter.nice_chart.colors="gray"
+     org.inkscape.filter.nice_chart.type="bar"
+     org.inkscape.filter.nice_chart.tab="chart_settings"
+     org.inkscape.render.grid_cartesian.y_subsubdivs="1"
+     org.inkscape.render.grid_cartesian.y_subdivs_th="1"
+     org.inkscape.render.grid_cartesian.x_subdivs="2"
+     org.inkscape.effect.func_plot.ybottom="-2"
+     org.inkscape.filter.nice_chart.input_type="file"
+     org.inkscape.filter.nice_chart.__live_effect__="0"
+     org.inkscape.filter.nice_chart.rotate="1"
+     org.inkscape.filter.nice_chart.show_values="1"
+     org.inkscape.filter.nice_chart.bar-offset="0"
+     org.inkscape.filter.nice_chart.stroke-width="0.4"
+     org.inkscape.filter.nice_chart.reverse_colors="0"
+     org.inkscape.filter.nice_chart.blur="0"
+     org.inkscape.filter.nice_chart.font-size="5"
+     org.inkscape.filter.nice_chart.heading-offset="48"
+     org.inkscape.filter.nice_chart.bar-height="35"
+     org.inkscape.filter.nice_chart.font="JetBrains Mono"
+     org.inkscape.effect.func_plot.fofx="5*sin(x)"
+     org.inkscape.filter.nice_chart.filename="/home/daniel/documents/data.csv"
+     org.inkscape.filter.nice_chart.col_key="1"
+     org.inkscape.filter.nice_chart.col_val="2"
+     org.inkscape.filter.nice_chart.delimiter=" "
+     org.inkscape.filter.nice_chart.what="0:976,1:987," />
   <group
      id="desktop"
-     style="-inkscape-font-specification:nerd;font-family:nerd;font-size:32px;stroke-width:1.5924;stroke:black;stroke-dasharray:3.981, 3.981;fill-opacity:0.12">
+     style="-inkscape-font-specification:nerd;font-family:nerd;font-size:24px;stroke-width:0.5308;stroke:black;fill-opacity:0.12">
     <group
-       width="640"
-       height="480"
-       x="0"
-       y="0"
+       width="946"
+       height="1047"
+       x="2887"
+       y="41"
        maximized="1"
        fullscreen="0"
        id="geometry" />
