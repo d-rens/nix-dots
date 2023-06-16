@@ -174,8 +174,8 @@ super + alt + 4
   scrot -u
   
 # Shortcuts
-super + z
-  zathura /home/daniel/current_course/master.pdf
+#super + z
+  #zathura /home/daniel/current_course/master.pdf
 
 super + w
   firefox
@@ -209,6 +209,19 @@ alt + l
   
 alt + shift + l
   python -u ~/university-setup/scripts/rofi-lectures.py
+
+super + v
+  firefox $(grep 'url:' ~/current_course/info.yaml | awk '{print $2}')
+
+#firefox "$(cat ~/current_course/info.yaml | grep "url:" | awk -F"'" '{print $2}')"
+
+#super + x
+    #firefox $(grep 'url:' ~/current_course/info.yaml | awk '{print $2}')
+
+super + x
+    ~/.config/sxhkd/scripts/uni-link.sh
+
+
 
 
 
