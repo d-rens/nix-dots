@@ -6,9 +6,9 @@ configs should universally work.
 
 ## Sources I got my configs from:
 
-- 20% made oneself
-- 40% stolen (but i try to give credit)
-- 40% made with chatgpt
+- 40% made oneself
+- 30% stolen
+- 30% made with chatgpt
 
 
 ## Programs
