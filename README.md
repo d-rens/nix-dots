@@ -1,14 +1,5 @@
-# Branches
-
-## master 
-Made for my Macbook with asahi linux, so high res display..
-
-## thinkpad
-Made for thinkpad, smaller display, so bigger font...
-
-
 # Dotfiles
-Those are my dotfiles for Asahi linux so the arm arch for apple silicon devices.
+Those are my dotfiles for Arch/Asahi linux.
 
 Some thing are not working too well, due to drivers missing but generally all
 configs should universally work.
@@ -21,7 +12,7 @@ configs should universally work.
 
 
 ## Programs
-OS: Asahi (ARM Arch en apple silicon)
+OS: Arch
 
 WM: bwpwm
 
