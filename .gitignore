@@ -2,6 +2,8 @@
 *newsboat/cache.db
 *cache.db
 *.db
+!newsboat/cache.db
+!cache.db
 *.lock
 *~
 *QtProject.conf
