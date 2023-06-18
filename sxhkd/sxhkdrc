@@ -199,24 +199,16 @@ alt + z
   zathura ~/current_course/master.pdf
 
 alt + shift + z
-  python -u ~/university-setup/scripts/rofi-courses.py
+  python -u ~/documents/00-09_privat/01_Programme/01.01_university-setup/scripts/rofi-courses.py
 
 alt + shift + c
-  python -u ~/university-setup/scripts/compile-all-masters.py
+  python -u ~/documents/00-09_privat/01_Programme/01.01_university-setup/scripts/compile-all-masters.py
 
 alt + l
-  python -u ~/university-setup/scripts/rofi-lectures-view.py
+  python -u ~/documents/00-09_privat/01_Programme/01.01_university-setup/scripts/rofi-lectures-view.py
   
 alt + shift + l
-  python -u ~/university-setup/scripts/rofi-lectures.py
-
-super + v
-  firefox $(grep 'url:' ~/current_course/info.yaml | awk '{print $2}')
-
-#firefox "$(cat ~/current_course/info.yaml | grep "url:" | awk -F"'" '{print $2}')"
-
-#super + x
-    #firefox $(grep 'url:' ~/current_course/info.yaml | awk '{print $2}')
+  python -u ~/documents/00-09_privat/01_Programme/01.01_university-setup/scripts/rofi-courses.py
 
 super + x
     ~/.config/sxhkd/scripts/uni-link.sh
