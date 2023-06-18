@@ -28,10 +28,6 @@ super + shift + d
                 -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
                 -show-icons -drun-icon-theme "Qogir-dark" -font "Droid Sans Regular 10"
 
-# power-menu 
-super + shift + e
-     ~/.config/rofi/powermenu.sh
-
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
@@ -212,6 +208,18 @@ alt + shift + l
 
 super + x
     ~/.config/sxhkd/scripts/uni-link.sh
+
+# files
+#super + e
+    #cd $(python -u ~/.config/sxhkd/scripts/rofi.py)
+
+#super + shift + e
+#    cd $(python -u ~/.config/sxhkd/scripts/rofi.py)
+
+# Make a shortcut that cds into the output or whatever rofi.py does with alacritty
+super + e
+  alacritty -e zsh -c 'cd $(python -u /home/daniel/.config/sxhkd/scripts/rofi.py); $SHELL'
+
 
 
 
