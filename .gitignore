@@ -1,4 +1,6 @@
 # Ignore backup files
+*newsboat/cache.db
+*cache.db
 *.db
 *.lock
 *~
