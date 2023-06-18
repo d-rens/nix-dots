@@ -7,6 +7,12 @@
 !Xmind/
 *Xmind/
 *.lock
+newsboat/cache.db
+cache.db
+.db
+newsboat/cache.db
+cache.db
+Xmind/
 *~
 *QtProject.conf
 VSCodium/
