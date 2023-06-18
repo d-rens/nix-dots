@@ -4,6 +4,8 @@
 *.db
 !newsboat/cache.db
 !cache.db
+!Xmind/
+*Xmind/
 *.lock
 *~
 *QtProject.conf
