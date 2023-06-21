@@ -50,9 +50,9 @@ return require('packer').startup(function(use)
       use('tpope/vim-fugitive')
       use('lervag/vimtex')
       use('Sirver/ultisnips')
+      use('humanoid-colors/vim-humanoid-colorscheme')
       --use('github/copilot.vim')
       use('windwp/nvim-autopairs')
-      
       use{
          'VonHeikemen/lsp-zero.nvim',
       -- LSP Support
