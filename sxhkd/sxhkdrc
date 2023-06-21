@@ -204,7 +204,7 @@ alt + l
   python -u ~/documents/00-09_privat/01_Programme/01.01_university-setup/scripts/rofi-lectures-view.py
   
 alt + shift + l
-  python -u ~/documents/00-09_privat/01_Programme/01.01_university-setup/scripts/rofi-courses.py
+  python -u ~/documents/00-09_privat/01_Programme/01.01_university-setup/scripts/rofi-lectures.py
 
 super + x
     ~/.config/sxhkd/scripts/uni-link.sh
