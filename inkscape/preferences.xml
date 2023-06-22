@@ -293,7 +293,7 @@
     </eventcontext>
     <eventcontext
        id="eraser"
-       mode="0"
+       mode="1"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
        mass="3.00"
        drag="1"
