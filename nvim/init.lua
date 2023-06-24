@@ -1,6 +1,6 @@
 require("folder.remap")
 require("folder.set")
-print("Hola")
+print("Welcome to blazingly fastness")
 
 
 
