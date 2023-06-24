@@ -1,2 +1,3 @@
-2023/06/22-19:21:59.091 283ad Creating DB /home/daniel/.config/GeoGebra/Session Storage since it was missing.
-2023/06/22-19:21:59.097 283ad Reusing MANIFEST /home/daniel/.config/GeoGebra/Session Storage/MANIFEST-000001
+2023/06/23-12:16:06.578 1e08 Reusing MANIFEST /home/daniel/.config/GeoGebra/Session Storage/MANIFEST-000001
+2023/06/23-12:16:06.579 1e08 Recovering log #3
+2023/06/23-12:16:06.579 1e08 Reusing old log /home/daniel/.config/GeoGebra/Session Storage/000003.log 

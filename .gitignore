@@ -101,3 +101,5 @@ btop/btop.log
 
 *syncthing/
 */syncthing/
+*discord/
+*discord/*
