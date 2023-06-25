@@ -108,8 +108,12 @@ btop/btop.log
 *btop/btop.conf*
 *btop/btop.conf
 
-*./newsboat/cache.db
-*./newsboat/cache.db.lock
+
+*newsboat/cache.db
+*newsboat/cache.db.lock
+
+*/newsboat/cache.db
+*/newsboat/cache.db.lock
 
 *./newsboat/cache.db*
 *./newsboat/cache.db.lock*
