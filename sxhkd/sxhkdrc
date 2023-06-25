@@ -167,3 +167,7 @@ super + e
 # Calendar
 super + a
   alacritty -e sh -c "gcalcli calw && read"
+
+# cmus
+super + c
+  alacritty -e cmus
