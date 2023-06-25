@@ -182,8 +182,8 @@ super + shift + w
 super + n
   alacritty -e newsboat
 
-super + a
-  alacritty -e sh -c 'cd /home/daniel/audio/music/; exec $SHELL'
+#super + a
+  #alacritty -e sh -c 'cd /home/daniel/audio/music/; exec $SHELL'
 
 super + m
   alacritty -e sh -c 'cd /home/daniel/documents/docs/LaTeX/notes/maths/; exec $SHELL'
@@ -222,7 +222,8 @@ super + e
 
 
 
+# Calendar
 
-
-
+super + a
+  alacritty -e sh -c "gcalcli calw && read"
 
