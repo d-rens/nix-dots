@@ -103,3 +103,13 @@ btop/btop.log
 */syncthing/
 *discord/
 *discord/*
+*cmus/*
+*/cmus/*
+*btop/btop.conf*
+*btop/btop.conf
+
+*./newsboat/cache.db
+*./newsboat/cache.db.lock
+
+*./newsboat/cache.db*
+*./newsboat/cache.db.lock*
