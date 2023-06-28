@@ -148,7 +148,8 @@ alt + z
 alt + shift + z
   python -u ~/documents/00-09_privat/01_Programme/01.01_university-setup/scripts/rofi-courses.py
 
-alt + shift + c python -u ~/documents/00-09_privat/01_Programme/01.01_university-setup/scripts/compile-all-masters.py
+alt + shift + c 
+  python -u ~/documents/00-09_privat/01_Programme/01.01_university-setup/scripts/compile-all-masters.py
 
 alt + l
   python -u ~/documents/00-09_privat/01_Programme/01.01_university-setup/scripts/rofi-lectures-view.py
