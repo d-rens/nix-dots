@@ -1,4 +1,7 @@
 # Dotfiles
+
+1. Excuse the mess
+
 Those are my dotfiles for Arch/Asahi linux.
 
 Some thing are not working too well, due to drivers missing but generally all
