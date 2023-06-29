@@ -26,6 +26,8 @@ return require('packer').startup(function(use)
               vim.cmd('colorscheme tokyonight-night')
           end
       })
+      
+      use('norcalli/nvim-colorizer.lua')
 
       use {
           'Exafunction/codeium.vim',
