@@ -30,6 +30,11 @@ return require('packer').startup(function(use)
       use('norcalli/nvim-colorizer.lua')
 
       use {
+          'nvim-lualine/lualine.nvim',
+          requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+        }
+
+      use {
           'Exafunction/codeium.vim',
           config = function ()
               -- Change '<C-g>' here to any keycode you like.
