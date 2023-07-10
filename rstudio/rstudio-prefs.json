@@ -1,8 +1,0 @@
-{
-    "initial_working_directory": "~",
-    "editor_theme": "Dracula",
-    "pdf_previewer": "system",
-    "posix_terminal_shell": "zsh",
-    "editor_keybindings": "vim",
-    "font_size_points": 12
-}

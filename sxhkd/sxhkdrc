@@ -132,10 +132,10 @@ super + alt + 4
 # Shortcuts
 
 super + w
-  firefox
+  qutebrowser
 
 super + shift + w
-  qutebrowser
+  firefox
 
 super + n
   alacritty -e newsboat

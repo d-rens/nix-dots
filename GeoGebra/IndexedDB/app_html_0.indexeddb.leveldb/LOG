@@ -1,14 +1,14 @@
-2023/06/27-18:06:52.578 2e160 Reusing MANIFEST /home/daniel/.config/GeoGebra/IndexedDB/app_html_0.indexeddb.leveldb/MANIFEST-000001
-2023/06/27-18:06:52.578 2e160 Recovering log #18
-2023/06/27-18:06:52.578 2e160 Reusing old log /home/daniel/.config/GeoGebra/IndexedDB/app_html_0.indexeddb.leveldb/000018.log 
-2023/06/27-18:06:52.578 2e160 Delete type=2 #16
-2023/06/27-18:06:52.963 2e17a Level-0 table #23: started
-2023/06/27-18:06:52.965 2e17a Level-0 table #23: 1533 bytes OK
-2023/06/27-18:06:52.967 2e17a Delete type=0 #18
-2023/06/27-18:06:52.967 2e161 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 374 : 1
-2023/06/27-18:06:52.967 2e161 Compacting 1@0 + 1@1 files
-2023/06/27-18:06:52.971 2e161 Generated table #24@0: 86 keys, 1587 bytes
-2023/06/27-18:06:52.971 2e161 Compacted 1@0 + 1@1 files => 1587 bytes
-2023/06/27-18:06:52.973 2e161 compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/06/27-18:06:52.974 2e161 Delete type=2 #23
-2023/06/27-18:06:52.974 2e161 Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 374 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/06/29-19:00:17.776 2de2a Reusing MANIFEST /home/daniel/.config/GeoGebra/IndexedDB/app_html_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/29-19:00:17.776 2de2a Recovering log #22
+2023/06/29-19:00:17.777 2de2a Reusing old log /home/daniel/.config/GeoGebra/IndexedDB/app_html_0.indexeddb.leveldb/000022.log 
+2023/06/29-19:00:17.777 2de2a Delete type=2 #20
+2023/06/29-19:00:17.788 2de4b Level-0 table #27: started
+2023/06/29-19:00:17.789 2de4b Level-0 table #27: 1131 bytes OK
+2023/06/29-19:00:17.791 2de4b Delete type=0 #22
+2023/06/29-19:00:17.792 2de29 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 417 : 1
+2023/06/29-19:00:17.792 2de29 Compacting 1@0 + 1@1 files
+2023/06/29-19:00:17.793 2de29 Generated table #28@0: 86 keys, 1582 bytes
+2023/06/29-19:00:17.793 2de29 Compacted 1@0 + 1@1 files => 1582 bytes
+2023/06/29-19:00:17.797 2de29 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/06/29-19:00:17.797 2de29 Delete type=2 #27
+2023/06/29-19:00:17.797 2de4a Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 417 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
