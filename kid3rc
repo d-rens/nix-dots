@@ -29,6 +29,8 @@ HideV1=false
 HideV2=false
 HideV3=false
 PlayOnDoubleClick=false
+PlayToolBarVisible=false
+SelectFileOnPlayEnabled=false
 
 [Import]
 DisabledPlugins=
