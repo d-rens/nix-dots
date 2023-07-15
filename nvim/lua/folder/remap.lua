@@ -9,6 +9,7 @@ vim.g.UltiSnipsJumpForwardTrigger = "<s-tab>"
 
 vim.keymap.set("n", "<leader>w", ":w <enter>")
 vim.keymap.set("n", "<leader>q", ":wq <enter>")
+vim.keymap.set("n", "<leader>Q", ":wq <enter>")
 vim.keymap.set("n", "<leader>l", ":VimtexCompile <enter>")
 
 
