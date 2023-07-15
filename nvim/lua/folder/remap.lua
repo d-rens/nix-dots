@@ -56,3 +56,6 @@ end)
 
 -- the following is to add on the sheet
 vim.keymap.set("n", "<leader>t", ":NvimTreeToggle <enter>")
+
+-- buffer
+vim.keymap.set("n", "<leader>b", ":bn <enter>")
