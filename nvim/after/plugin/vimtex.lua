@@ -13,3 +13,4 @@ vim.g.vimtex_quickfix_ignore_filters = {
 
 vim.keymap.set("n", "<Leader>fg", '<Esc>:!inkscape-figures create figures/')
 vim.keymap.set("n", "<Leader>efg", ':!inkscape-figures edit figures/ <Enter>')
+
