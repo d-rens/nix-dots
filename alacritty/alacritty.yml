@@ -35,11 +35,11 @@ colors:
 
 window:
   padding:
-    x: 3
-    y: 3
+    x: 0
+    y: 0
 
   decorations: none
-  opacity: 0.85
+  opacity: .9
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -54,7 +54,7 @@ font:
   normal:
     family: "JetBrains Mono"
     #family: "Hack Nerd Font Mono"
-  size: 8.0
+  size: 7.0
       #style: mono
 
   # The `style` can be specified to pick a specific face.
@@ -169,9 +169,9 @@ font:
   #
   # Allowed values are CellForeground/CellBackground, which reference the
   # affected cell, or hexadecimal colors like #ff00ff.
-  #vi_mode_cursor:
-  #  text: CellBackground
-  #  cursor: CellForeground
+  vi_mode_cursor:
+    text: CellBackground
+    cursor: CellForeground
 
   # Search colors
   #
@@ -211,8 +211,8 @@ font:
   #
   # By default, these will use the opposing primary color.
   #line_indicator:
-  #  foreground: None
-  #  background: None
+  #foreground: default 
+  #background: None
 
   # Footer bar
   #
@@ -361,7 +361,7 @@ cursor:
   # the style of the active value of the normal cursor.
   #
   # See `cursor.style` for available options.
-  #vi_mode_style: None
+  vi_mode_style: block
 
   # Cursor blinking interval in milliseconds.
   #blink_interval: 750
