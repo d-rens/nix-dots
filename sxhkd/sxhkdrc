@@ -130,6 +130,8 @@ super + alt + 4
   scrot -u
   
 # Shortcuts
+super + m
+  mpv
 
 super + w
   qutebrowser
