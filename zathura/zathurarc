@@ -35,7 +35,7 @@ set statusbar-v-padding     5
 
 # Attempt to recreate Tokyo Night in Zathura
 
-set default-bg                  "rgba(26, 27, 38, 0.8)"
+set default-bg                  "rgb(26, 27, 38)"
 set default-fg                  "#a9b1d6"
 
 set statusbar-fg                "#a9b1d6"
