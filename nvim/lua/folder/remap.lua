@@ -56,7 +56,7 @@ end)
 
 -- buffer
 vim.keymap.set("n", "<leader>b", ":bn <enter>")
-
+vim.keymap.set("n", "<leader>d",  ":bdelete <enter>")
 
 
 -- Obsidian
