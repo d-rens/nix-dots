@@ -54,8 +54,21 @@ vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
 
--- the following is to add on the sheet
-vim.keymap.set("n", "<leader>t", ":NvimTreeToggle <enter>")
-
 -- buffer
 vim.keymap.set("n", "<leader>b", ":bn <enter>")
+
+
+
+-- Obsidian
+
+vim.keymap.set("n", "<leader>ob", ":ObsidianBacklinks <enter>")
+vim.keymap.set("n", "<leader>ot",":ObsidianToday <enter>")
+vim.keymap.set("n", "<leader>oy",":ObsidianYesterday <enter>")
+vim.keymap.set("n", "<leader>oo",":ObsidianOpen <enter>")
+vim.keymap.set("n", "<leader>on",":ObsidianNew <enter>")
+vim.keymap.set("n", "<leader>os",":ObsidianSearch <enter>")
+vim.keymap.set("n", "<leader>ov",":ObsidianQuickSwitch <enter>")
+vim.keymap.set("v", "<leader>oL",":ObsidianLink <enter>")
+vim.keymap.set("v", "<leader>oLn",":ObsidianLinkNew")
+vim.keymap.set("n", "<leader>of",":ObsidianFollowLink <enter>")
+vim.keymap.set("n", "<leader>ot",":ObsidianTemplate <enter>")
