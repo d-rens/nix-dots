@@ -66,6 +66,8 @@ audio something: pipewire
 | `leader vvp` | `opens packer.lua` |
 | `leader s` | `substitute word you're on` |
 | `leader leader` | `:so` |
+| `leader b` | `switch next buffer` |
+| `leader d` | `delete current buffer` |
 
 
 ### plugins
@@ -104,11 +106,24 @@ audio something: pipewire
 | **VimTex** |
 | `leader fg` | `<Esc>:!inkscape-figures create figures/` |
 | `leader efg` | `<Esc>:!inkscape-figures edit figures/` |
-| **Codium**
+| **Codium** |
 | `C-g` | `accept` |
 | `C-;` | `cycle forward` |
 | `C-,` | `cycle backward` |
 | `C-x` | `clear` |
+| **Obsidian** |
+| `leader o b ` |`view backlinks`|
+| `leader o t ` |`open todays note`|
+| `leader o y ` |`open yesterdays note`|
+| `leader o o ` |`open in obsidian`|
+| `leader o n ` |`new note`|
+| `leader o s ` |`search obsidian notes with telescope`|
+| `leader o v ` |`quick switch notes`|
+| `leader o L ` |`link somthing`|
+| `leader o L n` |`make a new link`|
+| `leader o f ` |`follow link`|
+| `leader o t ` |`apply template with telescope`|
+
 
 
 

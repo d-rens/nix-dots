@@ -99,6 +99,10 @@ btop/btop.log
 *github-copilot/hosts.json
 
 
+
+*obsidian/
+*obsidian/*
+*/obsidian/*
 *syncthing/
 */syncthing/
 *discord/
@@ -117,3 +121,5 @@ btop/btop.log
 
 *./newsboat/cache.db*
 *./newsboat/cache.db.lock*
+
+
