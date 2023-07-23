@@ -16,6 +16,11 @@ inkscape-shortcut-manager/
 mpd/
 mpv/
 neofetch/
+*.db
+cache*
+cache.*
+*cache.db
+*cache.db.lock
 newsboat/cache.db
 newsboat/cache.db.lock
 npm/
