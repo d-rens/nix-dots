@@ -1,5 +1,5 @@
 require("obsidian").setup({
-    dir = "~/documents/20-29_Wissenssortierung/29-Obsidian/vault/",
+    dir = "~/documents/20-29_Wissenssortierung/29-Obsidian/29.01-vault/",
     finder = "telescope.nvim",
 
     -- Optional, completion.
