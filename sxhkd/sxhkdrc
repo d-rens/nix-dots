@@ -1,14 +1,12 @@
-#
-# wm independent hotkeys
-#
+
 
 # terminal emulator
 super + Return
   alacritty
 
 # program launcher
-super + r
-  rofi -show run --verbose
+#super + r
+  #rofi -show run --verbose
 
 super + d
 	rofi -modi drun -show drun
@@ -121,13 +119,16 @@ XF86MonBrightnessUp
 XF86MonBrightnessDown
   brightnessctl s 5%-
 
+# Media controls.
+  XF86Audio{Play,Prev,Next,Stop}
+  playerctl {play-pause,previous,next,stop}
+
 
 # Screenshot
-super + alt + 3
-  scrot
-
-super + alt + 4
-  scrot -u
+F7
+  scrot -u -z '%Y-%m-%d--%H:%M:%S--$wx$h$n.png' -e 'mv $f ~/documents/00-09_privat/02-Media/02.01_Pictures/02.01.00_screenshots/' && notify-send -i gnome-screenshot "Saved window view screenshot"
+super + F7
+  scrot -m -z '%Y-%m-%d--%H:%M:%S--$wx$h.png' -e 'mv $f ~/documents/00-09_privat/02-Media/02.01_Pictures/02.01.00_screenshots/' && notify-send -i gnome-screenshot "Saved screen view screenshot"
   
 # Shortcuts
 super + m
@@ -170,3 +171,12 @@ super + e
 # cmus
 super + c
   alacritty -e cmus
+
+
+super + r 
+  alacritty -e zsh -c 'ranger; $SHELL'
+
+super + z 
+  alacritty -e zsh -c 'btop; $SHELL'
+
+
