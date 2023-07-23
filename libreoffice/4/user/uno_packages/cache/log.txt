@@ -1,2 +1,0 @@
-ERROR: Exception occurred: There is no such extension deployed: org.Zotero.integration.openoffice at /usr/src/debug/libreoffice-fresh/libreoffice-7.5.4.2/desktop/source/deployment/manager/dp_manager.cxx:971
-ERROR: unopkg failed.

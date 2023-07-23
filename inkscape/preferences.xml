@@ -155,8 +155,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="75.2988439845298"
-         ry="75.2988439845275"
+         rx="21.5852512149363"
+         ry="34.0381315937197"
          arc_type="0" />
       <eventcontext
          id="star"
@@ -174,7 +174,7 @@
        style="fill:none;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-linecap:butt;">
       <eventcontext
          id="pencil"
-         tolerance="70"
+         tolerance="87"
          selcue="1"
          style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99999874px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
          usecurrent="0"
@@ -951,7 +951,7 @@
        id="rendering" />
     <group
        id="snapping"
-       snap-global-toggle="1" />
+       snap-global-toggle="0" />
     <group
        id="commandpalette">
       <group
@@ -1038,7 +1038,7 @@
      org.inkscape.generate.pdf_latex.formule="\(s=\sqrt{}\)" />
   <group
      id="desktop"
-     style="-inkscape-font-specification:nerd;font-family:nerd;font-size:24px;stroke-width:0.5308;stroke:#ffffff;fill-opacity:0.12;fill:#ffffff">
+     style="-inkscape-font-specification:nerd;font-family:nerd;font-size:24px;stroke-width:0.5308;stroke:black;stroke-dasharray:3.981, 3.981;fill:none">
     <group
        width="942"
        height="1024"

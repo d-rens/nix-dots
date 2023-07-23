@@ -148,16 +148,16 @@ alt + z
   zathura ~/current_course/master.pdf
 
 alt + shift + z
-  python -u ~/documents/00-09_privat/01_Programme/01.01_university-setup/scripts/rofi-courses.py
+  python -u ~/tools/01_note-setup/scripts/rofi-courses.py
 
 alt + shift + c 
-  python -u ~/documents/00-09_privat/01_Programme/01.01_university-setup/scripts/compile-all-masters.py
+  python -u ~/tools/01_note-setup//scripts/compile-all-masters.py
 
 alt + l
-  python -u ~/documents/00-09_privat/01_Programme/01.01_university-setup/scripts/rofi-lectures-view.py
+  python -u ~/tools/01_note-setup/scripts/rofi-lectures-view.py
   
 alt + shift + l
-  python -u ~/documents/00-09_privat/01_Programme/01.01_university-setup/scripts/rofi-lectures.py
+  python -u ~/tools/01_note-setup/scripts/rofi-lectures.py
 
 super + x
     ~/.config/sxhkd/scripts/uni-link.sh
@@ -166,10 +166,6 @@ super + x
 # Make a shortcut that cds into the output or whatever rofi.py does with alacritty
 super + e
   alacritty -e zsh -c 'cd $(python -u /home/daniel/.config/sxhkd/scripts/rofi.py); $SHELL'
-
-# Calendar
-super + a
-  alacritty -e sh -c "gcalcli calw && read"
 
 # cmus
 super + c
