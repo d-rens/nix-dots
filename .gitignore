@@ -16,6 +16,8 @@ inkscape-shortcut-manager/
 mpd/
 mpv/
 neofetch/
+newsboat/cache.db
+newsboat/cache.db.lock
 npm/
 obsidian/
 pomo/
