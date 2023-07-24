@@ -39,7 +39,7 @@ window:
     y: 0
 
   decorations: none
-  opacity: .9
+  opacity: .97
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
