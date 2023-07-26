@@ -14,4 +14,4 @@ configuration {
     show-icons:     true;
 }
 
-@theme "./tokyo.rasi"
+@theme "./catppuccin-mocha.rasi"
