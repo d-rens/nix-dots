@@ -1,8 +1,4 @@
 #! /bin/sh
-#~/.local/bin/start-apps.sh
-xmodmap ~/.Xmodmap
-
-
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
@@ -10,10 +6,7 @@ bspc rule -r "*"
 
 bspc monitor -d 1 2 3 4 5 6 7 8 9
 
-# wal not in use currently
-#. "${HOME}/.cache/wal/colors.sh"
-
-#bspc config window_gap         20 
+bspc config window_gap 5
 
 bspc config top_padding 35
 bspc config bottom_padding 5
@@ -21,12 +14,9 @@ bspc config left_padding 5
 bspc config right_padding 5
 
 bspc config border_width         2
-bspc config focused_border_color "#a9b1d6"
-bspc config active_border_color "#252a33"
-bspc config normal_border_color "#1a1b26"
-#bspc config focused_border_color "#ffffff"
-#bspc config active_border_color "#999999"
-#bspc config normal_border_color "#343434"
+bspc config focused_border_color "#cba6f7"
+bspc config active_border_color "#a6adc8"
+bspc config normal_border_color "#1e1e2e"
 
 bspc config ignore_ewmh_focus true
 
@@ -37,14 +27,3 @@ bspc config gapless_monocle      true
 #bspc config pointer_motion_interval 7ms
 bspc config focus_follows_pointer true
 bspc config pointer_follows_monitor true
-
-#eigenes
-
-# Set rule for Zathura to start in tiled mode
-bspc rule -a Zathura -o state=tiled
-
-# alacritty thingy
-bspc rule -a kitty state=floating rectangle=100x60
-
-sxhkd &
-/home/daniel/start-apps.sh &

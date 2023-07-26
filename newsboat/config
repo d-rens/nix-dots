@@ -16,13 +16,8 @@ bind-key n next-unread
 
 bind-key U show-urls
 
-color listnormal green default
-color listnormal_unread magenta default
-color listfocus green default bold
-color listfocus_unread magenta default bold
-color info blue default bold
-color article default default
-
 browser "firefox %u"
 
 cache-file ~/.config/newsboat/cache.db
+
+include ./themes/catppuccin-dark
