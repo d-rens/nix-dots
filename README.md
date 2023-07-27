@@ -9,9 +9,9 @@ configs should universally work.
 
 ## Sources I got my configs from:
 
-- 40% made oneself
-- 30% stolen
-- 30% made with chatgpt
+- 70% made oneself
+- 25% stolen
+- 05% made with chatgpt
 
 
 ## Programs
