@@ -4,7 +4,7 @@ configuration {
 	width: 30;
 	line-margin: 10;
 	lines: 6;
-	columns: 2;
+	columns: 1;
 
     display-ssh:    "";
     display-run:    "";
