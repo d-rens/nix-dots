@@ -145,7 +145,7 @@ super + shift + w
   firefox
 
 super + n
-  alacritty -e newsboat
+  st newsboat
 
 
 # Note taking setup
@@ -168,19 +168,14 @@ super + x
     ~/.config/sxhkd/scripts/uni-link.sh
 
 
-# Make a shortcut that cds into the output or whatever rofi.py does with alacritty
+# Make a shortcut that cds into the output or whatever rofi.py does with st 
 super + e
-  alacritty -e zsh -c 'cd $(python -u /home/daniel/.config/sxhkd/scripts/rofi.py); $SHELL'
+  st -e zsh -c 'cd $(python -u /home/daniel/.config/sxhkd/scripts/rofi.py); $SHELL'
 
 # cmus
 super + c
-  alacritty -e cmus
+  st cmus
 
-
-#super + r 
-  #alacritty -e zsh -c 'ranger; $SHELL'
 
 super + z 
-  alacritty -e zsh -c 'btop; $SHELL'
-
-
+  st -e zsh -c 'btop; $SHELL'
