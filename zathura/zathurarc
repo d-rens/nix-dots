@@ -1,6 +1,12 @@
-##############################################
-## maybe 90% taken of the config "gitlab.com/blutlauge/dotfiles"
-##############################################
+##############################################################
+## some taken from https://gitlab.com/blutlauge/dotfiles
+## another some from https://github.com/benbrastmckie/.config/
+##############################################################
+
+## Synctex
+
+set synctex true
+set synctex-editor-command "nvim --remote-silent +%{line} %{input}"
 
 # General settings
 # ----------------
