@@ -4,6 +4,9 @@ calibre/
 cava/
 cmus/
 dconf/
+discord/
+BetterDiscord/
+BetterDiscord Installer/
 dunst/
 GeoGebra/
 GIMP/
@@ -19,6 +22,7 @@ neofetch/
 *.db
 cache*
 cache.*
+packer_compiled.lua
 *cache.db
 *cache.db.lock
 newsboat/cache.db
