@@ -2,11 +2,11 @@
 
 # terminal emulator
 super + Return
-  alacritty
+  st
 
 # program launcher
-#super + r
-  #rofi -show run --verbose
+super + r
+  rofi -show run --verbose
 
 super + d
 	rofi -modi drun -show drun
@@ -38,17 +38,11 @@ super + g
 	bspc node -s biggest.window
 
 
-
 ######### other bspwm #########
 
 # set the window state
 super + {t,shift + t,s,f}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
-
-# set the node flags
-#super + ctrl + {m,x,y,z}
-	#bspc node -g {marked,locked,sticky,private}
-
 
 
 ######### focus/swap #########
@@ -96,8 +90,18 @@ super + {Left,Down,Up,Right}
 	bspc node -v {-60 0,0 60,0 -60,60 0}
 
 
+######### bspc layout #########
 
-######### move/resize #########
+# TO be DONE, but dont have keys anymore
+# super + { }
+  # bsp-layout set {tall,wide.tiled}
+
+
+
+###############################
+###############################
+###############################
+###############################
 
 # Volume control
 XF86AudioLowerVolume
@@ -173,8 +177,8 @@ super + c
   alacritty -e cmus
 
 
-super + r 
-  alacritty -e zsh -c 'ranger; $SHELL'
+#super + r 
+  #alacritty -e zsh -c 'ranger; $SHELL'
 
 super + z 
   alacritty -e zsh -c 'btop; $SHELL'
