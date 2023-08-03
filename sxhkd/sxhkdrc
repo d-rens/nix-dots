@@ -1,12 +1,10 @@
-
-
 # terminal emulator
 super + Return
   st
 
 # program launcher
 super + r
-  rofi -show run --verbose
+  dmenu_run
 
 super + d
 	rofi -modi drun -show drun
@@ -139,9 +137,6 @@ super + m
   mpv
 
 super + w
-  qutebrowser
-
-super + shift + w
   firefox
 
 super + n
