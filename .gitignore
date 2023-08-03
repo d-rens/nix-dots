@@ -47,3 +47,7 @@ QtProject.conf
 mimeapps.list
 tmux/plugins/
 ncmpcpp/
+lazygit/
+Kitware/
+surf/
+enchant/
