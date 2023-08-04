@@ -20,6 +20,29 @@ require("obsidian").setup({
     date_format = "%d-%m-%Y"
   },
 
+
+-- Optional, customize how names/IDs for new notes are created.
+note_id_func = function(title)
+  -- Get the current date and time
+  local timestamp = os.date("%Y%m%d%H%M")
+
+  -- Create a suffix based on the provided title or a random set of uppercase letters
+  local suffix = ""
+  if title ~= nil then
+    -- If title is given, transform it into valid file name.
+    suffix = title:gsub(" ", "-"):gsub("[^A-Za-z0-9-]", ""):lower()
+  else
+    -- If title is nil, just add 4 random uppercase letters to the suffix.
+    for _ = 1, 4 do
+      suffix = suffix .. string.char(math.random(65, 90))
+    end
+  end
+
+  return timestamp .. "-" .. suffix
+end,
+
+
+
   -- Optional, for templates (see below).
   templates = {
     subdir = "99_templates",
