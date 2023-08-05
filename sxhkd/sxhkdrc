@@ -174,3 +174,12 @@ super + c
 
 super + z 
   st -e zsh -c 'btop; $SHELL'
+
+super + y
+  yt-d
+
+super + shift + x
+  dxrandr
+
+super + shift + r
+  powermenu
