@@ -56,6 +56,7 @@ end)
 
 -- buffer
 vim.keymap.set("n", "<leader>b", ":bn <enter>")
+vim.keymap.set("n", "<leader>B", ":bp <enter>")
 vim.keymap.set("n", "<leader>d",  ":bd <enter>")
 vim.keymap.set("n", "<leader>D",  ":bd! <enter>")
 
