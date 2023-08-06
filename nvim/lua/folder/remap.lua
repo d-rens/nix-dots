@@ -55,14 +55,13 @@ vim.keymap.set("n", "<leader><leader>", function()
 end)
 
 -- buffer
-vim.keymap.set("n", "<leader>b", ":bn <enter>")
-vim.keymap.set("n", "<leader>B", ":bp <enter>")
+vim.keymap.set("n", "<leader>n", ":bn <enter>")
+vim.keymap.set("n", "<leader>b", ":bp <enter>")
 vim.keymap.set("n", "<leader>d",  ":bd <enter>")
 vim.keymap.set("n", "<leader>D",  ":bd! <enter>")
 
 
 -- Obsidian
-
 vim.keymap.set("n", "<leader>ob", ":ObsidianBacklinks <enter>")
 vim.keymap.set("n", "<leader>ot",":ObsidianToday <enter>")
 vim.keymap.set("n", "<leader>oy",":ObsidianYesterday <enter>")
@@ -74,3 +73,7 @@ vim.keymap.set("v", "<leader>oL",":ObsidianLink <enter>")
 vim.keymap.set("v", "<leader>oLn",":ObsidianLinkNew")
 vim.keymap.set("n", "<leader>of",":ObsidianFollowLink <enter>")
 vim.keymap.set("n", "<leader>oT",":ObsidianTemplate <enter>")
+
+
+-- tmux
+vim.keymap.set("n", "<C-t>", "<cmd>silent !tmux new-window tmux-sessionizer.sh<CR>")
