@@ -137,7 +137,7 @@ super + m
   mpv
 
 super + w
-  firefox
+  librewolf
 
 super + n
   st newsboat
