@@ -1,4 +1,6 @@
 "------------blogs------------"
+https://suckless.org/atom.xml "~Suckless"
+https://www.latex-project.org/feed.xml "~LaTeX Project"
 https://zettelkasten.de/feed "~Zettelkasten"
 https://250bpm.com/rss "~250bpm"
 https://www.benbrastmckie.com/feed "~Ben Brast Mckie"
@@ -31,6 +33,7 @@ https://lagedernation.org/rss "~lage"
 
 "------------schule-----------"
 https://kephiso.webuntis.com/WebUntis/NewsFeed.do?school=Rolf%20Benz%20Schule "~untis"
-https://bwkabs.itslearning.com/Dashboard/NotificationRss.aspx?LocationType=1&LocationID=1616&PersonId=400528&CustomerId=901121&Guid=0f3c3b9bb562d7991b4dfadfd82f1139&Culture=en-US its-learning school maths "~Mathe"
-https://bwkabs.itslearning.com/Dashboard/NotificationRss.aspx?LocationType=1&LocationID=1626&PersonId=400528&CustomerId=901121&Guid=93516e140e664a2e78cf8e30ac3697af&Culture=en-US its-learning school "~Physik"
-https://bwkabs.itslearning.com/Dashboard/NotificationRss.aspx?LocationType=1&LocationID=1625&PersonId=400528&CustomerId=901121&Guid=0407d4dadc8dea1243a31eb7a678d7e4&Culture=en-US its-learning school "~Physik-Lab"
+# To be added when new courses are there
+# "~Mathe"
+# "~Physik"
+# "~Physik-Lab"
