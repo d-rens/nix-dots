@@ -51,3 +51,5 @@ lazygit/
 Kitware/
 surf/
 enchant/
+
+!../.local/bin/reasearch
