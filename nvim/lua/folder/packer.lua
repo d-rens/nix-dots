@@ -15,7 +15,7 @@ return require('packer').startup(function(use)
     use {'akinsho/bufferline.nvim', tag = "*"}
 
     -- to learn get better movement
-    use { 'm4xshen/hardtime.nvim' }
+    --use { 'm4xshen/hardtime.nvim' }
     use { 'ThePrimeagen/vim-be-good' }
 
     use { 'folke/tokyonight.nvim', }

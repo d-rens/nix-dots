@@ -119,11 +119,6 @@ _G.packer_plugins = {
     path = "/home/daniel/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
-  ["hardtime.nvim"] = {
-    loaded = true,
-    path = "/home/daniel/.local/share/nvim/site/pack/packer/start/hardtime.nvim",
-    url = "https://github.com/m4xshen/hardtime.nvim"
-  },
   harpoon = {
     loaded = true,
     path = "/home/daniel/.local/share/nvim/site/pack/packer/start/harpoon",
