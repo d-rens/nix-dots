@@ -1,3 +1,5 @@
+http://localhost:1313/index.xml "~blog feed offline"
+https://d-rens.site/index.xml "~blog feed online"
 "------------blogs------------"
 https://annas-blog.org/rss.xml "~annas archive blog"
 https://suckless.org/atom.xml "~Suckless"
@@ -16,6 +18,7 @@ https://blog.fefe.de/rss.xml?html "~fefe"
 https://gitlab.com/blutlauge/dotfiles/-/commits/master?format=atom "~schl dots"
 
 "--------------yt-------------"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCGCW1jMQWafnrPDLgNwEnsQ "~chemiker"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2TXq_t06Hjdr2g_KdKpHQg "~ccc"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~smith youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw "~3blue1brown"
