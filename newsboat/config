@@ -16,7 +16,7 @@ bind-key n next-unread
 
 bind-key U show-urls
 
-browser "firefox %u"
+browser "qutebrowser %u"
 
 cache-file ~/.config/newsboat/cache.db
 
