@@ -1,6 +1,7 @@
 http://localhost:1313/index.xml "~blog feed offline"
 https://d-rens.site/index.xml "~blog feed online"
 "------------blogs------------"
+https://calnewport.com/blog/rss "~Cal Newport"
 https://annas-blog.org/rss.xml "~annas archive blog"
 https://suckless.org/atom.xml "~Suckless"
 https://www.latex-project.org/feed.xml "~LaTeX Project"
