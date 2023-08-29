@@ -1,5 +1,6 @@
 # few terminal keybinds
 bindkey -v
+
 export EDITOR=nvim
 export PATH="/usr/bin/nvim:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
@@ -29,8 +30,7 @@ key[PageDown]=${terminfo[knp]}
 [[ -n "${key[Left]}"    ]]  && bindkey  "${key[Left]}"    backward-char
 [[ -n "${key[Right]}"   ]]  && bindkey  "${key[Right]}"   forward-char
 
-# Finally, make sure the terminal is in application mode, when zle is
-# active. Only then are the values from $terminfo valid.
+
 if [[ -n ${terminfo[smkx]} ]] && [[ -n ${terminfo[rmkx]} ]]; then
     function zle-line-init () {
         echoti smkx
@@ -142,10 +142,12 @@ setopt \
   hist_ignore_space \
   no_equals \
 
+
 # modules
 autoload -U url-quote-magic bracketed-paste-magic
 zle -N self-insert url-quote-magic
 zle -N bracketed-paste bracketed-paste-magic
+
 
 # Enable auto-execution of functions.
 unset preexec_functions
@@ -155,13 +157,14 @@ typeset -ga preexec_functions
 typeset -ga precmd_functions
 typeset -ga chpwd_functions
 
+
 # Terminal title
 if [[ "$TERM" == xterm* ]] ; then
   preexec_functions+='preexec_term_title'
   precmd_functions+='precmd_term_title'
 fi
 
-#
+
 # Enable colors and change prompt:
 autoload -U colors && colors	# Load colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
@@ -169,16 +172,6 @@ setopt autocd		# Automatically cd into typed directory.
 stty stop undef		# Disable ctrl-s to freeze terminal.
 setopt interactive_comments
 
-
-# prompt
-#if [[ "$USER" == "root" ]] ; then
-	#PROMPT=$'%B%F{red}%n%b%F{default}@%B%F{cyan}%m%b%F{default}:%B%F{blue}%~%b%F{default}%F{default} %(?.-.%F{red}%?%F{default})%(!.%F{red}#%F{default}.%F{green}$%F{default}) '
-#else
-	#preexec_functions+='preexec_update_git_vars'
-	#precmd_functions+='precmd_update_git_vars'
-	#chpwd_functions+='chpwd_update_git_vars'
-	#PROMPT=$'%B%F{green}%n%b%F{default}@%B%F{cyan}%m%b%F{default}:%B%F{blue}%~%b%F{default}%F{yellow}$(prompt_git_info)%F{default} %(?.-.%F{red}%?%F{default})%(!.%F{red}#%F{default}.%F{green}$%F{default}) '
-#fi
 
 # tab-completion
 autoload -Uz compinit
@@ -206,8 +199,8 @@ zstyle ':completion:*' use-cache on
 zstyle ':completion:*' cache-path ~/.zsh/cache
 zstyle ':completion:*' special-dirs true
 
+
 # misc functions
 setopt notify
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#source /usr/sharezshpluginszsh-syntax-highlightingzsh-syntax-highlighting.zsh
+#source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
