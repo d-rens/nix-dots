@@ -1,36 +1,27 @@
 # Dotfiles
-Those are my dotfiles for Archlinux.
+Those are my dotfiles for unix computers.
 
-I'll try to keep them nicely ordered.
+## Requirements
+*These are not all*
+### Arch
+```
+pacman -S bspwm sxhkd newsboat neovim picom polybar ranger rofi tmux zathura sublime-merge
+```
 
-
-## Sources I got my configs from:
-- 70% made oneself
-- 25% stolen
-- 05% made with chatgpt
-
-
-## Programs
-OS: Arch
-
-WM: bwpwm
-
-Terminal: alacritty
-
-Texteditor: nvim
-
-viewer: zathura
-
-rss: newsboat
-
-Shell: zsh
-
+### OS X
+```
+brew install newsboat neovim ranger tmux sublime-merge
+```
+*There are not as many programs of these on OS X as on Linux, but when familiar
+neovim+tmux are already pleanty.*
 
 ## Pictures
 ![neofetch1](/misc/neofetch1.png)
 ![neofetch2](/misc/neofetch2.png)
 ![note taking setup](misc/setup.png)
 
+
+<!--
 # Shortcuts
 ## neovim
 
@@ -167,3 +158,4 @@ Shell: zsh
 | `super + alt + h/j/k/l` | `expand node in chosen directions by 60` |
 | `super + alt + shift + h/j/k/l` | `contract node in chosen directions by 60` |
 | `super + left/down/up/right` | `move node in given direction by 60` |
+-->
