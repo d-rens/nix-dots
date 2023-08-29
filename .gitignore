@@ -22,12 +22,14 @@ neofetch/
 *.db
 cache*
 cache.*
+nvim/plugin/*
 packer_compiled.lua
 *cache.db
 *cache.db.lock
 newsboat/cache.db
 newsboat/cache.db.lock
 npm/
+nvim/plugin/packer_compile.lua
 obsidian/
 pomo/
 pulse/
