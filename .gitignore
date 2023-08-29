@@ -28,6 +28,7 @@ packer_compiled.lua
 newsboat/cache.db
 newsboat/cache.db.lock
 npm/
+nvim/plugin/packer_compile.lua
 obsidian/
 pomo/
 pulse/
