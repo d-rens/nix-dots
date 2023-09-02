@@ -27,6 +27,9 @@ packer_compiled.lua
 *cache.db.lock
 newsboat/cache.db
 newsboat/cache.db.lock
+nvim/plugin/packer_compiled.lua
+keepassxc/
+sublime-merge/
 npm/
 obsidian/
 pomo/
