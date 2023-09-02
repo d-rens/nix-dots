@@ -18,6 +18,8 @@ return require('packer').startup(function(use)
     --use { 'm4xshen/hardtime.nvim' }
     use { 'ThePrimeagen/vim-be-good' }
 
+    use { 'Zeioth/compiler.nvim' }
+
     use { 'folke/tokyonight.nvim', }
     use { "catppuccin/nvim", as = "catppuccin" }
     use {'norcalli/nvim-colorizer.lua'}
@@ -25,7 +27,8 @@ return require('packer').startup(function(use)
     --use { 'nvim-lualine/lualine.nvim',
         --requires = { 'nvim-tree/nvim-web-devicons', opt = true } }
 
-    use { "epwalsh/obsidian.nvim"}
+    use { "epwalsh/obsidian.nvim" }
+    use { 'stevearc/overseer.nvim' }
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
     use('theprimeagen/harpoon')
