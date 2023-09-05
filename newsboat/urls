@@ -1,6 +1,7 @@
 http://localhost:1313/index.xml "~blog feed offline"
 https://d-rens.site/index.xml "~blog feed online"
 "------------blogs------------"
+http://moi.vonos.net/atom.xml
 https://calnewport.com/blog/rss "~Cal Newport"
 https://annas-blog.org/rss.xml "~annas archive blog"
 https://suckless.org/atom.xml "~Suckless"
@@ -32,6 +33,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCRb6Mw3fJ6OFzp-cB9X29aA "~j
 https://www.youtube.com/feeds/videos.xml?channel_id=UChd2vv9wZK88g2p7jNT-REg "~Converge2Diverge"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC4mT70JdbXhgYApW_oy7mcg "~seth"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC8ENHE5xdFSwx71u3fDH5Xw "~primeagen"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUyeluBRhGPCW4rPe_UvBZQ "~also prime"
 
 "-----------podcasts----------"
 https://lagedernation.org/rss "~lage"
