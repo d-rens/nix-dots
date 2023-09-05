@@ -1,5 +1,22 @@
 http://localhost:1313/index.xml "~blog feed offline"
 https://d-rens.site/index.xml "~blog feed online"
+"-------trail-blogs-----------"
+https://cri.dev/rss.xml
+https://www.evanmiller.org/news.xml
+https://eli.thegreenplace.net/feeds/all.atom.xml
+https://sizovs.net/feed.xml
+https://arslan.io/rss/
+https://hans.gerwitz.com/feeds/writing.rss
+https://jvns.ca/atom.xml
+https://jlelse.blog/feed
+https://kevinjalbert.com/feed
+https://www.l1cafe.blog/atom.xml
+https://loige.co/rss
+https://matt.might.net/articles/feed.rss
+https://research.swtch.com/feed.atom
+https://tigeroakes.com/posts/rss.xml
+https://www.yegor256.com/rss.xml
+
 "------------blogs------------"
 http://moi.vonos.net/atom.xml
 https://suckless.org/atom.xml "~Suckless"
