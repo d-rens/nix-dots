@@ -20,6 +20,14 @@ return require('packer').startup(function(use)
 
     use { 'Zeioth/compiler.nvim' }
 
+    use {
+      'smoka7/hop.nvim',
+      tag = '*',
+      config = function()
+        require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
+      end
+    }
+
     use { 'folke/tokyonight.nvim', }
     use { "catppuccin/nvim", as = "catppuccin" }
     use {'norcalli/nvim-colorizer.lua'}

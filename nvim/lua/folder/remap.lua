@@ -60,7 +60,6 @@ vim.keymap.set("n", "<leader>b", ":bp <enter>")
 vim.keymap.set("n", "<leader>d",  ":bd <enter>")
 vim.keymap.set("n", "<leader>D",  ":bd! <enter>")
 
-
 -- Obsidian
 vim.keymap.set("n", "<leader>ob", ":ObsidianBacklinks <enter>")
 vim.keymap.set("n", "<leader>ot",":ObsidianToday <enter>")
@@ -74,6 +73,9 @@ vim.keymap.set("v", "<leader>oLn",":ObsidianLinkNew")
 vim.keymap.set("n", "<leader>of",":ObsidianFollowLink <enter>")
 vim.keymap.set("n", "<leader>oT",":ObsidianTemplate <enter>")
 
-
 -- tmux
 vim.keymap.set("n", "<C-t>", "<cmd>silent !tmux new-window tmux-sessionizer.sh<CR>")
+
+--hop
+vim.keymap.set("n", "<C-h>", ":HopWord <enter>")
+vim.keymap.set("n", "<leader><C-h>", ":HopAnywhere <enter>")
