@@ -59,4 +59,12 @@ OpenSCAD/
 PrusaSlicer/
 autostart/
 cura/
-
+.gsd-keyboard.settings-ported
+GNOME-xdg-terminals.list
+gnome-control-center/
+evolution/
+gnome-initial-setup-done
+ibus/
+monitors.xml
+user-dirs.locale
+xdg-terminals.list
