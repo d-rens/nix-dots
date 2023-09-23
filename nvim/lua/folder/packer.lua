@@ -31,6 +31,13 @@ return require('packer').startup(function(use)
     use { 'folke/tokyonight.nvim', }
     use { "catppuccin/nvim", as = "catppuccin" }
     use {'norcalli/nvim-colorizer.lua'}
+    use {
+    'goolord/alpha-nvim',
+    requires = { 'nvim-tree/nvim-web-devicons' },
+    config = function ()
+        require'alpha'.setup(require'alpha.themes.startify'.config)
+    end
+}
 
     --use { 'nvim-lualine/lualine.nvim',
         --requires = { 'nvim-tree/nvim-web-devicons', opt = true } }
