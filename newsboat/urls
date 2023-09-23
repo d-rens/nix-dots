@@ -19,6 +19,7 @@ https://tigeroakes.com/posts/rss.xml
 https://www.yegor256.com/rss.xml
 
 "------------blogs------------"
+https://amugofinsights.substack.com/feed "~waldun substack"
 http://moi.vonos.net/atom.xml
 https://suckless.org/atom.xml "~Suckless"
 https://www.latex-project.org/feed.xml "~LaTeX Project"
@@ -47,7 +48,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCKzJFdi57J53Vr_BkTfN3uQ "~p
 https://www.youtube.com/feeds/videos.xml?channel_id=UCRb6Mw3fJ6OFzp-cB9X29aA "~junferno"
 https://www.youtube.com/feeds/videos.xml?channel_id=UChd2vv9wZK88g2p7jNT-REg "~converge2diverge"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC8ENHE5xdFSwx71u3fDH5Xw "~primeagen"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCUyeluBRhGPCW4rPe_UvBZQ "~also prime"
 
 "-----------podcasts----------"
 https://lagedernation.org/rss "~lage"
