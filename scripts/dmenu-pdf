@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Directory containing PDF files
+pdf_dir="$HOME/documents/"
+
+# Use find to locate all PDF files in the directory and its subdirectories
+pdf_files=($(find "$pdf_dir" -type f -name "*.pdf"))
+
+# Check if there are PDF files in the directory
+if [ ${#pdf_files[@]} -eq 0 ]; then
+    echo "No PDF files found in $pdf_dir or its subdirectories"
+    exit 1
+fi
+
+# Use dmenu to select a PDF file
+selected_file=$(printf '%s\n' "${pdf_files[@]}" | dmenu -i -p "Select a PDF file:")
+
+# Check if a file was selected
+if [ -n "$selected_file" ]; then
+    # Open the selected PDF file with zathura
+    zathura "$selected_file"
+fi
+
