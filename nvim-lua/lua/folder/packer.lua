@@ -1,3 +1,8 @@
+local pac = require('packer')
+pac.init({
+    max_jobs = 10,
+})
+
 -- This file can be loaded by calling `lua require('plugins')` from your init.vim
 
 -- Only required if you have packer configured as `opt`
@@ -8,39 +13,41 @@ return require('packer').startup(function(use)
     use('wbthomason/packer.nvim')
 
     use {
-        'nvim-telescope/telescope.nvim', tag = '0.1.1',
-        requires = { {'nvim-lua/plenary.nvim'} }
+      'nvim-telescope/telescope.nvim', branch = '0.1.x',
+      requires = { {'nvim-lua/plenary.nvim'} }
     }
 
-    use {'akinsho/bufferline.nvim', tag = "*"}
+    -- jupyter notebooks
+    use { 'dccsillag/magma-nvim', run = ':UpdateRemotePlugins' }
+    use { 'stevearc/dressing.nvim' }
 
-    -- to learn get better movement
-    --use { 'm4xshen/hardtime.nvim' }
+    -- another jupyter try
+    use { 'luk400/vim-jukit' }
+
+
+    use { 'akinsho/bufferline.nvim' }
+
     use { 'ThePrimeagen/vim-be-good' }
 
     use { 'Zeioth/compiler.nvim' }
 
-    use {
-      'smoka7/hop.nvim',
+    use { 'folke/tokyonight.nvim' }
+
+    use { 'smoka7/hop.nvim',
       tag = '*',
       config = function()
         require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
       end
     }
 
-    use { 'folke/tokyonight.nvim', }
     use { "catppuccin/nvim", as = "catppuccin" }
     use {'norcalli/nvim-colorizer.lua'}
     use {
-    'goolord/alpha-nvim',
-    requires = { 'nvim-tree/nvim-web-devicons' },
-    config = function ()
+        'goolord/alpha-nvim',
+        requires = { 'nvim-tree/nvim-web-devicons' },
+        config = function ()
         require'alpha'.setup(require'alpha.themes.startify'.config)
-    end
-}
-
-    --use { 'nvim-lualine/lualine.nvim',
-        --requires = { 'nvim-tree/nvim-web-devicons', opt = true } }
+    end }
 
     use { "epwalsh/obsidian.nvim" }
     use { 'stevearc/overseer.nvim' }
@@ -51,10 +58,6 @@ return require('packer').startup(function(use)
     use('tpope/vim-fugitive')
     use('lervag/vimtex')
     use('Sirver/ultisnips')
-
-    -- dont work
-    --use('windwp/nvim-autopairs')
-    --use('windwp/nvim-ts-autotag')
 
     use{ 'VonHeikemen/lsp-zero.nvim',
         -- LSP Support

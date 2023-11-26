@@ -2,14 +2,6 @@ local lsp = require("lsp-zero")
 
 lsp.preset("recommended")
 
-lsp.ensure_installed({
-  'tsserver',
-  'rust_analyzer',
-  'texlab'
-})
-
--- Fix Undefined global 'vim'
-lsp.nvim_workspace()
 
 
 local cmp = require('cmp')
@@ -24,9 +16,26 @@ local cmp_mappings = lsp.defaults.cmp_mappings({
 --cmp_mappings['<Tab>'] = nil
 --cmp_mappings['<S-Tab>'] = nil
 
-lsp.setup_nvim_cmp({
-  mapping = cmp_mappings
-})
+-- lsp.setup_nvim_cmp({
+  -- mapping = cmp_mappings
+-- })
+  local cmp = require('cmp')
+  local cmp_action = require('lsp-zero').cmp_action()
+
+  cmp.setup({
+    window = {
+      completion = cmp.config.window.bordered(),
+      documentation = cmp.config.window.bordered(),
+    },
+    mapping = cmp.mapping.preset.insert({
+      ['<C-Space>'] = cmp.mapping.complete(),
+      ['<C-f>'] = cmp_action.luasnip_jump_forward(),
+      ['<C-b>'] = cmp_action.luasnip_jump_backward(),
+      ['<C-u>'] = cmp.mapping.scroll_docs(-4),
+      ['<C-d>'] = cmp.mapping.scroll_docs(4),
+    })
+  })
+
 
 lsp.set_preferences({
     suggest_lsp_servers = false,
