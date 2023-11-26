@@ -1,6 +1,8 @@
 http://localhost:1313/index.xml "~blog feed offline"
 https://d-rens.site/index.xml "~blog feed online"
 "-------trail-blogs-----------"
+https://stephango.com/feed.xml
+https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=rera&type=etoc&feed=rss
 https://ratfactor.com/atom.xml
 https://cri.dev/rss.xml
 https://www.evanmiller.org/news.xml
