@@ -1,107 +1,15 @@
-# terminal emulator
-super + Return
-  st
+# Lecture note manager
 
-# program launcher
+super + t
+    python ~/tools/tex-manag/scripts/dmenu-courses.py
+
+super + n
+    python ~/tools/tex-manag/scripts/dmenu-lectures.py
+
 super + r
-    reasearch
-
-super + shift + r
-    reasearch -a
-
-super + d
-    dmenu_run
-
-# show ssh sesssions
-super + shift + d
-	rofi -modi drun -show ssh
-
-# make sxhkd reload its configuration files:
-super + Escape
-	pkill -USR1 -x sxhkd
+    python ~/tools/tex-manag/scripts/dmenu-lectures-view.py
 
 
-
-#################################
-######### bspwm hotkeys #########
-#################################
-
-# quit/restart bspwm
-super + alt + {q,r}
-	bspc {quit,wm -r}
-
-# close and kill
-super + {_,shift + }q
-	bspc node -{c,k}
-
-# swap the current node and the biggest window
-super + g
-	bspc node -s biggest.window
-
-
-######### other bspwm #########
-
-# set the window state
-super + {t,shift + t,s,f}
-	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
-
-
-######### focus/swap #########
-
-# focus the node in the given direction
-super + {_,shift + }{h,j,k,l}
-	bspc node -{f,s} {west,south,north,east}
-
-# focus the node for the given path jump
-super + {p,b,comma,period}
-	bspc node -f @{parent,brother,first,second}
-
-# focus the next/previous desktop in the current monitor
-super + bracket{left,right}
-	bspc desktop -f {prev,next}.local
-
-# focus the last node/desktop
-super + {Tab}
-	bspc {node,desktop} -f last
-
-# focus the older or newer node in the focus history
-super + {o,i}
-	bspc wm -h off; \
-	bspc node {older,newer} -f; \
-	bspc wm -h on
-
-# focus or send to the given desktop
-super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}'
-
-
-
-######### move/resize #########
-
-# expand a window by moving one of its side outward
-super + alt + {h,j,k,l}
-	bspc node -z {left -60 0,bottom 0 60,top 0 -60,right 60 0}
-
-# contract a window by moving one of its side inward
-super + alt + shift + {h,j,k,l}
-	bspc node -z {right -60 0,top 0 60,bottom 0 -60,left 60 0}
-
-# move a floating window
-super + {Left,Down,Up,Right}
-	bspc node -v {-60 0,0 60,0 -60,60 0}
-
-
-######### bspc layout #########
-
-# TO be DONE, but dont have keys anymore
-# super + { }
-  # bsp-layout set {tall,wide.tiled}
-
-
-
-###############################
-###############################
-###############################
 ###############################
 
 # Volume control
@@ -115,79 +23,15 @@ XF86AudioMute
     amixer -q set Master toggle
   
 
-# Brightness does not work due to Asahi, one fix i read could be using Arch Edge, but rather not.
-#Brightness up
+# Brightness up
 XF86MonBrightnessUp
   brightnessctl s +5%
 
-#And brightness down
+# And brightness down
 XF86MonBrightnessDown
   brightnessctl s 5%-
 
 # Media controls.
-  XF86Audio{Play,Prev,Next,Stop}
+XF86Audio{Play,Prev,Next,Stop}
   playerctl {play-pause,previous,next,stop}
 
-
-# Screenshot
-F7
-  scrot -u -z '%Y-%m-%d--%H:%M:%S--$wx$h$n.png' -e 'mv $f ~/documents/00-09_privat/02-Media/02.01_Pictures/02.01.00_screenshots/' && notify-send -i gnome-screenshot "Saved window view screenshot"
-super + F7
-  scrot -m -z '%Y-%m-%d--%H:%M:%S--$wx$h.png' -e 'mv $f ~/documents/00-09_privat/02-Media/02.01_Pictures/02.01.00_screenshots/' && notify-send -i gnome-screenshot "Saved screen view screenshot"
-  
-# Shortcuts
-super + m
-  mpv
-
-super + w
-  librewolf
-
-super + n
-  st newsboat
-
-
-# Note taking setup
-alt + z
-  zathura ~/current_course/master.pdf
-
-alt + shift + z
-  python -u ~/tools/01_note-setup/scripts/rofi-courses.py
-
-alt + shift + c 
-  python -u ~/tools/01_note-setup//scripts/compile-all-masters.py
-
-alt + l
-  python -u ~/tools/01_note-setup/scripts/rofi-lectures-view.py
-  
-alt + shift + l
-  python -u ~/tools/01_note-setup/scripts/rofi-lectures.py
-
-super + x
-    ~/.config/sxhkd/scripts/uni-link.sh
-
-
-# Make a shortcut that cds into the output or whatever rofi.py does with st 
-super + e
-  st -e zsh -c 'cd $(python -u /home/daniel/.config/sxhkd/scripts/rofi.py); $SHELL'
-
-# cmus
-super + c
-  st cmus
-
-
-super + z 
-  st -e zsh -c 'btop; $SHELL'
-
-super + y
-  yt-d
-
-super + shift + x
-  dxrandr
-
-super + shift + r
-  powermenu
-
-super + a
-  st t
-
-super + r
