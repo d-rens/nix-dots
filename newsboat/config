@@ -16,8 +16,9 @@ bind-key n next-unread
 
 bind-key U show-urls
 
-browser "qutebrowser %u"
+browser "luakit %u"
 
 cache-file ~/.config/newsboat/cache.db
 
-include ./themes/catppuccin-dark
+show-read-feeds no
+feed-sort-order unreadarticlecount-asc
