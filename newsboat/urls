@@ -1,6 +1,9 @@
 http://localhost:1313/index.xml "~blog feed offline"
 https://d-rens.site/index.xml "~blog feed online"
 "-------trail-blogs-----------"
+https://blog.snowcake.me/?action=feed
+https://speedie.site/rss.xml
+http://danluu.com/atom
 https://stephango.com/feed.xml
 https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=rera&type=etoc&feed=rss
 https://ratfactor.com/atom.xml
@@ -19,7 +22,8 @@ https://matt.might.net/articles/feed.rss
 https://research.swtch.com/feed.atom
 https://tigeroakes.com/posts/rss.xml
 https://www.yegor256.com/rss.xml
-
+https://www.getmonero.org/feed.xml
+https://neomutt.org/feed.xml
 "------------blogs------------"
 https://amugofinsights.substack.com/feed "~waldun substack"
 http://moi.vonos.net/atom.xml
@@ -33,9 +37,13 @@ https://johnnydecimal.com/rss.xml "~johnny-decimal"
 https://boosungkim.com/feed.xml "~Converge 2 Diverge"
 https://seniormars.github.io/rss.xml '~SeniorMars'
 https://lukesmith.xyz/index.xml "~smith"
+https://landchad.net/index.xml "~landchad"
 https://blog.fefe.de/rss.xml?html "~fefe"
-
+https://mailbox.org/share/feed-en-mailbox.xml
+https://de.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom
+https://tug.org/rss/tug.xml
 "-------------git-------------"
+https://github.com/ThePrimeagen/init.lua/commits/master.atom "~primeagen vim"
 https://gitlab.com/blutlauge/dotfiles/-/commits/master?format=atom "~schl dots"
 
 "--------------yt-------------"
@@ -50,13 +58,8 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCKzJFdi57J53Vr_BkTfN3uQ "~p
 https://www.youtube.com/feeds/videos.xml?channel_id=UCRb6Mw3fJ6OFzp-cB9X29aA "~junferno"
 https://www.youtube.com/feeds/videos.xml?channel_id=UChd2vv9wZK88g2p7jNT-REg "~converge2diverge"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC8ENHE5xdFSwx71u3fDH5Xw "~primeagen"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVk4b-svNJoeytrrlOixebQ "~vimeagen"
+https://www.youtube.com/feeds/videos.xml?channel_id=UChyA7V9WtsvnjZHSeOQFXMg
 
 "-----------podcasts----------"
 https://lagedernation.org/rss "~lage"
-
-"------------schule-----------"
-https://kephiso.webuntis.com/WebUntis/NewsFeed.do?school=Rolf%20Benz%20Schule "~untis"
-# To be added when new courses are there
-# "~Mathe"
-# "~Physik"
-# "~Physik-Lab"
