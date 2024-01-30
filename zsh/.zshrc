@@ -47,6 +47,7 @@ key[PageDown]=${terminfo[knp]}
 [[ -n "${key[Left]}"    ]]  && bindkey  "${key[Left]}"    backward-char
 [[ -n "${key[Right]}"   ]]  && bindkey  "${key[Right]}"   forward-char
 
+#
 # Finally, make sure the terminal is in application mode, when zle is
 # active. Only then are the values from $terminfo valid.
 if [[ -n ${terminfo[smkx]} ]] && [[ -n ${terminfo[rmkx]} ]]; then
@@ -86,7 +87,6 @@ alias lat="ls --color -la --sort=time"
 
 alias rh='fc -R'
 
-alias r='ranger'
 alias p='sudo pacman'
 alias main='$EDITOR main.tex'
 alias ytm='yt-dlp -x --embed-metadata'
@@ -184,15 +184,6 @@ stty stop undef		# Disable ctrl-s to freeze terminal.
 setopt interactive_comments
 
 
-# prompt
-#if [[ "$USER" == "root" ]] ; then
-	#PROMPT=$'%B%F{red}%n%b%F{default}@%B%F{cyan}%m%b%F{default}:%B%F{blue}%~%b%F{default}%F{default} %(?.-.%F{red}%?%F{default})%(!.%F{red}#%F{default}.%F{green}$%F{default}) '
-#else
-	#preexec_functions+='preexec_update_git_vars'
-	#precmd_functions+='precmd_update_git_vars'
-	#chpwd_functions+='chpwd_update_git_vars'
-	#PROMPT=$'%B%F{green}%n%b%F{default}@%B%F{cyan}%m%b%F{default}:%B%F{blue}%~%b%F{default}%F{yellow}$(prompt_git_info)%F{default} %(?.-.%F{red}%?%F{default})%(!.%F{red}#%F{default}.%F{green}$%F{default}) '
-#fi
 
 # tab-completion
 autoload -Uz compinit
@@ -203,7 +194,6 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*' menu select=1
 zstyle ':completion::complete:cd::' tag-order '! users' -
 zstyle ':completion::complete:-command-::' tag-order '! users' -
-
 zstyle ':completion:*:sudo:*' command-path /usr/local/sbin /usr/local/bin \
      /usr/sbin /usr/bin /sbin /bin /usr/X11R6/bin
 zstyle -e ':completion:*:approximate:*' max-errors 'reply=( $(( ($#PREFIX + $#SUFFIX) / 3 )) )'
