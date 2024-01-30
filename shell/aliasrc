@@ -29,7 +29,6 @@ alias \
 	yt="yt-dlp --embed-metadata -i" \
 	yta="yt -x -f bestaudio/best" \
 	ytt="yt --skip-download --write-thumbnail" \
-
 	ffmpeg="ffmpeg -hide_banner"
 
 # Colorize commands when possible.
@@ -58,3 +57,28 @@ alias \
 	ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc" \
 	weath="less -S ${XDG_CACHE_HOME:-$HOME/.cache}/weatherreport" \
     mod="xmodmap ~/.config/x11/.Xmodmap" \
+
+
+
+# dirs
+alias \
+    conf="~/.config" \
+	ob="~/files/obsidian" \
+    dow="~/downloads" \
+    doc="~/documents" \
+    bok="~/files/books" \
+    pap="~/files/paper" \
+    ki="~/ki" \
+    wall="~/pics/wallpaper" \
+    pro="~/projects" \
+    page="~/projects/page" \
+    rep="~/repos" \
+    suck="~/repos/current-suckless" \
+    sch="~/school" \
+    eng="~/school/english" \
+    hist="~/school/geschichte" \
+    gfs="~/school/gfs" \
+    gmt="~/school/gmt-it" \
+    mat="~/school/mathe" \
+    phy="~/school/physik" \
+    ab="~/school/worksheets" \
