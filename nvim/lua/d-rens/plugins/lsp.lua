@@ -14,6 +14,11 @@ return {
   },
 
   opts = function()
+    -- begin ultisnips
+    vim.g.UltiSnipsExpandTrigger="<tab>"
+    vim.g.UltiSnipsJumpForwardTrigger="<C-n>"
+    vim.g.UltiSnipsJumpBackwardTrigger="<C-b>"
+    -- end ultisnips
     vim.api.nvim_set_hl(0, "CmpGhostText", { link = "Comment", default = true })
     local cmp = require("cmp")
     local defaults = require("cmp.config.default")()
