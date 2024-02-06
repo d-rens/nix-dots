@@ -43,6 +43,7 @@ dconf/
 discord/
 dunst/
 enchant/
+epr/
 evolution/
 font-manager/
 fontconfig/
@@ -57,11 +58,13 @@ inkscape-figures/
 inkscape-shortcut-manager/
 inkscape/
 keepassxc/
+kicad/
 kid3rc
 lazy-lock.json
 lazygit/
 lazyvim.json
 libreoffice/
+liquidprompt/
 matrixcli/
 mbsync/
 mimeapps.list
