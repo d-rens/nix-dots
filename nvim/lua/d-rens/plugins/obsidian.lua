@@ -33,6 +33,10 @@ return {
         name = "personal",
         path = "~/files/obsidian",
       },
+      {
+        name = "schule",
+        path = "~/school",
+      },
     },
   },
 }
