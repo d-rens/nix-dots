@@ -3,6 +3,7 @@
 export PATH="/usr/bin/nvim:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.config/scripts:$PATH"
+export PATH="$HOME/.local/share/cargo/bin:$PATH"
 
 export EDITOR="nvim"
 export VISUAL="$EDITOR"
