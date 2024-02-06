@@ -1,6 +1,7 @@
 http://localhost:1313/index.xml "~blog feed offline"
 https://d-rens.site/index.xml "~blog feed online"
 "-------trail-blogs-----------"
+https://daniel.haxx.se/blog/rss
 https://k0.tel/feed.xml
 https://astoundingteam.com/wordpress/rss
 https://blog.snowcake.me/?action=feed
@@ -27,6 +28,7 @@ https://www.yegor256.com/rss.xml
 https://www.getmonero.org/feed.xml
 https://neomutt.org/feed.xml
 "------------blogs------------"
+https://neocities.org/site/thricegreat.rss
 https://amugofinsights.substack.com/feed "~waldun substack"
 http://moi.vonos.net/atom.xml
 https://suckless.org/atom.xml "~Suckless"
