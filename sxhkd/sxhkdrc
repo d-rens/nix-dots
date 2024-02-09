@@ -14,24 +14,24 @@ super + r
 
 # Volume control
 XF86AudioLowerVolume
-    amixer -q sset Master 5%-
+    pulsemixer --change-volume -5
 
 XF86AudioRaiseVolume
-    amixer -q sset Master 5%+
+    pulsemixer --change-volume +5
 
 XF86AudioMute
-    amixer -q set Master toggle
+    pulsemixer --toggle-mute
   
 
 # Brightness up
 XF86MonBrightnessUp
-  brightnessctl s +5%
+    brightnessctl s +5%
 
 # And brightness down
 XF86MonBrightnessDown
-  brightnessctl s 5%-
+    brightnessctl s 5%-
 
 # Media controls.
 XF86Audio{Play,Prev,Next,Stop}
-  playerctl {play-pause,previous,next,stop}
+    playerctl {play-pause,previous,next,stop}
 
