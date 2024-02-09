@@ -1,6 +1,8 @@
 http://localhost:1313/index.xml "~blog feed offline"
 https://d-rens.site/index.xml "~blog feed online"
 "-------trail-blogs-----------"
+https://www.schneier.com/feed/atom
+https://100r.co/links/rss.xml
 https://daniel.haxx.se/blog/rss
 https://k0.tel/feed.xml
 https://astoundingteam.com/wordpress/rss
@@ -27,7 +29,9 @@ https://tigeroakes.com/posts/rss.xml
 https://www.yegor256.com/rss.xml
 https://www.getmonero.org/feed.xml
 https://neomutt.org/feed.xml
+
 "------------blogs------------"
+https://sizeof.life/index.xml
 https://neocities.org/site/thricegreat.rss
 https://amugofinsights.substack.com/feed "~waldun substack"
 http://moi.vonos.net/atom.xml
@@ -51,9 +55,7 @@ https://github.com/ThePrimeagen/init.lua/commits/master.atom "~primeagen vim"
 https://gitlab.com/blutlauge/dotfiles/-/commits/master?format=atom "~schl dots"
 
 "--------------yt-------------"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCGCW1jMQWafnrPDLgNwEnsQ "~chemiker"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2TXq_t06Hjdr2g_KdKpHQg "~ccc"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~smith youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw "~3blue1brown"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCoHhuummRZaIVX7bD4t2czg "~Leonard"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCcaTUtGzOiS4cqrgtcsHYWg "~scholz"
@@ -64,6 +66,10 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UChd2vv9wZK88g2p7jNT-REg "~c
 https://www.youtube.com/feeds/videos.xml?channel_id=UC8ENHE5xdFSwx71u3fDH5Xw "~primeagen"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCVk4b-svNJoeytrrlOixebQ "~vimeagen"
 https://www.youtube.com/feeds/videos.xml?channel_id=UChyA7V9WtsvnjZHSeOQFXMg
+
+"-----------not-youtube-video----------"
+https://videos.lukesmith.xyz/feeds/videos.atom?videoChannelId=2
+
 
 "-----------podcasts----------"
 https://lagedernation.org/rss "~lage"
