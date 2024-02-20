@@ -4,9 +4,10 @@ Those are my arch dots.
 ## Programs
 OS: Arch
 
-WM: dwm [config](https://codeberg.org/d-rens/dwm-larbs)
+WM: dwm [config](https://github.com/d-rens/dwm-larbs)
++ slstatus as dwm [statusbar](https://github.com/d-rens/dwm-slstatus)
 
-Terminal: st [config](https://codeberg.org/d-rens/st)
+Terminal: st [config](https://github.com/d-rens/st)
 
 Texteditor: nvim
 
