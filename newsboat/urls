@@ -1,6 +1,9 @@
 http://localhost:1313/index.xml "~blog feed offline"
 https://d-rens.site/index.xml "~blog feed online"
 "-------trail-blogs-----------"
+https://gohugo.io/index.xml
+https://berthub.eu/articles/index.xml
+https://feeds.exozy.me/rss.xml
 https://www.schneier.com/feed/atom
 https://100r.co/links/rss.xml
 https://daniel.haxx.se/blog/rss
@@ -31,6 +34,7 @@ https://www.getmonero.org/feed.xml
 https://neomutt.org/feed.xml
 
 "------------blogs------------"
+https://sheafification.com/rss
 https://sizeof.life/index.xml
 https://neocities.org/site/thricegreat.rss
 https://amugofinsights.substack.com/feed "~waldun substack"
