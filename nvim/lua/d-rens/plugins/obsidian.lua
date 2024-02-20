@@ -1,6 +1,6 @@
 return {
   "epwalsh/obsidian.nvim",
-  version = "*",  -- recommended, use latest release instead of latest commit
+  version = "*",  -- * recommended, use latest release instead of latest commit
   lazy = true,
   ft = "markdown",
   -- Replace the above line with this if you only want to load obsidian.nvim for markdown files in your vault:
@@ -14,6 +14,11 @@ return {
     -- Required.
     "nvim-lua/plenary.nvim",
   },
+
+  note_id_func = function(title)
+                return title
+            end,
+
   keys = {
       {"<leader>os", "<cmd>ObsidianSearch<cr>", desc = "Searching vault" },
       {"<leader>oq", "<cmd>ObsidianQuickSwitch<cr>", desc = "Quick switching throught vault" },
