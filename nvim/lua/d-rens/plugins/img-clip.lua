@@ -7,10 +7,10 @@ return {
 relative_template_path = false,
 template = [[
 \begin{figure}
-\centering
-\includegraphics[width=0.8\linewidth]{$FILE_PATH}
-\caption{$CURSOR}
-\label{fig:$LABEL}
+    \centering
+    \includegraphics[width=0.8\linewidth]{$FILE_PATH}
+    \caption{$CURSOR}
+    \label{fig:$LABEL}
 \end{figure}
 ]],
             },
