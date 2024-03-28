@@ -87,6 +87,7 @@ nvim/plugin/packer_compiled.lua
 nvim/spell
 nvim/undodir
 nvim/vim-plug
+obs-studio/
 obsidian/
 octave/
 packer_compiled.lua
@@ -112,6 +113,7 @@ vifm/
 wget/
 xdg-terminals.list
 xfce4
+xournalpp/metadata/
 yarn/
 yay/
 zotero/
