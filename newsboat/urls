@@ -1,8 +1,10 @@
-http://localhost:1313/index.xml "~blog feed offline"
+https://localhost:1313/index.xml "~blog feed offline"
 https://d-rens.site/index.xml "~blog feed online"
+https://srnt.xyz/index.xml
 "-------trail-blogs-----------"
-https://gohugo.io/index.xml
-https://berthub.eu/articles/index.xml
+https://daudix.codeberg.page/atom.xml
+https://lexfridman.com/feed/podcast/
+https://anchor.fm/s/8db8b1d0/podcast/rss
 https://feeds.exozy.me/rss.xml
 https://www.schneier.com/feed/atom
 https://100r.co/links/rss.xml
@@ -10,15 +12,12 @@ https://daniel.haxx.se/blog/rss
 https://k0.tel/feed.xml
 https://astoundingteam.com/wordpress/rss
 https://blog.snowcake.me/?action=feed
-https://speedie.site/rss.xml
 http://danluu.com/atom
 https://stephango.com/feed.xml
 https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=rera&type=etoc&feed=rss
 https://ratfactor.com/atom.xml
 https://cri.dev/rss.xml
 https://www.evanmiller.org/news.xml
-https://eli.thegreenplace.net/feeds/all.atom.xml
-https://sizovs.net/feed.xml
 https://arslan.io/rss/
 https://hans.gerwitz.com/feeds/writing.rss
 https://jvns.ca/atom.xml
@@ -33,12 +32,14 @@ https://www.yegor256.com/rss.xml
 https://www.getmonero.org/feed.xml
 https://neomutt.org/feed.xml
 
+https://computer.rip/rss.xml
+https://gohugo.io/index.xml
+https://berthub.eu/articles/index.xml
 "------------blogs------------"
 https://sheafification.com/rss
 https://sizeof.life/index.xml
 https://neocities.org/site/thricegreat.rss
 https://amugofinsights.substack.com/feed "~waldun substack"
-http://moi.vonos.net/atom.xml
 https://suckless.org/atom.xml "~Suckless"
 https://www.latex-project.org/feed.xml "~LaTeX Project"
 https://zettelkasten.de/feed "~Zettelkasten"
@@ -59,16 +60,12 @@ https://github.com/ThePrimeagen/init.lua/commits/master.atom "~primeagen vim"
 https://gitlab.com/blutlauge/dotfiles/-/commits/master?format=atom "~schl dots"
 
 "--------------yt-------------"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2TXq_t06Hjdr2g_KdKpHQg "~ccc"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw "~3blue1brown"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCoHhuummRZaIVX7bD4t2czg "~Leonard"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCcaTUtGzOiS4cqrgtcsHYWg "~scholz"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCafEZMU5s8geb9oIly6xTrg "~waldun"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCKzJFdi57J53Vr_BkTfN3uQ "~primer"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCRb6Mw3fJ6OFzp-cB9X29aA "~junferno"
 https://www.youtube.com/feeds/videos.xml?channel_id=UChd2vv9wZK88g2p7jNT-REg "~converge2diverge"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC8ENHE5xdFSwx71u3fDH5Xw "~primeagen"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCVk4b-svNJoeytrrlOixebQ "~vimeagen"
 https://www.youtube.com/feeds/videos.xml?channel_id=UChyA7V9WtsvnjZHSeOQFXMg
 
 "-----------not-youtube-video----------"

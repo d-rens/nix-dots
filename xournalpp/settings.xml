@@ -6,18 +6,18 @@
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Right hand Note Taking Copy"/>
-  <property name="lastSavePath" value="/home/daniel/files/handwritten"/>
-  <property name="lastOpenPath" value="/home/daniel/files/handwritten"/>
+  <property name="lastSavePath" value=""/>
+  <property name="lastOpenPath" value="/home/daniel/phd/notes/2024-04-03"/>
   <property name="lastImagePath" value=""/>
   <property name="edgePanSpeed" value="20"/>
   <property name="edgePanMaxMult" value="5"/>
   <property name="zoomStep" value="10"/>
   <property name="zoomStepScroll" value="2"/>
   <property name="displayDpi" value="86"/>
-  <property name="mainWndWidth" value="1278"/>
-  <property name="mainWndHeight" value="998"/>
+  <property name="mainWndWidth" value="1280"/>
+  <property name="mainWndHeight" value="1024"/>
   <property name="maximized" value="false"/>
-  <property name="showToolbar" value="true"/>
+  <property name="showToolbar" value="false"/>
   <property name="showSidebar" value="false"/>
   <property name="sidebarWidth" value="50"/>
   <property name="sidebarNumberingStyle" value="1"/>
@@ -73,7 +73,7 @@
   <property name="drawDirModsRadius" value="50"/>
   <property name="snapRotation" value="true"/>
   <property name="snapRotationTolerance" value="0.3"/>
-  <property name="snapGrid" value="true"/>
+  <property name="snapGrid" value="false"/>
   <property name="snapGridTolerance" value="0.5"/>
   <property name="snapGridSize" value="14.17"/>
   <property name="strokeRecognizerMinSize" value="40"/>
@@ -138,7 +138,7 @@
     <data name="default">
       <attribute name="color" type="hex" value="ff000000"/>
       <attribute name="drawingType" type="string" value="default"/>
-      <attribute name="size" type="string" value="thin"/>
+      <attribute name="size" type="string" value="medium"/>
       <attribute name="tool" type="string" value="pen"/>
     </data>
     <data name="eraser">
@@ -201,6 +201,10 @@
       <attribute name="deviceClass" type="int" value="3"/>
       <attribute name="deviceSource" type="int" value="2"/>
     </data>
+    <data name="Wacom Bamboo Pen Mouse (0)">
+      <attribute name="deviceClass" type="int" value="2"/>
+      <attribute name="deviceSource" type="int" value="1"/>
+    </data>
     <data name="Wacom Bamboo Pen Pen (0)">
       <attribute name="deviceClass" type="int" value="2"/>
       <attribute name="deviceSource" type="int" value="1"/>
@@ -215,10 +219,10 @@
     </data>
   </data>
   <data name="lastUsedPageBgColor">
-    <attribute name="color00" type="hex" value="ffffff80"/>
-    <attribute name="color01" type="hex" value="ffffffff"/>
-    <attribute name="color02" type="hex" value="ffffffff"/>
-    <attribute name="color03" type="hex" value="ffffffff"/>
+    <attribute name="color00" type="hex" value="ffbf753f"/>
+    <attribute name="color01" type="hex" value="ff1c0c68"/>
+    <attribute name="color02" type="hex" value="ff9d662e"/>
+    <attribute name="color03" type="hex" value="ffffff80"/>
     <attribute name="color04" type="hex" value="ffffffff"/>
     <attribute name="color05" type="hex" value="ffffffff"/>
     <attribute name="color06" type="hex" value="ffffffff"/>
@@ -227,7 +231,7 @@
     <attribute name="count" type="int" value="9"/>
   </data>
   <data name="tools">
-    <attribute name="current" type="string" value="eraser"/>
+    <attribute name="current" type="string" value="pen"/>
     <data name="drawArrow">
       <attribute name="drawingType" type="string" value="default"/>
     </data>
@@ -247,15 +251,15 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="eraser">
-      <attribute name="drawingType" type="string" value="default"/>
+      <attribute name="drawingType" type="string" value="line"/>
       <attribute name="size" type="string" value="THIN"/>
       <attribute name="type" type="string" value="deleteStroke"/>
     </data>
     <data name="hand">
-      <attribute name="drawingType" type="string" value="default"/>
+      <attribute name="drawingType" type="string" value="line"/>
     </data>
     <data name="highlighter">
-      <attribute name="color" type="hex" value="008000"/>
+      <attribute name="color" type="hex" value="000000"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
@@ -265,12 +269,12 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="000000"/>
+      <attribute name="color" type="hex" value="ff0000"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
-      <attribute name="size" type="string" value="BIG"/>
-      <attribute name="style" type="string" value="dot"/>
+      <attribute name="size" type="string" value="MEDIUM"/>
+      <attribute name="style" type="string" value="plain"/>
     </data>
     <data name="playObject">
       <attribute name="drawingType" type="string" value="default"/>
@@ -282,7 +286,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="selectObject">
-      <attribute name="drawingType" type="string" value="default"/>
+      <attribute name="drawingType" type="string" value="rectangle"/>
     </data>
     <data name="selectPdfTextLinear">
       <attribute name="color" type="hex" value="ff000000"/>
@@ -293,10 +297,10 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="selectRect">
-      <attribute name="drawingType" type="string" value="default"/>
+      <attribute name="drawingType" type="string" value="line"/>
     </data>
     <data name="selectRegion">
-      <attribute name="drawingType" type="string" value="default"/>
+      <attribute name="drawingType" type="string" value="line"/>
     </data>
     <data name="showFloatingToolbox">
       <attribute name="drawingType" type="string" value="default"/>
@@ -306,7 +310,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="verticalSpace">
-      <attribute name="drawingType" type="string" value="default"/>
+      <attribute name="drawingType" type="string" value="rectangle"/>
     </data>
   </data>
   <data name="touch">
