@@ -5,7 +5,8 @@ return {
         -- build = ":TSUpdate"
         opts = {
             -- A list of parser names, or "all" (the five listed parsers should always be installed)
-            ensure_installed = { "latex", "python", "c", "c_sharp", "lua" },
+            ensure_installed = { "all", "latex", "python", "c", "c_sharp", "lua" },
+            ignore_install = { "org" },
 
             -- Install parsers synchronously (only applied to `ensure_installed`)
             sync_install = false,
