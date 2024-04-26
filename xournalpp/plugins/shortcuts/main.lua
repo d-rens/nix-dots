@@ -5,10 +5,11 @@
 function initUi()
 
   -- not working due to <shift> numbers not working
-  app.registerUi({["menu"] = "Fine stroke", ["callback"] = "fine", ["accelerator"] = "<shift>1"});
-  app.registerUi({["menu"] = "Medium stroke", ["callback"] = "medium", ["accelerator"] = "<shift>2"});
-  app.registerUi({["menu"] = "Thick stroke", ["callback"] = "thick", ["accelerator"] = "<shift>3"});
-  app.registerUi({["menu"] = "Arrow", ["callback"] = "arrow", ["accelerator"] = "<shift>4"}); 
+  -- thus bound to the wrong side of the keyboard for now
+  app.registerUi({["menu"] = "Fine stroke", ["callback"] = "fine", ["accelerator"] = "d"});
+  app.registerUi({["menu"] = "Medium stroke", ["callback"] = "medium", ["accelerator"] = "e"});
+  app.registerUi({["menu"] = "Thick stroke", ["callback"] = "thick", ["accelerator"] = "a"});
+  app.registerUi({["menu"] = "Arrow", ["callback"] = "arrow", ["accelerator"] = "i"}); 
 
   -- undo & redo, both not working due to function not working
   app.registerUi({["menu"] = "Undo", ["callback"] = "undo", ["accelerator"] = "z"});
