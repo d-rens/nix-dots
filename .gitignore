@@ -1,5 +1,7 @@
+!mpd/mpd.conf
 *.db
 */.jukit/
+*/error.log
 *cache.db
 *cache.db.lock
 .gsd-keyboard.settings-ported
@@ -15,7 +17,9 @@ GNOME-xdg-terminals.list
 GeoGebra/
 Kitware/
 Morgen/
+Mullvad VPN/
 OpenSCAD/
+OpenTabletDriver/
 PrusaSlicer/
 QtProject.conf
 QtProject/
@@ -71,12 +75,14 @@ mbsync/
 mimeapps.list
 monero-project/
 monitors.xml
+mpd/
 mpv/
 msmtp/
 mutt/
 neofetch/
 newsboat/cache.db
 newsboat/cache.db.lock
+nheko/
 notmuch-config
 notmuch/
 npm/
@@ -93,6 +99,7 @@ pavucontrol.ini
 pomo/
 pulse/
 qBittorrent/
+qmk/
 qutebrowser/
 scrot/
 sublime-merge/
@@ -106,6 +113,7 @@ transmission/
 trashrc
 uad/
 user-dirs.locale
+via-nativia
 vidcutter/
 vifm/
 wget/
