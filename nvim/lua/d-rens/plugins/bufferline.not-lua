@@ -1,4 +1,4 @@
-return {
+ return {
     "akinsho/bufferline.nvim",
     -- dir = "~/personal/bufferline.nvim",
     event = "VimEnter",
