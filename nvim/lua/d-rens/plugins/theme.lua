@@ -1,4 +1,5 @@
 return {
+    "catppuccin/nvim",
     "ray-x/aurora",
     name = "aurora",
     lazy = false,
