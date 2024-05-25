@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./fish.nix
+    ./modules/fish.nix
   ];
 
   home = {
@@ -20,6 +20,7 @@
 
 
   home.file = {
+    # home stuff
   };
 
 
