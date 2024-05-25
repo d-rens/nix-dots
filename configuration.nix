@@ -77,11 +77,13 @@ in
     fish
     fontconfig
     freetype
+    kitty
     unclutter
     gcc
     git
     gnumake
     gomuks
+    sct
     gparted
     grub2
     harfbuzz

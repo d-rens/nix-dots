@@ -2,7 +2,8 @@
 
 {
   imports = [
-    ./modules/fish.nix
+    modules/fish.nix
+    modules/kitty.nix
   ];
 
   home = {

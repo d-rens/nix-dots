@@ -7,21 +7,21 @@
 
 ## What configs to migrate to home-manager
 - [ ] (newsboat)
-- [ ] fish
-- [ ] git
-- [ ] gtk
-- [ ] kitty
+- [ ] git, natively
+- [ ] gtk, natively
 - [ ] lf (lfub)
+- [ ] mpd (move from configuration.nix)
 - [ ] ncmpcpp
 - [ ] neomutt
 - [ ] neovim
-- [ ] mpd (move from configuration.nix)
 - [ ] scripts
 - [ ] tmux
-- [ ] user-dirs
-- [ ] xdg stuff
+- [ ] user-dirs, natively
+- [ ] xdg stuff, natively
 - [ ] xournalpp
 - [ ] zathura
+- [x] fish
+- [x] kitty
 
 ### no idea how to do the following in a good way: 
 - [ ] jabref (weird setting to make extension work)
