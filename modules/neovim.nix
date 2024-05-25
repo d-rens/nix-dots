@@ -14,7 +14,6 @@
     ".config/nvim/lua/d-rens/plugins/harpoon.lua".source = ../configs/nvim/lua/d-rens/plugins/harpoon.lua;
     ".config/nvim/lua/d-rens/plugins/img-clip.lua".source = ../configs/nvim/lua/d-rens/plugins/img-clip.lua;
     ".config/nvim/lua/d-rens/plugins/lsp.lua".source = ../configs/nvim/lua/d-rens/plugins/lsp.lua;
-    ".config/nvim/lua/d-rens/plugins/obsidian.lua".source = ../configs/nvim/lua/d-rens/plugins/obsidian.lua;
     ".config/nvim/lua/d-rens/plugins/orgmode.lua".source = ../configs/nvim/lua/d-rens/plugins/orgmode.lua;
     ".config/nvim/lua/d-rens/plugins/snippets.lua".source = ../configs/nvim/lua/d-rens/plugins/snippets.lua;
     ".config/nvim/lua/d-rens/plugins/telescope.lua".source = ../configs/nvim/lua/d-rens/plugins/telescope.lua;
@@ -26,5 +25,6 @@
     ".config/nvim/lua/d-rens/plugins/vimbegood.lua".source = ../configs/nvim/lua/d-rens/plugins/vimbegood.lua;
     ".config/nvim/lua/d-rens/plugins/vimtex.lua".source = ../configs/nvim/lua/d-rens/plugins/vimtex.lua;
     ".config/nvim/lua/d-rens/plugins/zen.lua".source = ../configs/nvim/lua/d-rens/plugins/zen.lua;
+    #".config/nvim/lua/d-rens/plugins/obsidian.lua".source = ../configs/nvim/lua/d-rens/plugins/obsidian.lua;
   };
 }
