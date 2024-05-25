@@ -1,9 +1,9 @@
 # nix
 
 ## general tasks
+- [ ] managing both t470 and x220 
 - [ ] setting up dots in home manager
 - [ ] modularize
-- [ ] managing both t470 and x220 
 
 ## What configs to migrate to home-manager
 - [ ] (newsboat)
