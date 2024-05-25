@@ -3,7 +3,7 @@
 {
   imports = [
     ./modules/fish.nix
-    ./modules/nvim.nix
+    ./modules/neovim.nix
     ./modules/kitty.nix
   ];
 
