@@ -71,6 +71,8 @@ in
     bluetuith
     brightnessctl
     btop
+    ripgrep
+    lua
     calcurse
     fastfetch
     firefox

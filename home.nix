@@ -2,8 +2,9 @@
 
 {
   imports = [
-    modules/fish.nix
-    modules/kitty.nix
+    ./modules/fish.nix
+    ./modules/nvim.nix
+    ./modules/kitty.nix
   ];
 
   home = {
