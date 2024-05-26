@@ -13,7 +13,7 @@ in
   imports =
     [ 
       ./hardware-configuration.nix
-      ../default/suckless.nix
+      ../common/suckless.nix
     ];
 
 

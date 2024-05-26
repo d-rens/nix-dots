@@ -11,7 +11,8 @@ in
 {
   imports = [ 
       ./hardware-configuration.nix
-      ../default/suckless.nix
+      ../common/suckless.nix
+      ../common/packages.nix
     ];
 
   boot.loader = {
@@ -60,57 +61,57 @@ in
     };
   };
 
-  environment.systemPackages = with pkgs; [
-    arandr
-    bc
-    binutils
-    bluetuith
-    brightnessctl
-    btop
-    ripgrep
-    lua
-    calcurse
-    fastfetch
-    firefox
-    fish
-    fontconfig
-    freetype
-    kitty
-    unclutter
-    gcc
-    git
-    gnumake
-    gomuks
-    sct
-    gparted
-    grub2
-    harfbuzz
-    keepassxc
-    keepmenu
-    lf
-    librewolf
-    makeWrapper
-    mpc-cli
-    mpd
-    ncmpcpp
-    neovim
-    pkg-config
-    pulsemixer
-    pywal
-    slock
-    syncthing
-    tmux
-    tree
-    wget
-    xorg.libX11
-    xorg.libX11.dev
-    xorg.libXft
-    xorg.libXinerama
-    xorg.xkbcomp
-    xorg.xmodmap
-    yt-dlp
-    zoxide
-  ];
+  #environment.systemPackages = with pkgs; [
+  #  arandr
+  #  bc
+  #  binutils
+  #  bluetuith
+  #  brightnessctl
+  #  btop
+  #  ripgrep
+  #  lua
+  #  calcurse
+  #  fastfetch
+  #  firefox
+  #  fish
+  #  fontconfig
+  #  freetype
+  #  kitty
+  #  unclutter
+  #  gcc
+  #  git
+  #  gnumake
+  #  gomuks
+  #  sct
+  #  gparted
+  #  grub2
+  #  harfbuzz
+  #  keepassxc
+  #  keepmenu
+  #  lf
+  #  librewolf
+  #  makeWrapper
+  #  mpc-cli
+  #  mpd
+  #  ncmpcpp
+  #  neovim
+  #  pkg-config
+  #  pulsemixer
+  #  pywal
+  #  slock
+  #  syncthing
+  #  tmux
+  #  tree
+  #  wget
+  #  xorg.libX11
+  #  xorg.libX11.dev
+  #  xorg.libXft
+  #  xorg.libXinerama
+  #  xorg.xkbcomp
+  #  xorg.xmodmap
+  #  yt-dlp
+  #  zoxide
+  #];
 
   fonts.packages = with pkgs; [
     cm_unicode
