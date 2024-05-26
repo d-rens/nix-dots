@@ -5,17 +5,14 @@
 { config, pkgs, inputs, ... }:
 
 let
-  # variables can be defined in here
   user="x";
 in
 
 {
-  imports =
-    [ 
+  imports = [ 
       ./hardware-configuration.nix
-      ./suckless.nix
+      ../default/suckless.nix
     ];
-
 
   boot.loader = {
     efi = {
@@ -34,7 +31,6 @@ in
   };
 
   time.timeZone = "Europe/Berlin";
-
 
 
   i18n = {
@@ -228,5 +224,4 @@ in
   };
 
   users.defaultUserShell = pkgs.fish;
-
 }
