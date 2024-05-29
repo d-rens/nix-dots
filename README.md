@@ -11,7 +11,7 @@
 - [ ] lf (lfub)
   - [ ] check vimjoyer video for that
 - [ ] mpd (move from configuration.nix)
-- [ ] ncmpcpp
+- [x] ncmpcpp
 - [ ] neomutt
 - [ ] scripts
 - [ ] tmux
@@ -29,12 +29,13 @@
 - [ ] xmodmap (here the program is the problem)
 
 ### configs to declare
-- [ ] firefox
+~~- [ ] firefox~~
 
 ## Alternatives to consider while switching
-- [ ] st -> kitty (for image protocoll)
-- [ ] gomuks -> iamb
-- [ ] firefox -> librefox/tor (are those declarable?)
+- [x] st -> kitty (for image protocoll)
+- [x] gomuks -> iamb
+- [x] firefox -> librefox/tor (are those declarable?)
 - [ ] neomutt -> himalaya, rust btw
-- [ ] dwm -> dwl (wayland dwm)
-- [ ] dwm -> sway (wayland i3)
+~~- [ ] dwm -> dwl (wayland dwm)~~
+~~- [ ] dwm -> sway (wayland i3)~~
+- [x] dwm -> river
