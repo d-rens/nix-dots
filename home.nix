@@ -3,8 +3,10 @@
 {
   imports = [
     ./modules/fish.nix
+    ./modules/river.nix
     ./modules/neovim.nix
     ./modules/kitty.nix
+    ./modules/ncmpcpp.nix
   ];
 
   home = {
@@ -16,7 +18,7 @@
       VISUAL = "nvim";
     };
     packages = with pkgs; [
-      fish
+      # placeholder
     ];
   };
 
@@ -26,12 +28,7 @@
   };
 
 
-
   programs = {
-    fish = {
-      # not working
-      interactiveShellInit = "fastfetch";
-    };
     git = {
       enable = true;
       userName = "d-rens";
