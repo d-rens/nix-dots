@@ -61,58 +61,6 @@ in
     };
   };
 
-  #environment.systemPackages = with pkgs; [
-  #  arandr
-  #  bc
-  #  binutils
-  #  bluetuith
-  #  brightnessctl
-  #  btop
-  #  ripgrep
-  #  lua
-  #  calcurse
-  #  fastfetch
-  #  firefox
-  #  fish
-  #  fontconfig
-  #  freetype
-  #  kitty
-  #  unclutter
-  #  gcc
-  #  git
-  #  gnumake
-  #  gomuks
-  #  sct
-  #  gparted
-  #  grub2
-  #  harfbuzz
-  #  keepassxc
-  #  keepmenu
-  #  lf
-  #  librewolf
-  #  makeWrapper
-  #  mpc-cli
-  #  mpd
-  #  ncmpcpp
-  #  neovim
-  #  pkg-config
-  #  pulsemixer
-  #  pywal
-  #  slock
-  #  syncthing
-  #  tmux
-  #  tree
-  #  wget
-  #  xorg.libX11
-  #  xorg.libX11.dev
-  #  xorg.libXft
-  #  xorg.libXinerama
-  #  xorg.xkbcomp
-  #  xorg.xmodmap
-  #  yt-dlp
-  #  zoxide
-  #];
-
   fonts.packages = with pkgs; [
     cm_unicode
     dina-font
@@ -132,6 +80,7 @@ in
 
   environment.shells = with pkgs; [ fish ];
   programs = {
+    river.enable = true;
     fish.enable = true;
     mtr.enable = true;
     gnupg.agent = {
@@ -143,22 +92,22 @@ in
   
 
   services = {
-    displayManager.defaultSession = "none+dwm";
-    xserver = {
-      displayManager.lightdm.enable = true;
-      enable = true;
-      windowManager = {
-        dwm = {
-          enable = true;
-        };
-      };
-      #xkb = {
-      #  layout = "us";
-      #  options = "
-      #  caps:escape
-      #  ";
-      #};
-    };
+    #greetd.enable = true;
+    #nscd.enable = true;
+    #displayManager.defaultSession = "none+dwm";
+    #xserver = {
+    #  displayManager.lightdm.enable = true;
+    #  enable = true;
+    #  windowManager = {
+    #    dwm = {
+    #      enable = true;
+    #    };
+    #  };
+    #  xkb = {
+    #    layout = "us";
+    #    options = "a:e, caps:escape, e:a";
+    #  };
+    #};
     openssh.enable = true;
   };
 
