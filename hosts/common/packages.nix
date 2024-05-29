@@ -1,31 +1,46 @@
-# Edit this configuration file to define what should be installed on
-# your system.  Help is available in the configuration.nix(5) man page
-# and in the NixOS manual (accessible by running ‘nixos-help’).
+# this file should not be in hosts
 
-{ pkgs }:
+{ pkgs, config, ... }:
 
 {
   environment.systemPackages = with pkgs; [
     ## cli apps
     bc
+    bemenu
     bluetuith
     brightnessctl
     btop
     calcurse
     fastfetch
+    hugo
+    foot
+    iamb
+    isync
     gomuks
+    lazygit
     lf
+    lynx
     mpc-cli
     mpd
+    mpv
+    mutt-wizard
+    neomutt
     ncmpcpp
     neovim
+    pass
     pulsemixer
     pywal
     tmux
     tree
     wget
+    xclip
     yt-dlp
+    ytfzf
     zoxide
+
+    ## wayland things
+    river
+    #greetd.greetd  # not working, stopped
 
     ## X things
     arandr
@@ -57,9 +72,7 @@
     unclutter
 
     ## gui apps
-    firefox
     librewolf
-    thunderbird
 
     ## privacy / security
     keepassxc
