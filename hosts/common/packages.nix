@@ -12,37 +12,50 @@
     btop
     calcurse
     fastfetch
-    hugo
     foot
     iamb
     isync
-    gomuks
     lazygit
+    libnotify
     lf
     lynx
     mpc-cli
     mpd
     mpv
     mutt-wizard
-    neomutt
     ncmpcpp
+    neomutt
     neovim
     pass
+    playerctl
     pulsemixer
     pywal
+    rofi-wayland
     tmux
     tree
+    waylock
     wget
     xclip
     yt-dlp
     ytfzf
     zoxide
 
-    ## wayland things
+    # wayland things
     river
-    #greetd.greetd  # not working, stopped
+    swaybg
+    wlr-randr
+    mako
+    ## waybar
+    swaynotificationcenter
+    waybar
+    font-awesome
+    ## screenshot
+    grim
+    slurp
+    swayimg
 
-    ## X things
+
+    # X things
     arandr
     harfbuzz
     sct
