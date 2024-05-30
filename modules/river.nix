@@ -165,5 +165,33 @@
     # River will send the process group of the init executable SIGTERM on exit.
     riverctl default-layout rivertile
     rivertile -view-padding 6 -outer-padding 6 &
+    
+    ## 
+    # map rofi-wayland
+    riverctl map normal Super P spawn 'rofi -show combi -modes combi -combi-modes "window,drun,run" -font "mononoki NF 14" -icon-theme "Papirus-dark" -show-icons'
+    riverctl map normal Super+Shift P spawn bemenu-run
+    
+    # Super+Period and Super+Comma to focus the next/previous output
+    riverctl map normal Super Period focus-output next
+    riverctl map normal Super Comma focus-output previous
+    
+    # Super+Shift+{Period,Comma} to send the focused view to the next/previous output
+    riverctl map normal Super+Shift Period send-to-output next
+    riverctl map normal Super+Shift Comma send-to-output previous
+    
+    # Set app-ids and titles of views which should use client side decorations
+    riverctl csd-filter-add app-id "gedit"
+    
+    ## auto
+    riverctl spawn "mako"
+    #riverctl spawn "wlr-randr --output DP-2 --mode 2560x1080@144.001007Hz"
+    riverctl spawn "swaybg -i /home/yeti/Pictures/walls/ultra-wide/0011.jpg"
+    riverctl spawn "waybar"
+    #riverctl spawn "notify-send -t 8000 -i $HOME/.mako-art/nana.png 'Welcome yeti!' &> /dev/null &"
+    
+    # Set and exec into the default layout generator, rivertile.
+    # River will send the process group of the init executable SIGTERM on exit.
+    riverctl default-layout rivertile
+    exec rivertile -view-padding 6 -outer-padding 6
   '';
 }

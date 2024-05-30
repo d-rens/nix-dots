@@ -1,0 +1,110 @@
+/* General Styles */
+* {
+    border: none;
+    border-radius: 0;
+    font-family: 'FiraCode Nerd Font', 'DroidSansM Nerd Font Mono', sans-serif;
+    font-size: 15px;
+}
+
+/* Waybar Window */
+window#waybar {
+    background-color: transparent;
+    color: white;
+}
+
+/* Workspace/Tag Buttons */
+#tags button, #workspaces button {
+    padding: 0 5px;
+    margin: 3px 3px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #D9E0EE;
+    box-shadow: inset 0 -3px transparent;
+    border: none;
+    border-radius: 3px;
+}
+
+#tags button:hover, #workspaces button:hover {
+    box-shadow: inset 0 -3px #D9E0EE;
+}
+
+#tags button.occupied, #workspaces button.focused {
+    box-shadow: inset 0 -3px white;
+}
+
+#tags button.focused, #workspaces button.focused {
+    background-color: black;
+    box-shadow: inset 0 -3px white;
+}
+
+#tags button.urgent, #workspaces button.urgent {
+    background-color: #00bcd4;
+}
+
+#mode {
+    background-color: #64727D;
+    border-bottom: 3px solid #D9E0EE;
+}
+
+/* Modules */
+#clock, #battery, #cpu, #memory, #disk, #temperature, #backlight, #network, #pulseaudio, #custom-media, #tray, #mode, #idle_inhibitor, #custom-notifs, #mpd, #language, #custom-clock, #custom-uptime, #custom-load, #custom-powerprofile {
+    padding: 5px 10px;
+    margin: 3px 3px;
+    color: #D9E0EE;
+    background-color: black;
+    border-radius: 3px;
+}
+
+/* Additional Module Styles */
+#clock {
+    min-width: 45px;
+    margin-right: 11px;
+}
+
+#battery {
+    min-width: 55px;
+}
+
+#network {
+    min-width: 150px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: #F28FAD;
+}
+
+/* Critical Battery Animation */
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background-color: #f53c3c;
+    color: #D9E0EE;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Focused Label */
+label:focus {
+    background-color: #D9E0EE;
+}
+
+/* Margin Adjustments */
+#window, #tags, #workspaces {
+    margin: 0 4px;
+}
+
+.modules-right > widget:last-child > #tags, .modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
