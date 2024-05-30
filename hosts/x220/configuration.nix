@@ -71,6 +71,7 @@ in
     maple-mono
     maple-mono-NF
     mplus-outline-fonts.githubRelease
+    mononoki
     noto-fonts
     noto-fonts-cjk
     noto-fonts-emoji
