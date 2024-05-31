@@ -7,14 +7,13 @@
 
 ## What configs to migrate to home-manager
 - [ ] (newsboat)
-- [ ] gtk, natively
-- [ ] lf (lfub)
-  - [ ] check vimjoyer video for that
-- [ ] mpd (move from configuration.nix)
+- [x] gtk, natively (made via stylix)
+- [x] lf
+- [ ] mpd directory in home
 - [x] ncmpcpp
 - [ ] neomutt
 - [ ] scripts
-- [ ] tmux
+- [x] tmux
 - [ ] user-dirs, natively
 - [ ] xdg stuff, natively
 - [ ] xournalpp

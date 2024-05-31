@@ -13,7 +13,13 @@ in
       ./hardware-configuration.nix
       ../common/suckless.nix
       ../common/packages.nix
+      ../common/theme/stylix.nix
     ];
+
+  #stylix = {
+  #    base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-dark-medium.yaml";
+  #    image = ../common/theme/wallpaper.jpg;
+  #};
 
   boot.loader = {
     efi = {
@@ -62,6 +68,7 @@ in
   };
 
   fonts.packages = with pkgs; [
+    jetbrains-mono
     cm_unicode
     dina-font
     fira-code

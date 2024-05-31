@@ -2,21 +2,21 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: 'FiraCode Nerd Font', 'DroidSansM Nerd Font Mono', sans-serif;
-    font-size: 15px;
+    /*font-family: 'FiraCode Nerd Font', 'DroidSansM Nerd Font Mono', sans-serif;*/
+    /*font-size: 15px;*/
 }
 
 /* Waybar Window */
 window#waybar {
-    background-color: transparent;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
 }
 
 /* Workspace/Tag Buttons */
 #tags button, #workspaces button {
     padding: 0 5px;
     margin: 3px 3px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     color: #D9E0EE;
     box-shadow: inset 0 -3px transparent;
     border: none;
@@ -28,12 +28,12 @@ window#waybar {
 }
 
 #tags button.occupied, #workspaces button.focused {
-    box-shadow: inset 0 -3px white;
+    box-shadow: inset 0 -3px #ffffff;
 }
 
 #tags button.focused, #workspaces button.focused {
-    background-color: black;
-    box-shadow: inset 0 -3px white;
+    background-color: #000000;
+    box-shadow: inset 0 -3px #ffffff;
 }
 
 #tags button.urgent, #workspaces button.urgent {
@@ -47,10 +47,10 @@ window#waybar {
 
 /* Modules */
 #clock, #battery, #cpu, #memory, #disk, #temperature, #backlight, #network, #pulseaudio, #custom-media, #tray, #mode, #idle_inhibitor, #custom-notifs, #mpd, #language, #custom-clock, #custom-uptime, #custom-load, #custom-powerprofile {
-    padding: 5px 10px;
-    margin: 3px 3px;
+    padding: 3px 7px;
+    margin: 2px 2px;
     color: #D9E0EE;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 3px;
 }
 

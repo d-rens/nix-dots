@@ -1,7 +1,11 @@
-{ config, pkgs, ...}:
+{ config, pkgs, lib, ...}:
 
 {
-  home.file = {
-    ".config/kitty/kitty.conf".source = ../configs/kitty/kitty.conf;
+  programs.kitty = {
+    enable = true;
+    settings = {
+      #font_size = 10;
+      background_opacity = lib.mkDefault "0.8";
+    };
   };
 }
