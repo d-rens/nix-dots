@@ -15,8 +15,7 @@
     
     # Note: the "Super" modifier is also known as Logo, GUI, Windows, Mod4, etc.
     
-    # Super+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
-    riverctl map normal Super+Shift Return spawn foot
+    riverctl map normal Super+Shift Return spawn kitty
     
     # Super+Q to close the focused view
     riverctl map normal Super Q close
@@ -185,7 +184,7 @@
     ## auto
     riverctl spawn "mako"
     #riverctl spawn "wlr-randr --output DP-2 --mode 2560x1080@144.001007Hz"
-    riverctl spawn "swaybg -i /home/yeti/Pictures/walls/ultra-wide/0011.jpg"
+    riverctl spawn "swaybg -i ~/.dots/modules/wp.jpg"
     riverctl spawn "waybar"
     #riverctl spawn "notify-send -t 8000 -i $HOME/.mako-art/nana.png 'Welcome yeti!' &> /dev/null &"
     
