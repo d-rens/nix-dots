@@ -8,9 +8,9 @@
 {
   programs.waybar = {
     enable = true;
-    #systemd = {
-    #  enable = false; # Started from sway bar command
-    #};
+    systemd = {
+      enable = false; # Started from sway bar command
+    };
     settings = {
       bottomBar = {
         layer = "top";
@@ -223,9 +223,8 @@
         };
       };
     };
-    style = pkgs.substituteAll {
+    style = pkgs.lib.mkForce (pkgs.substituteAll {
       src = ./waybar.css;
-      #font = config.gtk.font.name;
-    };
+    });
   };
 }
