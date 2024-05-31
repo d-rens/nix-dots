@@ -7,6 +7,7 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    stylix.url = "github:danth/stylix";
   };
 
   outputs = inputs@{ self, nixpkgs, home-manager, ... }:
@@ -18,7 +19,6 @@
         system = "x86_64-linux";
         modules = [
           ./hosts/t470/configuration.nix
-          ./hosts/t470/hardware-configuration.nix
           home-manager.nixosModules.home-manager
           {
             home-manager = {
@@ -34,7 +34,7 @@
         system = "x86_64-linux";
         modules = [
           ./hosts/x220/configuration.nix
-          ./hosts/x220/hardware-configuration.nix
+          inputs.stylix.nixosModules.stylix
           home-manager.nixosModules.home-manager
           {
             home-manager = {

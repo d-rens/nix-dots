@@ -5,6 +5,8 @@
 {
   environment.systemPackages = with pkgs; [
     ## cli apps
+    alacritty
+    base16-schemes
     bc
     bemenu
     bluetuith
@@ -12,6 +14,7 @@
     btop
     calcurse
     fastfetch
+    font-manager
     foot
     iamb
     isync
@@ -26,6 +29,7 @@
     ncmpcpp
     neomutt
     neovim
+    pamixer
     pass
     playerctl
     pulsemixer
@@ -93,3 +97,5 @@
     syncthing
   ];
 }
+
+
