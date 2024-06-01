@@ -16,11 +16,6 @@ in
       ../common/theme/stylix.nix
     ];
 
-  #stylix = {
-  #    base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-dark-medium.yaml";
-  #    image = ../common/theme/wallpaper.jpg;
-  #};
-
   boot.loader = {
     efi = {
       canTouchEfiVariables = true;
@@ -86,7 +81,10 @@ in
   ];
 
 
-  environment.shells = with pkgs; [ fish ];
+  environment = {
+      shells = with pkgs; [ fish ];
+      variables.EDITOR = "nvim";
+  };
   programs = {
     river.enable = true;
     fish.enable = true;
@@ -100,36 +98,30 @@ in
   
 
   services = {
-    #greetd.enable = true;
-    #nscd.enable = true;
-    #displayManager.defaultSession = "none+dwm";
-    #xserver = {
-    #  displayManager.lightdm.enable = true;
-    #  enable = true;
-    #  windowManager = {
-    #    dwm = {
-    #      enable = true;
-    #    };
-    #  };
-    #  xkb = {
-    #    layout = "us";
-    #    options = "a:e, caps:escape, e:a";
-    #  };
-    #};
     openssh.enable = true;
+    mpd = {
+        enable = true;
+        musicDirectory = "/home/x/media/music";
+        network.listenAddress = "any";
+        user = "x";
+        extraConfig = ''
+            audio_output {
+                type "pipewire"
+                    name "pipewire"
+            }
+        audio_output {
+            type "fifo"
+                name "fifo"
+                path "/tmp/mpd.fifo"
+                format "44100:16:2"
+        }
+        '';
+    };
   };
 
-  services.mpd = {
-    enable = true;
-    musicDirectory = "/mnt/share/music";
-    network.listenAddress = "any";
-    user = "x";
-    extraConfig = ''
-      audio_output {
-        type "pipewire"
-        name "pipewire"
-      }
-    '';
+  # because mpd is on system level and pipewire on user level
+  systemd.services.mpd.environment = {
+      XDG_RUNTIME_DIR = "/run/user/1000"; 
   };
 
 
@@ -155,11 +147,6 @@ in
     };
   };
 
-  systemd.services.mpd.environment = {
-    # https://gitlab.freedesktop.org/pipewire/pipewire/-/issues/609
-    XDG_RUNTIME_DIR =
-      "/run/user/1000"; 
-  };
 
   nix = {
     settings.auto-optimise-store = true;
