@@ -177,35 +177,35 @@
       # YouTube Channels
       {
         tags = [ "youtube" ];
-        url = "https://inv.tux.pizza/feed/channel/UCovndCJjH4fO1DW_ZnM0cZw";
+        url = "https://invidious.privacyredirect.com/feed/channel/UCovndCJjH4fO1DW_ZnM0cZw";
       }
       {
         tags = [ "youtube" ];
-        url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCKzJFdi57J53Vr_BkTfN3uQ";
+        url = "https://invidious.privacyredirect.com/feeds/videos.xml?channel_id=UCKzJFdi57J53Vr_BkTfN3uQ";
       }
       {
         tags = [ "youtube" ];
-        url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCRb6Mw3fJ6OFzp-cB9X29aA";
+        url = "https://invidious.privacyredirect.com/feeds/videos.xml?channel_id=UCRb6Mw3fJ6OFzp-cB9X29aA";
       }
       {
         tags = [ "youtube" ];
-        url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCafEZMU5s8geb9oIly6xTrg";
+        url = "https://invidious.privacyredirect.com/feeds/videos.xml?channel_id=UCafEZMU5s8geb9oIly6xTrg";
       }
       {
         tags = [ "youtube" ];
-        url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCcaTUtGzOiS4cqrgtcsHYWg";
+        url = "https://invidious.privacyredirect.com/feeds/videos.xml?channel_id=UCcaTUtGzOiS4cqrgtcsHYWg";
       }
       {
         tags = [ "youtube" ];
-        url = "https://www.youtube.com/feeds/videos.xml?channel_id=UChd2vv9wZK88g2p7jNT-REg";
+        url = "https://invidious.privacyredirect.com/feeds/videos.xml?channel_id=UChd2vv9wZK88g2p7jNT-REg";
       }
       {
         tags = [ "youtube" ];
-        url = "https://www.youtube.com/feeds/videos.xml?channel_id=UChyA7V9WtsvnjZHSeOQFXMg";
+        url = "https://invidious.privacyredirect.com/feeds/videos.xml?channel_id=UChyA7V9WtsvnjZHSeOQFXMg";
       }
       {
         tags = [ "youtube" ];
-        url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCoHhuummRZaIVX7bD4t2czg";
+        url = "https://invidious.privacyredirect.com/feeds/videos.xml?channel_id=UCoHhuummRZaIVX7bD4t2czg";
       }
     ];
   };
