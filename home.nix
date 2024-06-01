@@ -7,6 +7,7 @@
     ./modules/lf.nix
     ./modules/ncmpcpp.nix
     ./modules/neovim.nix
+    ./modules/newsboat.nix
     ./modules/river.nix
     ./modules/waybars.nix
     ./modules/zathura.nix

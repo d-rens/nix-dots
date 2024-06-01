@@ -30,6 +30,7 @@
     ncmpcpp
     neomutt
     neovim
+    newsboat
     pamixer
     pass
     playerctl
