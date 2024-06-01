@@ -2,22 +2,22 @@
 
 ## general tasks
 - [ ] managing both t470 and x220 
-- [ ] setting up dots in home manager
+- [>] setting up dots in home manager
 - [ ] modularize
 
 ## What configs to migrate to home-manager
-- [ ] (newsboat)
+- [x] (newsboat)
 - [x] gtk, natively (made via stylix)
 - [x] lf
-- [ ] mpd directory in home
+- [x] mpd directory in home
 - [x] ncmpcpp
 - [ ] neomutt
 - [ ] scripts
 - [x] tmux
-- [ ] user-dirs, natively
+~~- [ ] user-dirs, natively~~
 - [ ] xdg stuff, natively
 - [ ] xournalpp
-- [ ] zathura
+- [x] zathura
 - [x] fish
 - [x] git, natively
 - [x] kitty
@@ -25,7 +25,6 @@
 
 ### no idea how to do the following in a good way: 
 - [ ] jabref (weird setting to make extension work)
-- [ ] xmodmap (here the program is the problem)
 
 ### configs to declare
 ~~- [ ] firefox~~
