@@ -14,6 +14,7 @@
     btop
     calcurse
     fastfetch
+    firefox
     font-manager
     foot
     iamb
@@ -42,6 +43,7 @@
     xclip
     yt-dlp
     ytfzf
+    zathura
     zoxide
 
     # wayland things
@@ -97,5 +99,4 @@
     syncthing
   ];
 }
-
 

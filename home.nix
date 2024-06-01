@@ -9,6 +9,7 @@
     ./modules/neovim.nix
     ./modules/river.nix
     ./modules/waybars.nix
+    ./modules/zathura.nix
   ];
 
   home = {
@@ -19,14 +20,18 @@
       EDITOR = "nvim";
       VISUAL = "nvim";
     };
-    packages = with pkgs; [
-      # placeholder
-    ];
   };
 
 
   programs = {
+
+    neovim = {
+        enable = true;
+        defaultEditor = true;
+    };
+
     alacritty.enable = true;
+
     tmux = {
         enable = true;
         extraConfig = ''
@@ -38,6 +43,7 @@
             set -g status-position top
         '';
     };
+
     git = {
       enable = true;
       userName = "d-rens";
@@ -50,13 +56,14 @@
         ca = "commit -m --ammend";
         csa = "commit -m -S --ammend";
       };
-    extraConfig = {
-      core.editor = "nvim";
-      init.defaultBranch = "main";
-      commit.gpgsign = true;
-      user.signingkey = "F0F708E2ED281B48DF26A213DCF60F08282ADCB9";
-      };
+      extraConfig = {
+        core.editor = "nvim";
+        init.defaultBranch = "main";
+        commit.gpgsign = true;
+        user.signingkey = "F0F708E2ED281B48DF26A213DCF60F08282ADCB9";
+        };
     };
+
     home-manager.enable = true;
   };
 }
