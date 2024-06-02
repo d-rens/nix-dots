@@ -9,7 +9,7 @@
 
     mpd = {
         enable = true;
-        musicDirectory = "/home/x/media/music";
+        musicDirectory = "/home/da/media/music";
         network.listenAddress = "any";
         user = "da";
         extraConfig = ''

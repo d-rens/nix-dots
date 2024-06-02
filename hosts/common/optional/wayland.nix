@@ -14,4 +14,6 @@
     waylock
     wlr-randr
   ];
+
+programs.river.enable = true;
 }
