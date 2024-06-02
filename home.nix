@@ -11,6 +11,7 @@
     ./modules/river.nix
     ./modules/waybars.nix
     ./modules/zathura.nix
+    ./modules/xournalpp/xournalpp.nix
   ];
 
   home = {

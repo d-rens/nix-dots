@@ -42,6 +42,7 @@
     waylock
     wget
     xclip
+    xournalpp
     yt-dlp
     ytfzf
     zathura
