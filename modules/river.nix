@@ -1,6 +1,9 @@
 { config, pkgs, ...}:
 
 {
+  home.packages = with pkgs; [
+      river
+  ];
   wayland.windowManager.river.enable = true;
   wayland.windowManager.river.extraConfig = ''
     #!/bin/sh
