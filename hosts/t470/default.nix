@@ -11,6 +11,6 @@
 
   networking = {
     networkmanager.enable = true;
-    hostName = "nixos-x"; 
+    hostName = "nixos-t"; 
   };
 }
