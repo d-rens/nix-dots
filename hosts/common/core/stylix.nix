@@ -2,7 +2,6 @@
 
 { pkgs, config, ... }:
 
-
 {
   stylix = {
     polarity = "dark";
@@ -18,28 +17,25 @@
         grub.enable = false;
     };
 
-    image = ./wp.jpg;
 
     fonts = {
       serif = {
         package = pkgs.cm_unicode;
         name = "CMU Serif";
       };
-
       sansSerif = {
         package = pkgs.dejavu_fonts;
         name = "DejaVu Sans";
       };
-
       monospace = {
         package = pkgs.iosevka;
         name = "Iosevka";
       };
-
       emoji = {
         package = pkgs.noto-fonts-emoji;
         name = "Noto Color Emoji";
       };
     };
   };
+  stylix.image = ./wp.jpg;
 }
