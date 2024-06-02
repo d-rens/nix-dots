@@ -14,6 +14,7 @@
     btop
     calcurse
     fastfetch
+    firefox
     font-manager
     foot
     iamb
@@ -29,6 +30,7 @@
     ncmpcpp
     neomutt
     neovim
+    newsboat
     pamixer
     pass
     playerctl
@@ -40,8 +42,10 @@
     waylock
     wget
     xclip
+    xournalpp
     yt-dlp
     ytfzf
+    zathura
     zoxide
 
     # wayland things
@@ -97,5 +101,4 @@
     syncthing
   ];
 }
-
 

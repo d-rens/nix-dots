@@ -1,10 +1,29 @@
 { config, pkgs, ...}:
 
 {
-  home.file = {
-    ".config/fish/config.fish".source = ../configs/fish/config.fish;
-  };
+#home.file = {
+#  ".config/fish/config.fish".source = ../configs/fish/config.fish;
+#};
   programs.fish = {
-      interactiveShellInit = "fastfetch";
+    enable = true;
+
+    interactiveShellInit = ''
+      set fish_greeting 
+      set fish_vi_key_bindings 
+      zoxide init fish | source
+    '';
+
+
+    functions = {
+      __fish_command_not_found_handler = {
+        body = "__fish_default_command_not_found_handler $argv[1]";
+        onEvent = "fish_command_not_found";
+      };
+      gitignore = "curl -sL https://www.gitignore.io/api/$argv";
+    };
+
+    shellAliases = {
+      g = "git";
+    };
   };
 }
