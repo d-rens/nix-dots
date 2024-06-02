@@ -22,7 +22,7 @@
       EDITOR = "nvim";
       VISUAL = "nvim";
     };
-  home.packages = with pkgs; [
+  packages = with pkgs; [
     # Audio
     pamixer
     playerctl
@@ -39,6 +39,8 @@
     # File Management
     lf
     tree
+    # should be system package lf
+    # should be system package tree
     gdu
 
     # Academic Tools
@@ -46,7 +48,6 @@
 
     # Text Editors
     neomutt
-    neovim
     zathura
     alacritty
     tmux
