@@ -17,6 +17,7 @@
     firefox
     font-manager
     foot
+    gdu
     iamb
     isync
     lazygit
