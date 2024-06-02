@@ -22,6 +22,69 @@
       EDITOR = "nvim";
       VISUAL = "nvim";
     };
+  home.packages = with pkgs; [
+    # Audio
+    pamixer
+    playerctl
+    pulsemixer
+    mpc-cli
+    mpd
+    ncmpcpp
+
+    # Video
+    mpv
+    yt-dlp
+    ytfzf
+
+    # File Management
+    lf
+    tree
+    gdu
+
+    # Academic Tools
+    xournalpp
+
+    # Text Editors
+    neomutt
+    neovim
+    zathura
+    alacritty
+    tmux
+
+    # Messaging and Email
+    mutt-wizard
+    isync
+    iamb
+
+    # Web Browsers
+    firefox
+    lynx
+    newsboat
+    librewolf
+
+    # Fonts
+    font-manager
+    font-awesome
+
+    # User Utilities
+    base16-schemes
+    bemenu
+    bluetuith
+    brightnessctl
+    btop
+    calcurse
+    kitty
+    lazygit
+    libnotify
+    pywal
+    xclip
+
+    # Security
+    pass
+    keepassxc
+    keepmenu
+    syncthing
+  ];
   };
 
 
