@@ -6,7 +6,7 @@
     ./modules/kitty.nix
     ./modules/lf.nix
     ./modules/ncmpcpp.nix
-    ./modules/neovim.nix
+    ./modules/nvim/nvim.nix
     ./modules/newsboat.nix
     ./modules/river.nix
     ./modules/waybars.nix
