@@ -15,36 +15,39 @@
     lib = nixpkgs.lib;
   in {
     nixosConfigurations = {
-      t470 = lib.nixosSystem {
-        system = "x86_64-linux";
-        modules = [
-          ./hosts/t470/configuration.nix
-          home-manager.nixosModules.home-manager
-          {
-            home-manager = {
-              useGlobalPkgs = true;
-              useUserPackages = true;
-              users.x = import ./home.nix;
-            };
-          }
-        ];
-      };
+
+      #t470 = lib.nixosSystem {
+      #  system = "x86_64-linux";
+      #  modules = [
+      #    ./hosts/t470
+      #    home-manager.nixosModules.home-manager
+      #    {
+      #      home-manager = {
+      #        useGlobalPkgs = true;
+      #        useUserPackages = true;
+      #        users.da = import ./home.nix;
+      #      };
+      #    }
+      #  ];
+      #};
 
       x220 = lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
-          ./hosts/x220/configuration.nix
+          ./hosts/x220
           inputs.stylix.nixosModules.stylix
           home-manager.nixosModules.home-manager
           {
             home-manager = {
               useGlobalPkgs = true;
               useUserPackages = true;
-              users.x = import ./home.nix;
+              users.da = import ./home.nix;
+              #users.guest = import ./home.nix;
             };
           }
         ];
       };
+
     };
   };
 }
