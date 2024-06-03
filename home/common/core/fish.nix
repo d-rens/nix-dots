@@ -8,7 +8,7 @@
     enable = true;
 
     interactiveShellInit = ''
-      fish_greeting 
+      set fish_greeting 
       fish_vi_key_bindings 
       zoxide init fish | source
     '';
