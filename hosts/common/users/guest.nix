@@ -2,8 +2,8 @@
 
 {
   imports = [
-    ./core
-    ./optional/wayland.nix
+    ../core
+    ../optional/wayland.nix
   ];
 
 

@@ -5,6 +5,7 @@
     ../common/core
 
     ../common/optional/git.nix
+    ../common/optional/kitty.nix
     ../common/optional/mail.nix
     ../common/optional/matrix.nix
     ../common/optional/music.nix
