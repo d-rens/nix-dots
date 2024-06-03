@@ -6,10 +6,9 @@
 
     ../common/optional/kitty.nix
     ../common/optional/music.nix
-    ../common/optional/river.nix
     ../common/optional/tmux.nix
     ../common/optional/video.nix
-    ../common/optional/waybars.nix
+    ../common/optional/wayland
   ];
 
   home = {

@@ -2,7 +2,8 @@
 
 {
   imports = [
-    # ./placeholder.nix
+    ./core
+    ./optional/wayland.nix
   ];
 
 

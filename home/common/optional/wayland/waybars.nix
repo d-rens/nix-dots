@@ -9,7 +9,7 @@
   programs.waybar = {
     enable = true;
     systemd = {
-      enable = false; # Started from sway bar command
+      enable = false;
     };
     settings = {
       bottomBar = {
