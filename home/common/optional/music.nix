@@ -1,6 +1,15 @@
 { config, pkgs, ...}:
 
 {
+    home.packages = with pkgs; [
+      ncmpcpp
+      mpd
+      mpc-cli
+      pulsemixer
+      playerctl
+      pamixer
+    ];
+
     programs = {
       ncmpcpp = {
         enable = true;

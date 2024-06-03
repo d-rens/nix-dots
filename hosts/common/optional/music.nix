@@ -1,12 +1,21 @@
 { config, pkgs, inputs, ...}:
 {
 
+  environment.systemPackages = with pkgs; [
+    mpc-cli
+    mpd
+    ncmpcpp
+    pamixer
+    playerctl
+    pulsemixer
+    yt-dlp
+  ];
+
   systemd.services.mpd.environment = {
       XDG_RUNTIME_DIR = "/run/user/1000"; 
   };
 
   services = {
-
     mpd = {
         enable = true;
         musicDirectory = "/home/da/media/music";
@@ -26,5 +35,4 @@
         '';
       };
   };
-
 }

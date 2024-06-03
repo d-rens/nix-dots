@@ -3,10 +3,9 @@
 {
   imports = [ 
       ./hardware-configuration.nix
-      ../common/core
-      ../common/optional/music.nix
-      ../common/optional/wayland.nix
+
       ../common/users/da.nix
+      ../common/users/guest.nix
     ];
 
   networking = {

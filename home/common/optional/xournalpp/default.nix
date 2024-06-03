@@ -1,6 +1,10 @@
 { config, pkgs, ...}:
 
 {
+  home.packages = with pkgs; [
+    xournalpp
+  ];
+
     xdg.configFile = {
         "xournalpp/palette.gpl".source = ./src/palette.gpl;
         "xournalpp/settings.xml".source = ./src/settings.xml;
