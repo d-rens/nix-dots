@@ -1,18 +1,17 @@
 { config, pkgs, ...}:
 
 {
-#home.file = {
-#  ".config/fish/config.fish".source = ../configs/fish/config.fish;
-#};
+  home.packages = with pkgs; [
+    fish
+  ];
   programs.fish = {
     enable = true;
 
     interactiveShellInit = ''
-      set fish_greeting 
-      set fish_vi_key_bindings 
+      fish_greeting 
+      fish_vi_key_bindings 
       zoxide init fish | source
     '';
-
 
     functions = {
       __fish_command_not_found_handler = {
