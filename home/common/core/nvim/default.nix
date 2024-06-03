@@ -1,6 +1,16 @@
 { config, pkgs, ...}:
 
 {
+    home.packages = with pkgs; [
+      #neovim # already declared as system package
+      gcc # for treesitter
+      ripgrep # for telescope
+    ];
+    programs.neovim = {
+        enable = true;
+        defaultEditor = true;
+    };
+
     xdg.configFile = {
         "nvim/init.lua".source = ./src/init.lua;
         "nvim/after/ftplugin/markdown.lua".source = ./src/after/ftplugin/markdown.lua;

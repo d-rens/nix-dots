@@ -1,12 +1,10 @@
 { config, pkgs, inputs, ...}:
 
-let
-  user = "da";
-in
-
 {
   imports = [
-    # ./placeholder.nix
+    ../core
+    ../optional/music.nix
+    ../optional/wayland.nix
   ];
 
 

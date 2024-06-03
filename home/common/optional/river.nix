@@ -1,9 +1,9 @@
 { config, pkgs, ...}:
 
 {
-  home.packages = with pkgs; [
-      river
-  ];
+  xdg.configFile = {
+        "river/wp.jpg".source = ../../../hosts/common/core/wp.jpg;
+  };
   wayland.windowManager.river.enable = true;
   wayland.windowManager.river.extraConfig = ''
     #!/bin/sh
@@ -187,7 +187,7 @@
     ## auto
     riverctl spawn "mako"
     #riverctl spawn "wlr-randr --output DP-2 --mode 2560x1080@144.001007Hz"
-    riverctl spawn "swaybg -i ~/.dots/modules/wp.jpg"
+    riverctl spawn "swaybg -i ~/.config/river/wp.jpg"
     riverctl spawn "waybar"
     #riverctl spawn "notify-send -t 8000 -i $HOME/.mako-art/nana.png 'Welcome yeti!' &> /dev/null &"
     

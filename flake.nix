@@ -26,7 +26,8 @@
             home-manager = {
               useGlobalPkgs = true;
               useUserPackages = true;
-              users.da = import ./home.nix;
+              users.da = import ./home/da;
+              users.guest = import ./home/guest;
             };
           }
         ];
@@ -42,8 +43,8 @@
             home-manager = {
               useGlobalPkgs = true;
               useUserPackages = true;
-              users.da = import ./home.nix;
-              #users.guest = import ./home.nix;
+              users.da = import ./home/da;
+              users.guest = import ./home/guest;
             };
           }
         ];

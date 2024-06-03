@@ -1,5 +1,8 @@
 { config, pkgs, lib, ... }:
 {
+  home.packages = with pkgs; [
+    newsboat
+  ];
   programs.newsboat = {
     enable = true;
     autoReload = true;

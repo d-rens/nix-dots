@@ -1,6 +1,10 @@
 { config, pkgs, lib, ...}:
 
 {
+  home.packages = with pkgs; [
+    zathura
+  ];
+
   programs.zathura = {
     enable = true;
     mappings = lib.mkForce {

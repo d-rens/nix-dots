@@ -1,6 +1,8 @@
 { pkgs, config, ...}:
 {
   environment.systemPackages = with pkgs; [
+    font-manager
+    font-awesome
     fontconfig
     freetype
   ];
