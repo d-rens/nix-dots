@@ -185,7 +185,7 @@
     riverctl csd-filter-add app-id "gedit"
     
     ## auto
-    riverctl spawn "mako"
+    riverctl spawn "swaync"
     #riverctl spawn "wlr-randr --output DP-2 --mode 2560x1080@144.001007Hz"
     riverctl spawn "swaybg -i ~/.config/river/wp.jpg"
     riverctl spawn "waybar"
