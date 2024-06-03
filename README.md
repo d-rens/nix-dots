@@ -8,6 +8,7 @@
 
 ## What configs to migrate to home-manager
 - [ ] neomutt
+- [ ] everything latex
 - [ ] scripts
 - [ ] xdg stuff, natively
 
