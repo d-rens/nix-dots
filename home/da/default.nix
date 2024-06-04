@@ -10,6 +10,7 @@
     ../common/optional/matrix.nix
     ../common/optional/music.nix
     ../common/optional/newsboat.nix
+    ../common/optional/texlive.nix
     ../common/optional/tmux.nix
     ../common/optional/video.nix
     ../common/optional/zathura.nix
