@@ -21,39 +21,39 @@
     wl-clipboard
   ];
 
-  #home.sessionVariables = {
-  #  MOZ_ENABLE_WAYLAND = 1;
-  #  XDG_CURRENT_DESKTOP = "river";
-  #  NIXOS_OZONE_WL = "1";
-  #  SDL_VIDEODRIVER = "wayland";
-  #};
+  home.sessionVariables = {
+    MOZ_ENABLE_WAYLAND = 1;
+    XDG_CURRENT_DESKTOP = "river";
+    NIXOS_OZONE_WL = "1";
+    SDL_VIDEODRIVER = "wayland";
+  };
 
   programs.fuzzel = {
     enable = true;
     #settings = {
-      #main = {
-        #font = config.gtk.font.name;
-        #dpi-aware = "no"; # Sway does this for us
-        #icon-theme = config.gtk.iconTheme.name;
-        #terminal = "${config.programs.foot.package}/bin/foot";
-        #width = 50;
-      #};
+    #  main = {
+    #    font = config.gtk.font.name;
+    #    dpi-aware = "no"; # Sway does this for us
+    #    icon-theme = config.gtk.iconTheme.name;
+    #    terminal = "${config.programs.foot.package}/bin/foot";
+    #    width = 50;
+    #  };
     #};
   };
 
-  #services.gammastep = {
-  #  enable = true; # fine if systemd'd
-  #  provider = "geoclue2";
-  #  temperature = {
-  #    day = 5500;
-  #    night = 3000;
-  #  };
-  #  settings = {
-  #    general = {
-  #      fade = 1;
-  #    };
-  #  };
-  #};
+  services.gammastep = {
+    enable = true; # fine if systemd'd
+    provider = "geoclue2";
+    temperature = {
+      day = 5500;
+      night = 3000;
+    };
+    settings = {
+      general = {
+        fade = 1;
+      };
+    };
+  };
 
   services.swaync = {
     enable = true;

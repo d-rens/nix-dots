@@ -171,7 +171,7 @@
     ## 
     # map rofi-wayland
     riverctl map normal Super P spawn 'rofi -show combi -modes combi -combi-modes "window,drun,run" -font "mononoki NF 14" -icon-theme "Papirus-dark" -show-icons'
-    riverctl map normal Super+Shift P spawn bemenu-run
+    riverctl map normal Super+Shift P spawn fuzzel
     
     # Super+Period and Super+Comma to focus the next/previous output
     riverctl map normal Super Period focus-output next
