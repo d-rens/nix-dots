@@ -4,8 +4,9 @@
   imports = [ 
       ./hardware-configuration.nix
 
+      ../common/core
+
       ../common/users/da.nix
-      ../common/users/guest.nix
     ];
 
   networking = {

@@ -8,6 +8,7 @@
     ./services.nix
     ./stylix.nix
     ./network.nix
+    ./user-options.nix
     ./packages
   ];
 }

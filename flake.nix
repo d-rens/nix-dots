@@ -45,7 +45,6 @@
               useGlobalPkgs = true;
               useUserPackages = true;
               users.da = import ./home/da;
-              users.guest = import ./home/guest;
             };
           }
         ];
