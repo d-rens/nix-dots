@@ -1,4 +1,8 @@
 { pkgs, config, ... }:
 {
-    services.xserver.desktopManager.gnome.enable
+    services.xserver = {
+      enable = true;
+      displayManager.gdm.enable = true;
+      desktopManager.gnome.enable = true;
+    };
 }
