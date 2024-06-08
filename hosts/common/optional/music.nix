@@ -12,7 +12,7 @@
   ];
 
   systemd.services.mpd.environment = {
-      XDG_RUNTIME_DIR = "/run/user/1000"; 
+      XDG_RUNTIME_DIR = "/run/user/1001"; 
   };
 
   services = {

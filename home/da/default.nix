@@ -5,6 +5,7 @@
     ../common/core
 
     ../common/optional/academia
+    ../common/optional/audio.nix
     ../common/optional/git.nix
     ../common/optional/kitty.nix
     ../common/optional/mail.nix
