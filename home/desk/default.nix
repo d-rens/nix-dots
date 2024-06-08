@@ -4,8 +4,9 @@
   imports = [
     ../common/core
 
-    ../common/optional/texlive.nix
+    ../common/optional/academia
     ../common/optional/tmux.nix
+    ../common/optional/zathura.nix
   ];
 
   home = {
@@ -17,6 +18,8 @@
       VISUAL = "nvim";
     };
   };
+
+  #hardware.pulseaudio.enable = false;
 
   programs = {
     home-manager.enable = true;

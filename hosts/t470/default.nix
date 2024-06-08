@@ -4,6 +4,7 @@
   imports = [ 
       ./hardware-configuration.nix
 
+      ../common/users/da.nix
       ../common/users/desk.nix
     ];
 

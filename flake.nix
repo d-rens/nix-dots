@@ -26,8 +26,8 @@
             home-manager = {
               useGlobalPkgs = true;
               useUserPackages = true;
-              users.da = import ./home/desk;
-              #users.da = import ./home/da;
+              users.da = import ./home/da;
+              users.desk = import ./home/desk;
               #users.guest = import ./home/guest;
             };
           }

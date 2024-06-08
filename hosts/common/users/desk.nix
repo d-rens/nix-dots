@@ -1,9 +1,10 @@
-{ config, pkgs, inputs, ...}:
+{ config, pkgs, home-manager, inputs, ...}:
 
 {
   imports = [
     ../core
     ../optional/gnome.nix
+    #../users/desk.nix
   ];
 
 
@@ -29,6 +30,8 @@
       initialPassword = "password"; 
     };
   };
+
+  hardware.pulseaudio.enable = false;
 
   programs = {
     #river.enable = true;
