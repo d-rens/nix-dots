@@ -4,8 +4,15 @@
   imports = [
     ../common/core
 
+<<<<<<< HEAD
     ../common/optional/academia
+=======
+<<<<<<< HEAD
+>>>>>>> 5eb92aa (Added user to t470)
     ../common/optional/audio.nix
+=======
+    ../common/optional/academia
+>>>>>>> feature/academia
     ../common/optional/git.nix
     ../common/optional/kitty.nix
     ../common/optional/mail.nix
