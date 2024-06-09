@@ -25,6 +25,7 @@
         "nvim/lua/d-rens/plugins/harpoon.lua".source = ./src/lua/d-rens/plugins/harpoon.lua;
         "nvim/lua/d-rens/plugins/img-clip.lua".source = ./src/lua/d-rens/plugins/img-clip.lua;
         "nvim/lua/d-rens/plugins/lsp.lua".source = ./src/lua/d-rens/plugins/lsp.lua;
+        "nvim/lua/d-rens/plugins/oil.lua".source = ./src/lua/d-rens/plugins/oil.lua;
         "nvim/lua/d-rens/plugins/orgmode.lua".source = ./src/lua/d-rens/plugins/orgmode.lua;
         "nvim/lua/d-rens/plugins/snippets.lua".source = ./src/lua/d-rens/plugins/snippets.lua;
         "nvim/lua/d-rens/plugins/telescope.lua".source = ./src/lua/d-rens/plugins/telescope.lua;
