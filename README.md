@@ -2,6 +2,7 @@
 
 ## general tasks
 - [ ] declarative partitioning
+- [ ] port neovim to nix-nvim
 - [ ] secret management
 - [ ] maybe justfile for some tasks
 - [ ] declare firefox
