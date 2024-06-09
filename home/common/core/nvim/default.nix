@@ -4,6 +4,7 @@
     home.packages = with pkgs; [
       #neovim # already declared as system package
       gcc # for treesitter
+      gh
       ripgrep # for telescope
     ];
     programs.neovim = {
@@ -20,7 +21,7 @@
         "nvim/lua/d-rens/lazy/options.lua".source = ./src/lua/d-rens/lazy/options.lua;
         "nvim/lua/d-rens/lazy/setuplazy.lua".source = ./src/lua/d-rens/lazy/setuplazy.lua;
         "nvim/lua/d-rens/plugins/colorizer.lua".source = ./src/lua/d-rens/plugins/colorizer.lua;   
-        "nvim/lua/d-rens/plugins/fugitive.lua".source = ./src/lua/d-rens/plugins/fugitive.lua;
+        "nvim/lua/d-rens/plugins/git.lua".source = ./src/lua/d-rens/plugins/git.lua;
         "nvim/lua/d-rens/plugins/harpoon.lua".source = ./src/lua/d-rens/plugins/harpoon.lua;
         "nvim/lua/d-rens/plugins/img-clip.lua".source = ./src/lua/d-rens/plugins/img-clip.lua;
         "nvim/lua/d-rens/plugins/lsp.lua".source = ./src/lua/d-rens/plugins/lsp.lua;
