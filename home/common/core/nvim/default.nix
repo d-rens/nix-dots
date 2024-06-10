@@ -37,5 +37,6 @@
         "nvim/lua/d-rens/plugins/vimbegood.lua".source = ./src/lua/d-rens/plugins/vimbegood.lua;
         "nvim/lua/d-rens/plugins/vimtex.lua".source = ./src/lua/d-rens/plugins/vimtex.lua;
         "nvim/lua/d-rens/plugins/zen.lua".source = ./src/lua/d-rens/plugins/zen.lua;
+        #"nvim/snippets/".source = ./src/snippets;
     };
 }

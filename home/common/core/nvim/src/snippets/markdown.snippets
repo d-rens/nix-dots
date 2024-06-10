@@ -1,0 +1,28 @@
+snippet head "header for websites" b
+---
+title: "$1"
+description: "$2"
+date: "`date +%m-%d-%y`"
+draft: true
+tags: ['tags-here']
+---
+$0
+endsnippet
+
+snippet date "date" b
+`date +%m-%d-%y`
+endsnippet
+
+snippet rev "$1" b
+---
+title: "$2"
+date: `date +%m-%d-%y`
+description: "Review"
+draft: true
+tags: ['review']
+---
+endsnippet
+
+snippet fig "figure template" b
+![${1:title}](${2:link} "${3:caption}")
+endsnippet
