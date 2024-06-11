@@ -2,7 +2,7 @@
 
 {
 xdg.configFile = {
-    "river/wp.jpg".source = ../../../../hosts/common/core/wp.jpg;
+    "river/wp.jpg".source = ../../../../hosts/common/core/stylix/wallpapers/concept-1.jpg;
 };
 wayland.windowManager.river.enable = true;
 wayland.windowManager.river.extraConfig = ''

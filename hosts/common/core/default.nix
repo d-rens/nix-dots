@@ -6,7 +6,7 @@
     ./locals.nix
     ./nix.nix
     ./services.nix
-    ./stylix.nix
+    ./stylix
     ./network.nix
     ./user-options.nix
     ./packages

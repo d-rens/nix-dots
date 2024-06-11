@@ -12,7 +12,7 @@
 
   stylix = {
     polarity = "dark";
-    base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-dark-hard.yaml";
+    #base16Scheme = "${pkgs.base16-schemes}/share/themes/atelier-cave.yaml";
 
     opacity = {
         terminal = 0.8;
@@ -44,5 +44,5 @@
       };
     };
   };
-  stylix.image = ./wp.jpg;
+  stylix.image = wallpapers/concept-1.jpg;
 }
