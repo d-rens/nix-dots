@@ -10,5 +10,6 @@
     gcc # for treesitter
     grub2
     gparted
+    parted
   ];
 }

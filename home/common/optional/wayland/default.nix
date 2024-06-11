@@ -14,13 +14,13 @@ in
   ];
 
   home.packages = with pkgs; [
-    dex
-    gammastep
-    glfw-wayland
+    #dex
+    #gammastep
+    #glfw-wayland
     fuzzel
     grim
-    gnome.eog
-    lxqt.lxqt-openssh-askpass
+    #gnome.eog
+    #lxqt.lxqt-openssh-askpass
     slurp
     wayland
     wdisplays
@@ -92,30 +92,9 @@ in
 
   programs.fuzzel = {
     enable = true;
-    #settings = {
-    #  main = {
-    #    font = config.gtk.font.name;
-    #    dpi-aware = "no"; # Sway does this for us
-    #    icon-theme = config.gtk.iconTheme.name;
-    #    terminal = "${config.programs.foot.package}/bin/foot";
-    #    width = 50;
-    #  };
-    #};
   };
 
-  services.gammastep = {
-    enable = true; # fine if systemd'd
-    provider = "geoclue2";
-    temperature = {
-      day = 5500;
-      night = 3000;
-    };
-    settings = {
-      general = {
-        fade = 1;
-      };
-    };
-  };
+  # switch to sunset instead of gammastep
 
   services.swaync = {
     enable = true;
@@ -147,6 +126,7 @@ in
     };
   };
 
+  # makes hotplug display settings
   #services.kanshi = {
   #  enable = true;
   #};

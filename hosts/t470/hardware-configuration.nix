@@ -26,7 +26,10 @@
       options = [ "fmask=0022" "dmask=0022" ];
     };
 
-  swapDevices = [ ];
+  swapDevices = [
+    { device = "/dev/disk/by-uuid/b03a5d67-c537-4bdc-8e52-6b11b6bc325c"; }
+  ];
+  boot.initrd.luks.devices."nvme0n1p3_crypt".device = "/dev/disk/by-uuid/835970e5-0a52-4538-9d23-1c6ef3de3550";
 
   # Enables DHCP on each ethernet and wireless interface. In case of scripted networking
   # (the default) this is the recommended approach. When using systemd-networkd it's
