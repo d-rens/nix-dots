@@ -28,7 +28,8 @@
       "\\'" = "mark-load";
       "<enter>" = "open";
       
-      do = "dragon-out";
+      "d" = "delete";
+      "do" = "dragon-out";
       
       "g~" = "cd";
       gh = "cd";
