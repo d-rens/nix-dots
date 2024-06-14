@@ -1,16 +1,19 @@
-{ configs, pkgs, inputs, ... }:
+{
+  configs,
+  pkgs,
+  inputs,
+  lib,
+  ...
+}:
 
 {
-  #imports = [
-  #  
-  #];
-  
-  home.packages =  with pkgs; [
-    inputs.Neve.packages.${system}.default
-  ];
+  programs.nixvim = {
+    enable = true;
+    defaultEditor = true;
 
-  #programs.nixvim = {
-  #  enable = true;
-  #}; 
+    viAlias = true;
+    vimAlias = true;
 
+    luaLoader.enable = true;
+  };
 }
