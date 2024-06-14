@@ -10,6 +10,11 @@
     stylix.url = "github:danth/stylix";
   };
 
+  inputs.nixvim.url = "github:nix-community/nixvim";
+  inputs.nixvim.inputs.nixpkgs.follows = "nixpkgs";
+
+  inputs.neve.url = "github:redyf/Neve"; 
+
   outputs = inputs@{ self, nixpkgs, home-manager, ... }:
   let
     lib = nixpkgs.lib;
@@ -38,6 +43,7 @@
         system = "x86_64-linux";
         modules = [
           ./hosts/x220
+	  inputs.nixvim.nixosModules.nixvim
           inputs.stylix.nixosModules.stylix
           home-manager.nixosModules.home-manager
           {
