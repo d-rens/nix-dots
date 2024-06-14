@@ -15,5 +15,7 @@
     vimAlias = true;
 
     luaLoader.enable = true;
+
+    colorschemes.modus.enable = true;
   };
 }
