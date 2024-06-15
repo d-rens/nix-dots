@@ -12,6 +12,7 @@
     ./telescope/telescope.nix
     ./utils/colorizer.nix
     ./utils/better-escape.nix
+    ./utils/oil.nix
   ];
 
   programs.nixvim = {
