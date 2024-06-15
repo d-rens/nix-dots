@@ -1,11 +1,11 @@
 { 
   programs.nixvim = {
     plugins = {
+    #cmp-vimtex = {enable = true;}; # needs to be added to nixpkgs
     cmp-nvim-lsp = {enable = true;}; # lsp
     cmp-buffer = {enable = true;};
     cmp-path = {enable = true;}; # file system paths
     #cmp_luasnip = {enable = true;}; # snippets
-    # ADD vimtex, add ultinnips
     cmp-cmdline = {enable = false;}; # autocomplete for cmdline
     cmp = {
       enable = true;
@@ -42,8 +42,10 @@
           __raw = ''
             cmp.config.sources({
               {name = 'nvim_lsp'},
-              {name = 'copilot'},
+              -- {name = 'copilot'},
               {name = 'path'},
+              {name = 'vimtex'},
+              {name = 'cmp_vimtex'},
               -- {name = 'luasnip'},
               {name = 'cmdline'},
               }, {
@@ -74,33 +76,33 @@
   };
   extraConfigLua = ''
       -- luasnip = require("luasnip")
-      -- kind_icons = {
-      --   Text = "󰊄",
-      --   Method = "",
-      --   Function = "󰡱",
-      --   Constructor = "",
-      --   Field = "",
-      --   Variable = "󱀍",
-      --   Class = "",
-      --   Interface = "",
-      --   Module = "󰕳",
-      --   Property = "",
-      --   Unit = "",
-      --   Value = "",
-      --   Enum = "",
-      --   Keyword = "",
-      --   Snippet = "",
-      --   Color = "",
-      --   File = "",
-      --   Reference = "",
-      --   Folder = "",
-      --   EnumMember = "",
-      --   Constant = "",
-      --   Struct = "",
-      --   Event = "",
-      --   Operator = "",
-      --   TypeParameter = "",
-      -- } 
+      kind_icons = {
+        Text = "󰊄",
+        Method = "",
+        Function = "󰡱",
+        Constructor = "",
+        Field = "",
+        Variable = "󱀍",
+        Class = "",
+        Interface = "",
+        Module = "󰕳",
+        Property = "",
+        Unit = "",
+        Value = "",
+        Enum = "",
+        Keyword = "",
+        Snippet = "",
+        Color = "",
+        File = "",
+        Reference = "",
+        Folder = "",
+        EnumMember = "",
+        Constant = "",
+        Struct = "",
+        Event = "",
+        Operator = "",
+        TypeParameter = "",
+      } 
 
     local cmp = require'cmp'
 

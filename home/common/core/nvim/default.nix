@@ -10,12 +10,17 @@
   imports = [
     ./completion/cmp.nix
     ./completion/lspkind.nix
+
     ./git/gitsigns.nix
+
     ./telescope/telescope.nix
-    ./utils/colorizer.nix
-    ./utils/better-escape.nix
-    ./utils/oil.nix
+
     ./ui/indent-blankline.nix
+
+    ./utils/better-escape.nix
+    ./utils/colorizer.nix
+    ./utils/oil.nix
+    ./utils/vimtex.nix
   ];
 
   programs.nixvim = {
@@ -28,5 +33,7 @@
     luaLoader.enable = true;
 
     colorschemes.modus.enable = true;
+     
+
   };
 }
