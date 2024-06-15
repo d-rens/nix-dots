@@ -7,6 +7,11 @@
 }:
 
 {
+  imports = [
+    ./git/gitsigns.nix
+    ./telescope/telescope.nix
+  ];
+
   programs.nixvim = {
     enable = true;
     defaultEditor = true;
