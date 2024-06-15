@@ -8,6 +8,8 @@
 
 {
   imports = [
+    ./completion/cmp.nix
+    ./completion/lspkind.nix
     ./git/gitsigns.nix
     ./telescope/telescope.nix
     ./utils/colorizer.nix
