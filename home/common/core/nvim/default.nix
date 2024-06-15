@@ -13,6 +13,7 @@
     ./utils/colorizer.nix
     ./utils/better-escape.nix
     ./utils/oil.nix
+    ./ui/indent-blankline.nix
   ];
 
   programs.nixvim = {
