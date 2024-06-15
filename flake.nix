@@ -22,6 +22,7 @@
       self,
       nixpkgs,
       home-manager,
+      stylix,
       ...
     }:
     let
@@ -35,7 +36,7 @@
           system = "x86_64-linux";
           modules = [
             ./hosts/t470
-            inputs.stylix.nixosModules.stylix
+            stylix.nixosModules.stylix
             home-manager.nixosModules.home-manager
             {
               home-manager = {
@@ -57,7 +58,7 @@
           system = "x86_64-linux";
           modules = [
             ./hosts/x220
-            inputs.stylix.nixosModules.stylix
+            stylix.nixosModules.stylix
             home-manager.nixosModules.home-manager
             {
               home-manager = {
