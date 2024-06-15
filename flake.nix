@@ -26,6 +26,8 @@
     }:
     let
       lib = nixpkgs.lib;
+      # where is this supposed to go?
+      # packages = forEachSystem (pkgs: import ./pkgs { inherit pkgs; });
     in
     {
       nixosConfigurations = {
