@@ -10,6 +10,8 @@
   imports = [
     ./git/gitsigns.nix
     ./telescope/telescope.nix
+    ./utils/colorizer.nix
+    ./utils/better-escape.nix
   ];
 
   programs.nixvim = {
