@@ -25,7 +25,7 @@ Much of the config if from [redyf/Neve](https://github.com/redyf/Neve/).
 |`<leader>ww`           | `<C-w>w`/`<C-W>p`     | go through windows    |
 |`<leader>wd`           | `<C-w>c`              | close window          |
 |`<leader>w-`           | `<C-W>s`              | split window below    |
-|`<leader>w|`           | `<C-W>v`              | split window right    |
+|`<leader>\|`           | `<C-W>v`              | split window right    |
 
 
 #### misc
@@ -54,14 +54,14 @@ Many other QoL improvements.
 | hotkey                | function              |
 | -------------         | --------------------- |
 |`<leader>gh`           |gitsigns               |
-|`<leader>`ghb          |blame line             |
-|`<leader>`ghd          |diffthis               |
-|`<leader>`ghp          |preview hunk           |
-|`<leader>`ghR          |reset buffer           |
-|`<leader>`ghr          |reset hunk             |
-|`<leader>`ghs          |stage hunk             |
-|`<leader>`ghS          |stage buffer           |
-|`<leader>`ghu          |undo stage hunk        |
+|`<leader>ghb`          |blame line             |
+|`<leader>ghd`          |diffthis               |
+|`<leader>ghp`          |preview hunk           |
+|`<leader>ghR`          |reset buffer           |
+|`<leader>ghr`          |reset hunk             |
+|`<leader>ghs`          |stage hunk             |
+|`<leader>ghS`          |stage buffer           |
+|`<leader>ghu`          |undo stage hunk        |
 
 
 ### telescope
