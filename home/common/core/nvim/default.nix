@@ -1,8 +1,4 @@
 {
-  configs,
-  pkgs,
-  inputs,
-  lib,
   ...
 }:
 
@@ -15,6 +11,9 @@
     ./completion/lspkind.nix
 
     ./git/gitsigns.nix
+
+    ./lsp/lsp.nix
+    ./lsp/trouble.nix
 
     ./telescope/telescope.nix
 
