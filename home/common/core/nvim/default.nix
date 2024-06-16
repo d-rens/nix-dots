@@ -8,6 +8,9 @@
 
 {
   imports = [
+    ./options.nix
+    ./keymaps.nix
+
     ./completion/cmp.nix
     ./completion/lspkind.nix
 
@@ -33,7 +36,5 @@
     luaLoader.enable = true;
 
     colorschemes.modus.enable = true;
-     
-
   };
 }
