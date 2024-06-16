@@ -256,26 +256,6 @@
     }
 
     {
-      mode = "n";
-      key = "<leader>ql";
-      action = "<cmd>lua require('persistence').load({ last = true })<cr>";
-      options = {
-        silent = true;
-        desc = "Restore last session";
-      };
-    }
-
-    {
-      mode = "n";
-      key = "<leader>qd";
-      action = "<cmd>lua require('persistence').stop()<cr>";
-      options = {
-        silent = true;
-        desc = "Don't save current session";
-      };
-    }
-
-    {
       mode = "v";
       key = "J";
       action = ":m '>+1<CR>gv=gv";

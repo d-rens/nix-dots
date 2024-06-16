@@ -14,7 +14,7 @@
           "Underfull"
           "Overfull"
           "specifier changed to"
-          "Token not allowed in a PDF string"
+          #"Token not allowed in a PDF string"
         ];
 
         # TOC settings

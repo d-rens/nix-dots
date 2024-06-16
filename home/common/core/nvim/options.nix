@@ -1,10 +1,4 @@
 {
-  pkgs,
-  config,
-  lib,
-  ...
-}:
-{
   programs.nixvim = {
       opts = {
         completeopt = ["menuone" "noselect" "noinsert"]; # mostly just for cmp

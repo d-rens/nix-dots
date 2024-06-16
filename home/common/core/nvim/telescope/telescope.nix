@@ -156,16 +156,8 @@ programs.nixvim = {
         desc = "Todo (Telescope)";
       };
     }
-
-    # {
-    #   mode = "n";
-    #   key = "<leader>,";
-    #   action = "<cmd>Telescope buffers sort_mru=true sort_lastused=true<cr>";
-    #   options = {
-    #     desc = "Switch Buffer";
-    #   };
-    # }
   ];
+
   extraConfigLua = ''
     local telescope = require('telescope')
     telescope.setup{
