@@ -172,7 +172,7 @@ in
           "${modifier}+Tab" = "exec ${pkgs.swayr}/bin/swayr switch-window";
 
           # Split
-          "${modifier}+h" = "splith";
+          "${modifier}+semicolon" = "splith";
 
           "${modifier}+0" = "workspace 10";
           "${modifier}+Shift+0" = "move container to workspace 10";
