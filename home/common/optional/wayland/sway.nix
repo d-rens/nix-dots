@@ -163,6 +163,11 @@ in
       keybindings =
         with config.wayland.windowManager.sway.config;
         lib.mkOptionDefault {
+          "${modifier}+h" = "focus left";
+          "${modifier}+l" = "focus right";
+          "${modifier}+j" = "focus down";
+          "${modifier}+k" = "focus up";
+
           # Window Switcher
           "${modifier}+Tab" = "exec ${pkgs.swayr}/bin/swayr switch-window";
 
