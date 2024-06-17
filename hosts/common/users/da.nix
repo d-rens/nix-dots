@@ -1,9 +1,15 @@
-{ config, pkgs, inputs, ...}:
-
+{ 
+  config, 
+  pkgs, 
+  inputs, 
+  ...
+}:
 {
   imports = [
     ../optional/music.nix
     ../optional/wayland.nix
+    ../optional/river.nix
+    ../optional/sway.nix
   ];
 
   users = {

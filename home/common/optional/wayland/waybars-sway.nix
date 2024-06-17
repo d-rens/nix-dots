@@ -1,6 +1,5 @@
 # based on https://git.sr.ht/~fd/nix-configs
 {
-  config,
   pkgs,
   lib,
   ...
@@ -17,9 +16,9 @@
         position = "bottom";
         height = 24;
         modules-left = [
-          "river/tags"
-          #"sway/mode"
-          "river/window"
+          "sway/workspaces"
+          "sway/mode"
+          "sway/window"
         ];
         modules-right = [
           "custom/uptime"
@@ -29,7 +28,7 @@
           "clock"
           "tray"
         ];
-        "river/tags" = {
+        "sway/workspaces" = {
           all-outputs = false;
           format = "{index}";
           disable-scroll = false;
@@ -37,12 +36,12 @@
           enable-bar-scroll = false;
           numeric-first = true;
         };
-        "river/layout" = {
+        "sway/layout" = {
           format = "{}";
           tooltip = false;
           on-click = "";
         };
-        "river/window" = {
+        "sway/window" = {
           format = "{}";
           max-length = 64;
           on-click = "";
@@ -106,7 +105,7 @@
           "network#wlp3s0"
           #"network#enp58s0u1u4"
         ];
-        "river/tags" = {
+        "sway/workspaces" = {
           all-outputs = false;
           format = "{index}";
           disable-scroll = false;

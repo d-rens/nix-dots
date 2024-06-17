@@ -1,6 +1,17 @@
-{ config, pkgs, ...}:
-
+{ 
+  config, 
+  pkgs, 
+  ...
+}:
 {
+  imports = [
+    ./waybars-river.nix
+  ];
+
+  home.sessionVariables = {
+    XDG_CURRENT_DESKTOP = "river";
+  };
+
 xdg.configFile = {
     "river/wp.jpg".source = ../../../../hosts/common/core/stylix/wallpapers/concept-1.jpg;
 };

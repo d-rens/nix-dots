@@ -1,4 +1,8 @@
-{ config, pkgs, lib, ... }:
+{ 
+  config, 
+  pkgs, 
+  ... 
+}:
 
   let
   footnotify = pkgs.writeShellScriptBin "foot-notify" ''
@@ -9,18 +13,18 @@ in
 {
 
   imports = [
-    ./waybars.nix
-    ./river.nix
+    #./river.nix
+    ./sway.nix
   ];
 
   home.packages = with pkgs; [
     #dex
     #gammastep
     #glfw-wayland
-    fuzzel
-    grim
     #gnome.eog
     #lxqt.lxqt-openssh-askpass
+    fuzzel
+    grim
     slurp
     wayland
     wdisplays
@@ -29,10 +33,8 @@ in
 
   home.sessionVariables = {
     MOZ_ENABLE_WAYLAND = 1;
-    XDG_CURRENT_DESKTOP = "river";
     NIXOS_OZONE_WL = "1";
     SDL_VIDEODRIVER = "wayland";
-
   };
 
   programs.foot = {

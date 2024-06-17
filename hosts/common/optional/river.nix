@@ -1,0 +1,6 @@
+{ 
+  ...
+}:
+{
+  programs.river.enable = true;
+}
