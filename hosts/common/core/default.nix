@@ -1,10 +1,16 @@
-{ config, pkgs, inputs, ...}:
+{ 
+  config, 
+  pkgs, 
+  inputs, 
+  ...
+}:
 {
   imports = [
     ./audio.nix
     ./bootloader.nix
     ./locals.nix
     ./nix.nix
+    ./security.nix
     ./services.nix
     ./stylix
     ./network.nix
