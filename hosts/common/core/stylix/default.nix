@@ -37,8 +37,10 @@
         name = "DejaVu Sans";
       };
       monospace = {
-        package = pkgs.iosevka;
-        name = "Iosevka";
+        #package = pkgs.iosevka;
+        package = pkgs.jetbrains-mono;
+        #name = "Iosevka";
+        name = "JetBrains Mono";
       };
       emoji = {
         package = pkgs.noto-fonts-emoji;
