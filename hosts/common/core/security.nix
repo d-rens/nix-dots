@@ -4,7 +4,7 @@
   ...
 }:
 {
-  environment.systemPackages = [
+  environment.systemPackages = with pkgs; [
     age
   ];
 }
