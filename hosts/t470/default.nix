@@ -14,4 +14,5 @@
     networkmanager.enable = true;
     hostName = "nixos-t"; 
   };
+  services.hardware.bolt.enable = true;
 }
