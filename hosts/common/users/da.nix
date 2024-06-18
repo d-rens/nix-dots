@@ -1,7 +1,5 @@
 { 
-  config, 
   pkgs, 
-  inputs, 
   ...
 }:
 {
@@ -10,6 +8,7 @@
     ../optional/wayland.nix
     ../optional/river.nix
     ../optional/sway.nix
+    ../optional/printing.nix
   ];
 
   users = {
