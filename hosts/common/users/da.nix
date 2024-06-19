@@ -16,6 +16,7 @@
     users.da= {
       isNormalUser = true;
       description = "da";
+      uid = 1000;
       extraGroups = [ 
         "wheel" 
         "networkmanager" 
