@@ -9,6 +9,7 @@
     users.desk= {
       isNormalUser = true;
       description = "desk";
+      uid = 1001;
       extraGroups = [ 
         "wheel" 
         "networkmanager" 

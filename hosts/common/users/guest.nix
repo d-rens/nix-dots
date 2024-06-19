@@ -10,6 +10,7 @@
     users.guest= {
       isNormalUser = true;
       description = "guest";
+      uid = 1002;
       extraGroups = [ 
         "wheel" 
         "networkmanager" 
