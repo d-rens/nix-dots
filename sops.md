@@ -5,7 +5,9 @@ here are things that I need to encrypt and find out more about.
 - can I make more complex age keys.
 
 ## list
+- iamb
 - neomutt, inboxes
+- msmpt, smpt info
 - wireguard [wiki for wireguard](https://nixos.wiki/wiki/WireGuard)
 
 - ssh & gpg?
