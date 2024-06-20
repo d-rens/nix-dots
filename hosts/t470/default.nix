@@ -7,7 +7,7 @@
       ../common/core
 
       ../common/users/da.nix
-      ../common/users/desk.nix
+      #../common/users/desk.nix
     ];
 
   networking = {

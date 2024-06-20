@@ -13,19 +13,25 @@
 
     nixvim = {
       url = "github:nix-community/nixvim";
-# inputs.nixpkgs.follows = "nixpkgs";
+    # inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    alejandra = {
-      url = "github:kamadorueda/alejandra/3.0.0";
+    sops-nix = {
+      url = "github:Mic92/sops-nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    #alejandra = {
+    #  url = "github:kamadorueda/alejandra/3.0.0";
+    #  inputs.nixpkgs.follows = "nixpkgs";
+    #};
   };
 
   outputs =
     inputs@{
-      alejandra,
+      #alejandra,
       self,
+      sops-nix,
       nixpkgs,
       home-manager,
       stylix,
@@ -42,6 +48,7 @@
         system = "x86_64-linux";
         modules = [
           ./hosts/t470
+            sops-nix.nixosModules.sops
             stylix.nixosModules.stylix
             home-manager.nixosModules.home-manager
             {
@@ -53,7 +60,7 @@
                 }; # allows access to flake inputs in hm modules
                 sharedModules = [ inputs.nixvim.homeManagerModules.nixvim ];
                 users.da = import ./home/da;
-                users.desk = import ./home/desk;
+                #users.desk = import ./home/desk;
 #users.guest = import ./home/guest;
               };
             }
@@ -64,19 +71,20 @@
         system = "x86_64-linux";
         modules = [
           ./hosts/x220
-          stylix.nixosModules.stylix
-          home-manager.nixosModules.home-manager
-          {
-            home-manager = {
-              useGlobalPkgs = true;
-              useUserPackages = true;
-              extraSpecialArgs = {
-                inherit inputs;
-              }; # allows access to flake inputs in hm modules
-              sharedModules = [ inputs.nixvim.homeManagerModules.nixvim ];
-              users.da = import ./home/da;
-            };
-          }
+            sops-nix.nixosModules.sops
+            stylix.nixosModules.stylix
+            home-manager.nixosModules.home-manager
+            {
+              home-manager = {
+                useGlobalPkgs = true;
+                useUserPackages = true;
+                extraSpecialArgs = {
+                  inherit inputs;
+                }; # allows access to flake inputs in hm modules
+                sharedModules = [ inputs.nixvim.homeManagerModules.nixvim ];
+                users.da = import ./home/da;
+              };
+            }
         ];
       };
 
