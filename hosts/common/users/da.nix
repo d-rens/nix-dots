@@ -9,6 +9,7 @@
     #../optional/river.nix
     ../optional/sway.nix
     ../optional/printing.nix
+    ../optional/msmtp.nix
   ];
 
   users = {
