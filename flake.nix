@@ -20,18 +20,12 @@
       url = "github:Mic92/sops-nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    #alejandra = {
-    #  url = "github:kamadorueda/alejandra/3.0.0";
-    #  inputs.nixpkgs.follows = "nixpkgs";
-    #};
   };
 
   outputs =
     inputs@{
-      #alejandra,
       self,
-      sops-nix,
+      #sops-nix,
       nixpkgs,
       home-manager,
       stylix,
@@ -48,7 +42,6 @@
         system = "x86_64-linux";
         modules = [
           ./hosts/t470
-            sops-nix.nixosModules.sops
             stylix.nixosModules.stylix
             home-manager.nixosModules.home-manager
             {
@@ -71,7 +64,6 @@
         system = "x86_64-linux";
         modules = [
           ./hosts/x220
-            sops-nix.nixosModules.sops
             stylix.nixosModules.stylix
             home-manager.nixosModules.home-manager
             {

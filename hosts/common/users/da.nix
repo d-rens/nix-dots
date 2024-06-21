@@ -6,7 +6,7 @@
   imports = [
     ../optional/music.nix
     ../optional/wayland.nix
-    ../optional/river.nix
+    #../optional/river.nix
     ../optional/sway.nix
     ../optional/printing.nix
   ];
