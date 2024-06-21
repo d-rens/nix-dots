@@ -7,5 +7,6 @@
     age
     age-plugin-yubikey
     ssh-too-age
+    sops
   ];
 }

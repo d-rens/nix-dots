@@ -1,7 +1,5 @@
 { 
-  config, 
   pkgs, 
-  inputs, 
   ...
 }:
 {
@@ -10,6 +8,7 @@
     ../optional/wayland.nix
     ../optional/river.nix
     ../optional/sway.nix
+    ../optional/printing.nix
   ];
 
   users = {
@@ -17,6 +16,7 @@
     users.da= {
       isNormalUser = true;
       description = "da";
+      uid = 1000;
       extraGroups = [ 
         "wheel" 
         "networkmanager" 

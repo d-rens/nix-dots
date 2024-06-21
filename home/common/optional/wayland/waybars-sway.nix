@@ -1,7 +1,6 @@
 # based on https://git.sr.ht/~fd/nix-configs
 {
   pkgs,
-  lib,
   ...
 }:
 {

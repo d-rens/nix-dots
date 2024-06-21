@@ -58,30 +58,6 @@ in
         hide-when-typing = "yes";
         alternate-scroll-mode = "yes";
       };
-      colors = {
-        #alpha = 0.95;
-        foreground = "ffffff";
-        background = "000000";
-        ## Normal/regular colors (color palette 0-7)
-        regular0 = "000000"; # black
-        regular1 = "aa0000"; # red
-        regular2 = "00aa00"; # green
-        regular3 = "aa5500"; # yellow
-        regular4 = "89ddff"; # blue
-        regular5 = "aa00aa"; # magenta
-        regular6 = "00aaaa"; # cyan
-        regular7 = "aaaaaa"; # white
-
-        ##Bright colors (color palette 8-15)
-        bright0 = "555555"; # bright black
-        bright1 = "ff5555"; # bright red
-        bright2 = "55ff55"; # bright green
-        bright3 = "ffff55"; # bright yellow
-        bright4 = "5555ff"; # bright blue
-        bright5 = "ff55ff"; # bright magenta
-        bright6 = "55ffff"; # bright cyan
-        bright7 = "ffffff"; # bright white
-      };
       key-bindings = {
         prompt-prev = "Control+Shift+z";
         prompt-next = "Control+Shift+x";

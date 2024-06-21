@@ -29,7 +29,7 @@
         swapfile = false;
         tabstop = 2;
         termguicolors = true;
-        timeoutlen = 200;
+        timeoutlen = 350;
         undofile = true;
         updatetime = 50; # faster completion (4000ms default)
         wrap = true;

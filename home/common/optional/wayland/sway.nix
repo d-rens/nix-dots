@@ -67,29 +67,6 @@ in
           always = true;
         }
       ];
-      #input = {
-      #  "*" = {
-      #    xkb_layout = "us";
-      #    xkb_options = "compose:menu";
-      #  };
-      #  "type:touchpad" = {
-      #    tap = "enabled";
-      #  };
-      #  "1133:49291:Logitech_G502_HERO_Gaming_Mouse" = {
-      #    accel_profile = "flat";
-      #    natural_scroll = "disabled";
-      #  };
-      #};
-      #output = {
-      #  "*" = {
-      #    bg = "${../wallpapers/jwst-Cassiopeia-A-NIRCam.png} fill";
-      #  };
-      #};
-      #seat = {
-      #  "*" = {
-      #    xcursor_theme = config.gtk.cursorTheme.name;
-      #  };
-      #};
       bars = [ { command = "${pkgs.waybar}/bin/waybar"; } ];
       floating = {
         modifier = modifier;
@@ -101,38 +78,6 @@ in
         outer = 0;
         smartGaps = true;
       };
-      #colors = {
-      #  # FIXME: better colors
-      #  # https://github.com/lokesh-krishna/dotfiles/blob/0c365e977d3342d089bb89636962a7c5b6e02447/nord-v3/config/sway/config#L12
-      #  focused = {
-      #    border = "#88c0d0";
-      #    background = "#434c5e";
-      #    text = "#eceff4";
-      #    indicator = "#8fbcbb";
-      #    childBorder = "#88c0d0";
-      #  };
-      #  focusedInactive = {
-      #    border = "#88c0d0";
-      #    background = "#2e3440";
-      #    text = "#d8dee9";
-      #    indicator = "#4c566a";
-      #    childBorder = "#4c566a";
-      #  };
-      #  unfocused = {
-      #    border = "#88c0d0";
-      #    background = "#2e3440";
-      #    text = "#d8dee9";
-      #    indicator = "#4c566a";
-      #    childBorder = "#4c566a";
-      #  };
-      #  urgent = {
-      #    border = "#ebcb8b";
-      #    background = "#ebcb8b";
-      #    text = "#2e3440";
-      #    indicator = "#8fbcbb";
-      #    childBorder = "#ebcb8b";
-      #  };
-      #};
       window = {
         border = 1;
         hideEdgeBorders = "both";
@@ -232,7 +177,7 @@ in
 
           # Logout
           "${modifier}+m" = "exec ${swayexitify}/bin/swayexitify lock";
-          "${modifier}+n" = ''mode "${swayexitify_msg}"'';
+          "${modifier}+backspace" = ''mode "${swayexitify_msg}"'';
         };
       modes = lib.mkOptionDefault {
         "${swayexitify_msg}" = {
