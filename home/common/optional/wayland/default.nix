@@ -104,8 +104,38 @@ in
     };
   };
 
-  # makes hotplug display settings
-  #services.kanshi = {
-  #  enable = true;
-  #};
+  services.kanshi = {
+    enable = true;
+    settings = [
+      {
+        profile.name = "undocked";
+        profile.outputs = [
+          {
+            criteria = "eDP-1";
+            scale = 1.6;
+            position = "0,0";
+            status = "enable";
+          }
+        ];
+      }
+      {
+        profile.name = "docked";
+        profile.outputs = [
+          {
+            criteria = "eDP-1";
+            position = "0,360";
+            scale = 1;
+            status = "enable";
+          }
+          {
+            criteria = "DP-3";
+            position = "0,1920";
+            mode = "2560x1440";
+            scale = 1.0;
+            status = "enable";
+          }
+        ];
+      }
+    ];
+  };
 }
