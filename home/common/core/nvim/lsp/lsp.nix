@@ -16,6 +16,7 @@
         capabilities = "offsetEncoding =  'utf-16'";
         servers = {
           clangd = {enable = true;};
+          cssls = {enable = true;};
           texlab = {enable = true;};
           lua-ls = {
             enable = true;
