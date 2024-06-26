@@ -8,7 +8,7 @@
     ../common/optional/audio.nix
     ../common/optional/git.nix
     ../common/optional/kitty.nix
-    ../common/optional/mail.nix
+    ../common/optional/mail
     ../common/optional/matrix.nix
     ../common/optional/music.nix
     ../common/optional/newsboat.nix
