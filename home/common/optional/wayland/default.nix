@@ -70,6 +70,13 @@ in
 
   programs.fuzzel = {
     enable = true;
+    settings = {
+      main = {
+       terminal = "${pkgs.foot}/bin/foot"; 
+      };
+      border.radius = 1;
+      border.width = 0;
+    };
   };
 
   # switch to sunset instead of gammastep
