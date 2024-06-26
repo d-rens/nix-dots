@@ -48,5 +48,6 @@
       };
     };
   };
-  stylix.image = wallpapers/concept-1.jpg;
+  #stylix.image = wallpapers/concept-1.jpg;
+  stylix.image = wallpapers/wp-3.jpg;
 }
