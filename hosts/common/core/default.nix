@@ -13,6 +13,7 @@
     ./security.nix
     ./services.nix
     ./stylix
+    ./sops.nix
     ./network.nix
     ./user-options.nix
     ./packages

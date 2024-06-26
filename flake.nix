@@ -13,23 +13,17 @@
 
     nixvim = {
       url = "github:nix-community/nixvim";
-    # inputs.nixpkgs.follows = "nixpkgs";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
 
     sops-nix = {
       url = "github:Mic92/sops-nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    #alejandra = {
-    #  url = "github:kamadorueda/alejandra/3.0.0";
-    #  inputs.nixpkgs.follows = "nixpkgs";
-    #};
   };
 
   outputs =
     inputs@{
-      #alejandra,
       self,
       sops-nix,
       nixpkgs,
@@ -37,20 +31,20 @@
       stylix,
       ...
     }:
-  let
-    lib = nixpkgs.lib;
-# where is this supposed to go?
-# packages = forEachSystem (pkgs: import ./pkgs { inherit pkgs; });
-  in
-  {
-    nixosConfigurations = {
-      t470 = lib.nixosSystem {
-        system = "x86_64-linux";
-        modules = [
-          ./hosts/t470
-            sops-nix.nixosModules.sops
+    let
+      lib = nixpkgs.lib;
+    in
+    # where is this supposed to go?
+    # packages = forEachSystem (pkgs: import ./pkgs { inherit pkgs; });
+    {
+      nixosConfigurations = {
+        t470 = lib.nixosSystem {
+          system = "x86_64-linux";
+          modules = [
+            ./hosts/t470
             stylix.nixosModules.stylix
             home-manager.nixosModules.home-manager
+            sops-nix.nixosModules.sops
             {
               home-manager = {
                 useGlobalPkgs = true;
@@ -58,22 +52,25 @@
                 extraSpecialArgs = {
                   inherit inputs;
                 }; # allows access to flake inputs in hm modules
-                sharedModules = [ inputs.nixvim.homeManagerModules.nixvim ];
+                sharedModules = [ 
+                  inputs.nixvim.homeManagerModules.nixvim 
+                  inputs.sops-nix.homeManagerModules.sops
+                ];
                 users.da = import ./home/da;
                 #users.desk = import ./home/desk;
-#users.guest = import ./home/guest;
+                #users.guest = import ./home/guest;
               };
             }
-        ];
-      };
+          ];
+        };
 
-      x220 = lib.nixosSystem {
-        system = "x86_64-linux";
-        modules = [
-          ./hosts/x220
-            sops-nix.nixosModules.sops
+        x220 = lib.nixosSystem {
+          system = "x86_64-linux";
+          modules = [
+            ./hosts/x220
             stylix.nixosModules.stylix
             home-manager.nixosModules.home-manager
+            sops-nix.nixosModules.sops
             {
               home-manager = {
                 useGlobalPkgs = true;
@@ -81,13 +78,16 @@
                 extraSpecialArgs = {
                   inherit inputs;
                 }; # allows access to flake inputs in hm modules
-                sharedModules = [ inputs.nixvim.homeManagerModules.nixvim ];
+                sharedModules = [ 
+                  inputs.nixvim.homeManagerModules.nixvim 
+                  inputs.sops-nix.homeManagerModules.sops
+                ];
                 users.da = import ./home/da;
               };
             }
-        ];
-      };
+          ];
+        };
 
+      };
     };
-  };
 }
