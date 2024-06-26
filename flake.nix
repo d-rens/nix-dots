@@ -44,7 +44,7 @@
             ./hosts/t470
             stylix.nixosModules.stylix
             home-manager.nixosModules.home-manager
-			sops-nix.nixosModules.sops
+            sops-nix.nixosModules.sops
             {
               home-manager = {
                 useGlobalPkgs = true;
@@ -52,7 +52,10 @@
                 extraSpecialArgs = {
                   inherit inputs;
                 }; # allows access to flake inputs in hm modules
-                sharedModules = [ inputs.nixvim.homeManagerModules.nixvim ];
+                sharedModules = [ 
+                  inputs.nixvim.homeManagerModules.nixvim 
+                  inputs.sops-nix.homeManagerModules.sops
+                ];
                 users.da = import ./home/da;
                 #users.desk = import ./home/desk;
                 #users.guest = import ./home/guest;
@@ -67,7 +70,7 @@
             ./hosts/x220
             stylix.nixosModules.stylix
             home-manager.nixosModules.home-manager
-			sops-nix.nixosModules.sops
+            sops-nix.nixosModules.sops
             {
               home-manager = {
                 useGlobalPkgs = true;
@@ -75,7 +78,10 @@
                 extraSpecialArgs = {
                   inherit inputs;
                 }; # allows access to flake inputs in hm modules
-                sharedModules = [ inputs.nixvim.homeManagerModules.nixvim ];
+                sharedModules = [ 
+                  inputs.nixvim.homeManagerModules.nixvim 
+                  inputs.sops-nix.homeManagerModules.sops
+                ];
                 users.da = import ./home/da;
               };
             }
