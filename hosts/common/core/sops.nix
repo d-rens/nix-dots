@@ -10,13 +10,8 @@
     };
 
     secrets = {
-      "xyz" = { };
-      "mb" = { };
-      "msmtp/main/host" = { };
-      "msmtp/main/password" = { };
-
-      "msmtp/secondary/host" = { };
-      "msmtp/secondary/password" = { };
+      "mail/main" = { };
+      "mail/secondary" = { };
     };
   };
 }

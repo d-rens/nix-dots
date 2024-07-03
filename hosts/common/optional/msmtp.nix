@@ -6,19 +6,11 @@
   # this config is at /etc/msmtprc because system level
 
   sops.secrets = {
-    "msmtp/main/host" = {
+    "mail/main" = {
       owner = config.users.users.da.name;
       inherit (config.users.users.da) group;
     };
-    "msmtp/main/password" = {
-      owner = config.users.users.da.name;
-      inherit (config.users.users.da) group;
-    };
-    "msmtp/secondary/host" = {
-      owner = config.users.users.da.name;
-      inherit (config.users.users.da) group;
-    };
-    "msmtp/secondary/password" = {
+    "mail/secondary" = {
       owner = config.users.users.da.name;
       inherit (config.users.users.da) group;
     };
@@ -29,11 +21,11 @@
 
     accounts = {
       "daniel@d-rens.xyz" = {
-        eval= "cat ${config.sops.secrets."msmtp/main/host".path}";
+        host = "heracles.mxrouting.net";
         port = "465";
         from = "daniel@d-rens.xyz";
         user = "daniel@d-rens.xyz";
-        passwordeval = "cat ${config.sops.secrets."msmtp/main/password".path}";
+        passwordeval = "cat ${config.sops.secrets."mail/main".path}";
         auth = "on";
         tls = "on";
         tls_trust_file = "/etc/ssl/certs/ca-certificates.crt";
@@ -42,11 +34,11 @@
       };
 
       "d-rens@mailbox.org" = {
-        eval= "cat ${config.sops.secrets."msmtp/secondary/host".path}";
+        host = "smtp.mailbox.org";
         port = "587";
         from = "d-rens@mailbox.org";
         user = "d-rens@mailbox.org";
-        passwordeval = "cat ${config.sops.secrets."msmtp/secondary/password".path}";
+        passwordeval = "cat ${config.sops.secrets."mail/secondary".path}";
         auth = "on";
         tls = "on";
         tls_trust_file =	"/etc/ssl/certs/ca-certificates.crt";

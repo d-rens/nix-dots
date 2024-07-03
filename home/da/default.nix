@@ -16,6 +16,8 @@
     ../common/optional/video.nix
     ../common/optional/zathura.nix
 
+    ../common/optional/sops.nix
+
     ../common/optional/wayland
   ];
 
