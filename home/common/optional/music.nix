@@ -14,6 +14,7 @@
       ncmpcpp = {
         enable = true;
         settings = {
+            mpd_music_dir = "~/media/music";
             external_editor = "nvim";
             message_delay_time = 1;
             playlist_disable_highlight_delay = 2;
