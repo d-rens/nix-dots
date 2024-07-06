@@ -3,9 +3,11 @@ keys:
     - &da age16fpnlw0yzfgsk246qu3v3jwle44uvwpj6yl26cl4gf6pmwy9ldaqynrj0m
   - &hosts
     - &t470 age1j0mcw4nnvskkn6g4ve05zf2jg795vgdnwj0g3eefk68w7uvrfepscmme2f
+    - &x220 age19gdsw3t4ldeufpwdrs5yeq52haxya7599qk8555x7lxs7p7frecs7wdmz9
 creation_rules:
   - path_regex: secrets.yaml$
     key_groups:
       - age:
         - *da
         - *t470
+        - *x220
