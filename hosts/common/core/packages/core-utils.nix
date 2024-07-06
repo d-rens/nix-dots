@@ -8,6 +8,7 @@
     brightnessctl
     btop
     calcurse
+    croc
     fastfetch
     fish
     keepassxc
