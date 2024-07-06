@@ -10,6 +10,7 @@
     ../optional/sway.nix
     ../optional/printing.nix
     ../optional/msmtp.nix
+    ../optional/keyd.nix
   ];
 
   users = {
