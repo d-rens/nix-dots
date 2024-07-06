@@ -18,18 +18,22 @@ in
   ];
 
   home.packages = with pkgs; [
-    #dex
-    #gammastep
-    #glfw-wayland
-    #gnome.eog
-    #lxqt.lxqt-openssh-askpass
     fuzzel
     grim
     slurp
     wayland
     wdisplays
+    wf-recorder
     wl-clipboard
+    wl-mirror 
+    wlsunset
   ];
+
+  services.wlsunset = {
+    enable = true;
+    latitude = 46.8;
+    longitude = 8.6;
+  };
 
   home.sessionVariables = {
     MOZ_ENABLE_WAYLAND = 1;
