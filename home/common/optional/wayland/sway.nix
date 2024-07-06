@@ -47,7 +47,7 @@ in
   home.sessionVariables = {
     XDG_CURRENT_DESKTOP = "sway";
   };
-  home.packages = with pkgs; [ wl-mirror ];
+
   wayland.windowManager.sway = {
     enable = true;
     # Set to null to not add any Sway package to your path.
@@ -121,26 +121,26 @@ in
 
           "${modifier}+0" = "workspace 10";
           "${modifier}+Shift+0" = "move container to workspace 10";
-          "${modifier}+$modalt+1" = "workspace 11";
-          "${modifier}+$modalt+2" = "workspace 12";
-          "${modifier}+$modalt+3" = "workspace 13";
-          "${modifier}+$modalt+4" = "workspace 14";
-          "${modifier}+$modalt+5" = "workspace 15";
-          "${modifier}+$modalt+6" = "workspace 16";
-          "${modifier}+$modalt+7" = "workspace 17";
-          "${modifier}+$modalt+8" = "workspace 18";
-          "${modifier}+$modalt+9" = "workspace 19";
-          "${modifier}+$modalt+0" = "workspace 20";
-          "${modifier}+$modalt+Shift+1" = "move container to workspace 11";
-          "${modifier}+$modalt+Shift+2" = "move container to workspace 12";
-          "${modifier}+$modalt+Shift+3" = "move container to workspace 13";
-          "${modifier}+$modalt+Shift+4" = "move container to workspace 14";
-          "${modifier}+$modalt+Shift+5" = "move container to workspace 15";
-          "${modifier}+$modalt+Shift+6" = "move container to workspace 16";
-          "${modifier}+$modalt+Shift+7" = "move container to workspace 17";
-          "${modifier}+$modalt+Shift+8" = "move container to workspace 18";
-          "${modifier}+$modalt+Shift+9" = "move container to workspace 19";
-          "${modifier}+$modalt+Shift+0" = "move container to workspace 20";
+          #"${modifier}+$modalt+1" = "workspace 11";
+          #"${modifier}+$modalt+2" = "workspace 12";
+          #"${modifier}+$modalt+3" = "workspace 13";
+          #"${modifier}+$modalt+4" = "workspace 14";
+          #"${modifier}+$modalt+5" = "workspace 15";
+          #"${modifier}+$modalt+6" = "workspace 16";
+          #"${modifier}+$modalt+7" = "workspace 17";
+          #"${modifier}+$modalt+8" = "workspace 18";
+          #"${modifier}+$modalt+9" = "workspace 19";
+          #"${modifier}+$modalt+0" = "workspace 20";
+          #"${modifier}+$modalt+Shift+1" = "move container to workspace 11";
+          #"${modifier}+$modalt+Shift+2" = "move container to workspace 12";
+          #"${modifier}+$modalt+Shift+3" = "move container to workspace 13";
+          #"${modifier}+$modalt+Shift+4" = "move container to workspace 14";
+          #"${modifier}+$modalt+Shift+5" = "move container to workspace 15";
+          #"${modifier}+$modalt+Shift+6" = "move container to workspace 16";
+          #"${modifier}+$modalt+Shift+7" = "move container to workspace 17";
+          #"${modifier}+$modalt+Shift+8" = "move container to workspace 18";
+          #"${modifier}+$modalt+Shift+9" = "move container to workspace 19";
+          #"${modifier}+$modalt+Shift+0" = "move container to workspace 20";
 
           # Notifications
           "${modifier}+Shift+g" = "exec ${pkgs.swaynotificationcenter}/bin/swaync-client -t";
@@ -196,7 +196,7 @@ in
       };
     };
     extraConfigEarly = ''
-      set $modalt Mod1
+      set $modalt Mod4
     '';
     extraConfig = ''
       bindgesture swipe:right workspace next_on_output
