@@ -5,6 +5,7 @@ keys:
   - &hosts
     - &x220 age1rxpz8n4rzzurf28yqlwh9jtycuqzva848fpycqcmzlk8xac9fupsrws0cw
     - &t470 age1j0mcw4nnvskkn6g4ve05zf2jg795vgdnwj0g3eefk68w7uvrfepscmme2f
+    - &x220 age19gdsw3t4ldeufpwdrs5yeq52haxya7599qk8555x7lxs7p7frecs7wdmz9
 creation_rules:
   - path_regex: secrets.yaml$
     key_groups:
