@@ -4,13 +4,14 @@
 }:
 {
   imports = [
-    ../optional/music.nix
-    ../optional/wayland.nix
     #../optional/river.nix
-    ../optional/sway.nix
-    ../optional/printing.nix
-    ../optional/msmtp.nix
     ../optional/keyd.nix
+    ../optional/msmtp.nix
+    ../optional/music.nix
+    ../optional/printing.nix
+    ../optional/sway.nix
+    ../optional/syncthing.nix
+    ../optional/wayland.nix
     ../optional/wireguard.nix
   ];
 
