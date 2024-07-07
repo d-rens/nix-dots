@@ -26,4 +26,14 @@
       };
     };
   };
+  networking.firewall = {
+    allowedTCPPorts = [
+      8384 # GUI
+      22000 # traffic
+    ];
+    allowedUDPPorts = [
+      22000 # traffic
+      21027 # discovery
+    ];
+  };
 }
