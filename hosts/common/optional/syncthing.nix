@@ -13,7 +13,7 @@
       devices = {
         "t470" = { id = "TQC66HR-HLNRBZR-IXUKF2Z-VEREX2P-CHS7CD7-3WE5VHU-G6RSE4P-ZDTQ3QH"; };
         # below to be changed
-        "x220" = { id = "TQC66HR-HLNRBZR-IXUKF2Z-VEREX2P-CHS7CD7-3WE5VHU-G6RSE4P-ZDTQ3QH"; };
+        "x220" = { id = "G644Q6V-I6SQFNM-GCGVIBV-JNGH367-KEY3V2Y-DZJCYVE-4DP4BGL-PUZM4AU"; };
       };
       folders = {
         "writing" = {
