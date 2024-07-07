@@ -11,6 +11,7 @@
     ../optional/printing.nix
     ../optional/msmtp.nix
     ../optional/keyd.nix
+    ../optional/wireguard.nix
   ];
 
   users = {
