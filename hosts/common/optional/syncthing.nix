@@ -11,7 +11,7 @@
     overrideFolders = true;     # overrides any folders added or deleted through the WebUI
     settings = {
       devices = {
-        "t470" = { id = "TQC66HR-HLNRBZR-IXUKF2Z-VEREX2P-CHS7CD7-3WE5VHU-G6RSE4P-ZDTQ3QH"; };
+        "t470" = { id = "CYUCLYC-VBU3A3M-3J2AN3G-6TGSGAV-WAMY6DN-VHZOZGQ-5YYQGR2-4O5OYQF"; };
         # below to be changed
         "x220" = { id = "G644Q6V-I6SQFNM-GCGVIBV-JNGH367-KEY3V2Y-DZJCYVE-4DP4BGL-PUZM4AU"; };
       };
