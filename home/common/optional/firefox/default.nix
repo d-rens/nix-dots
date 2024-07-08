@@ -40,6 +40,9 @@
         "services.sync.prefs.sync.browser.startup.homepage" = false;
         "signon.rememberSignons" = false;
         "startup.homepage_welcome_url" = "www.startpage.com";
+        "ui.key.menuAccessKeyFocuses" = false;
+        "browser.compactmode.show" = true;
+        "browser.uidensity" = 1;
       };
 
 

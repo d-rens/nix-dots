@@ -14,7 +14,7 @@
         {
           name = "rss";
           tags = [ "news" "self-hosted" ];
-          url = "https://192.168.0.190:8040";
+          url = "192.168.0.190:8040";
           keyword = "rss";
         }
         ];
