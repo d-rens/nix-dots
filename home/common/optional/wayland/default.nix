@@ -134,31 +134,19 @@ in
         profile.outputs = [
           {
             criteria = "eDP-1";
-            position = "0,360";
             scale = 1.0;
-            status = "enable";
+            position = "0,0";
+            status = "disable";
           }
           {
-            criteria = "DP-3";
-            position = "1920,0";
-            mode = "2560x1440";
-            scale = 1.0;
-            status = "enable";
-          }
-        ];
-      }
-      {
-        profile.name = "docked_2";
-        profile.outputs = [
-          {
-            criteria = "eDP-1";
-            position = "0,360";
+            criteria = "DP-6";
+            position = "0,0";
             scale = 1.0;
             status = "enable";
           }
           {
             criteria = "DP-4";
-            position = "1920,0";
+            position = "1280,0";
             mode = "2560x1440";
             scale = 1.0;
             status = "enable";
