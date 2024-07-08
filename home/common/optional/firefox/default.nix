@@ -52,8 +52,6 @@
         refined-github
         ublock-origin
         vimium
-        vimium-c
-        youtube-shorts-block
       ];
     };
   };
