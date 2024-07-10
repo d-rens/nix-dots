@@ -1,9 +1,13 @@
-{ pkgs, ... }:
-
+{
+  ...
+}:
 {
   programs.neomutt = {
     enable = true;
     binds = [
+
+    # binds here are declared multiple times, fix eventually
+
     { action = "noop"; key = "<space>"; map = "editor"; }
     { action = "noop"; key = "C"; map = ["index" "pager"]; }
     { action = "noop"; key = "M"; map = ["index" "pager"]; }
@@ -194,13 +198,13 @@
       macro index \Cr "T~U<enter><tag-prefix><clear-flag>N<untag-pattern>.<enter>" "mark all messages as read"
       macro index,pager Ca ";<copy-message>=Archive<enter>" "copy mail to archive"
       macro index,pager Cd ";<copy-message>=Drafts<enter>" "copy mail to drafts"
-      macro index,pager Ci ";<copy-message>=INBOX<enter>" "copy mail to inbox"
+      macro index,pager Ci ";<copy-message>=Inbox<enter>" "copy mail to inbox"
       macro index,pager Cj ";<copy-message>=Junk<enter>" "copy mail to junk"
       macro index,pager Cs ";<copy-message>=Sent<enter>" "copy mail to sent"
       macro index,pager Ct ";<copy-message>=Trash<enter>" "copy mail to trash"
       macro index,pager Ma ";<save-message>=Archive<enter>" "move mail to archive"
       macro index,pager Md ";<save-message>=Drafts<enter>" "move mail to drafts"
-      macro index,pager Mi ";<save-message>=INBOX<enter>" "move mail to inbox"
+      macro index,pager Mi ";<save-message>=Inbox<enter>" "move mail to inbox"
       macro index,pager Mi ";<save-message>=git<enter>" "move mail to git"
       macro index,pager Mj ";<save-message>=Junk<enter>" "move mail to junk"
       macro index,pager Ms ";<save-message>=Sent<enter>" "move mail to sent"
@@ -208,7 +212,7 @@
       macro index,pager a "<enter-command>set my_pipe_decode=\$pipe_decode pipe_decode<return><pipe-message>abook --add-email<return><enter-command>set pipe_decode=\$my_pipe_decode; unset my_pipe_decode<return>" "add the sender address to abook"
       macro index,pager ga "<change-folder>=Archive<enter>" "go to archive"
       macro index,pager gd "<change-folder>=Drafts<enter>" "go to drafts"
-      macro index,pager gi "<change-folder>=INBOX<enter>" "go to inbox"
+      macro index,pager gi "<change-folder>=Inbox<enter>" "go to inbox"
       macro index,pager gG "<change-folder>=git<enter>" "go to git"
       macro index,pager gj "<change-folder>=Junk<enter>" "go to junk"
       macro index,pager gs "<change-folder>=Sent<enter>" "go to sent"

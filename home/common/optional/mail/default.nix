@@ -3,6 +3,10 @@
   pkgs,  
   ... 
 }:
+let
+  main-host = "mail.infomaniak.com";
+  name = "Daniel Renschler";
+in
 {
 
   sops.secrets = {
@@ -55,7 +59,7 @@
         signByDefault = true;
       };
       imap = {
-        host = "heracles.mxrouting.net";
+        host = main-host;
         port = 993;
       };
       neomutt = {
@@ -70,16 +74,11 @@
           };
         };
       };
-      #folders = {
-      #  drafts = ./drafts ;
-      #  inbox = ./inbox ;
-      #  sent = ./sent ;
-      #};
       smtp = {
-        host = "heracles.mxrouting.net";
+        host = "mail.infomaniak.com";
         port = 465;
       };
-      realName = "Daniel Renschler";
+      realName = name;
       userName = "daniel@d-rens.xyz";
       passwordCommand = "cat ${config.sops.secrets."mail/main".path}";
     };
@@ -103,16 +102,11 @@
           };
         };
       };
-      #folders = {
-      #  drafts = ./drafts ;
-      #  inbox = ./inbox ;
-      #  sent = ./sent ;
-      #};
       smtp = {
         host = "smtp.mailbox.org";
         port = 465;
       };
-      realName = "Daniel Renschler";
+      realName = name;
       userName = "d-rens@mailbox.org";
       passwordCommand = "cat ${config.sops.secrets."mail/secondary".path}";
     };

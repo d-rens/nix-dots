@@ -27,7 +27,7 @@
 
       macro index o "<shell-escape>mbsync personal<enter>" "syncing mailbox"
 
-      mailboxes "=Inbox" "=Drafts" "=Sent" "=git" "=Junk" "=Trash"
+      mailboxes "=Inbox" "=Drafts" "=Sent" "=Trash" "=Archives" "=Promotions" "=SocialNetworks" "=Spam"
       '';
 
 

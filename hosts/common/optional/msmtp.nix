@@ -21,7 +21,7 @@
 
     accounts = {
       "daniel@d-rens.xyz" = {
-        host = "heracles.mxrouting.net";
+        host = "mail.infomaniak.com";
         port = "465";
         from = "daniel@d-rens.xyz";
         user = "daniel@d-rens.xyz";
