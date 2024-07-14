@@ -35,12 +35,12 @@
     luaLoader.enable = true;
 
     colorschemes = {
-    modus = {
-      enable = true;
-      settings = {
-        transparent = true;
-      };
-    };
+      #modus = {
+      #  enable = true;
+      #  settings = {
+      #    transparent = true;
+      #  };
+      #};
     };
   };
 }
