@@ -2,8 +2,8 @@
   description = "flake config";
 
   inputs = {
-    #nixpkgs.url = "nixpkgs/nixos-unstable";
-    nixpkgs.url = "nixpkgs/master";
+    nixpkgs.url = "nixpkgs/nixos-unstable";
+    #nixpkgs.url = "nixpkgs/master";
 
     home-manager = {
       url = "github:nix-community/home-manager";
