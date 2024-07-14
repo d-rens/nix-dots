@@ -1,7 +1,7 @@
-# this file should not be in hosts
-
-{ pkgs, config, ... }:
-
+{ 
+  pkgs, 
+  ... 
+}:
 {
   environment.systemPackages = with pkgs; [
     gtk2
@@ -14,7 +14,7 @@
     enable = true;
    
     polarity = "dark";
-    #base16Scheme = "${pkgs.base16-schemes}/share/themes/atelier-cave.yaml";
+    base16Scheme = "${pkgs.base16-schemes}/share/themes/darkviolet.yaml";
 
     opacity = {
         terminal = 0.8;
@@ -49,5 +49,5 @@
     };
   };
   #stylix.image = wallpapers/concept-1.jpg;
-  stylix.image = wallpapers/wp-3.jpg;
+  stylix.image = wallpapers/wp-1.jpg;
 }
