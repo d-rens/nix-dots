@@ -148,6 +148,82 @@ in
             criteria = "DP-4";
             position = "1280,0";
             mode = "2560x1440";
+            transform = "180";
+            scale = 1.0;
+            status = "enable";
+          }
+        ];
+      }
+      {
+        profile.name = "docked-2";
+        profile.outputs = [
+          {
+            criteria = "eDP-1";
+            scale = 1.0;
+            position = "0,0";
+            status = "disable";
+          }
+          {
+            criteria = "DP-5";
+            position = "0,0";
+            scale = 1.0;
+            status = "enable";
+          }
+          {
+            criteria = "DP-3";
+            position = "1280,0";
+            mode = "2560x1440";
+            transform = "180";
+            scale = 1.0;
+            status = "enable";
+          }
+        ];
+      }
+      {
+        profile.name = "docked-3";
+        profile.outputs = [
+          {
+            criteria = "eDP-1";
+            scale = 1.0;
+            position = "0,0";
+            status = "disable";
+          }
+          {
+            criteria = "DP-6";
+            position = "0,0";
+            scale = 1.0;
+            status = "enable";
+          }
+          {
+            criteria = "DP-3";
+            position = "1280,0";
+            mode = "2560x1440";
+            transform = "180";
+            scale = 1.0;
+            status = "enable";
+          }
+        ];
+      }
+      {
+        profile.name = "docked-4";
+        profile.outputs = [
+          {
+            criteria = "eDP-1";
+            scale = 1.0;
+            position = "0,0";
+            status = "disable";
+          }
+          {
+            criteria = "DP-5";
+            position = "0,0";
+            scale = 1.0;
+            status = "enable";
+          }
+          {
+            criteria = "DP-4";
+            position = "1280,0";
+            mode = "2560x1440";
+            transform = "180";
             scale = 1.0;
             status = "enable";
           }
