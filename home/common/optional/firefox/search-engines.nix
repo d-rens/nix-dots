@@ -82,6 +82,11 @@ in
               urls = [{ template = "https://arxiv.org/search/?query={searchTerms}&searchtype=all&abstracts=show&order=-announced_date_first&size=50"; }];
             };
 
+          "CTAN" = {
+              definedAliases = [ "@ctan" ];
+              urls = [{ template = "https://ctan.org/search?phrase={searchTerms}"; }];
+          };
+
           "Bing".metaData.hidden = true;
           "Google".metaData.hidden = true;
           "DuckDuckGo".metaData.hidden = true;
