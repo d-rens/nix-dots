@@ -1,6 +1,9 @@
-{ pkgs, ... }:
 {
-    home.packages = with pkgs; [
-      texliveFull
-    ];
+  pkgs, 
+  ...
+}:
+{
+  home.packages = with pkgs; [
+    texliveFull
+  ];
 }
