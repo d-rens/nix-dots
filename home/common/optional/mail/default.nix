@@ -44,7 +44,13 @@ in
     ./accs.nix
   ];
 
-  programs.mbsync.enable = true;
+  programs.mbsync = {
+    enable = true;
+  };
+  services.mbsync = {
+    enable = true;
+    frequency = "*-*-* *:00:00";
+  };
   #programs.msmtp.enable = true;
 
 
@@ -68,6 +74,7 @@ in
       mbsync = {
         enable = true;
         create = "both";
+        subFolders = "Verbatim";
         extraConfig = {
           channel = {
             CopyArrivalDate = "yes";
@@ -95,6 +102,7 @@ in
       };
       mbsync = {
         enable = true;
+        subFolders = "Verbatim";
         create = "both";
         extraConfig = {
           channel = {
