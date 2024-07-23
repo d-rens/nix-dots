@@ -6,13 +6,15 @@
   imports = [
     #../optional/river.nix
     ../optional/keyd.nix
+    ../optional/jabref.nix
     ../optional/msmtp.nix
     ../optional/music.nix
     ../optional/printing.nix
     ../optional/sway.nix
     ../optional/syncthing.nix
     ../optional/wayland.nix
-    ../optional/wireguard.nix
+    #../optional/wireguard.nix
+    #../optional/virtualisation.nix
   ];
 
   users = {
