@@ -10,7 +10,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    stylix.url = "github:danth/stylix";
+    stylix = {
+      url = "github:danth/stylix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     nixvim = {
       url = "github:nix-community/nixvim";
@@ -30,8 +33,7 @@
 
   };
 
-  outputs =
-    inputs@{
+  outputs = inputs@{
       self,
       sops-nix,
       nixpkgs,
@@ -42,8 +44,6 @@
     let
       lib = nixpkgs.lib;
     in
-    # where is this supposed to go?
-    # packages = forEachSystem (pkgs: import ./pkgs { inherit pkgs; });
     {
       nixosConfigurations = {
         t470 = lib.nixosSystem {
