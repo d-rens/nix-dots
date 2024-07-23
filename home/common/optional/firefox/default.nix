@@ -45,10 +45,10 @@
         "browser.uidensity" = 1;
       };
 
-
       extensions = with inputs.firefox-addons.packages."x86_64-linux"; [
         darkreader
         df-youtube
+        jabref
         refined-github
         ublock-origin
         vimium
