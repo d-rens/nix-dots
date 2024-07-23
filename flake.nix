@@ -1,5 +1,5 @@
 {
-  description = "flake config";
+  description = "flake config for nixos";
 
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
