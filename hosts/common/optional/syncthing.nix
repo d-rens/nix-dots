@@ -13,6 +13,8 @@
       devices = {
         "t470" = { id = "CYUCLYC-VBU3A3M-3J2AN3G-6TGSGAV-WAMY6DN-VHZOZGQ-5YYQGR2-4O5OYQF"; };
         "x220" = { id = "G644Q6V-I6SQFNM-GCGVIBV-JNGH367-KEY3V2Y-DZJCYVE-4DP4BGL-PUZM4AU"; };
+        "hua"  = { id = "5YVE4KW-32BMO7V-4Q4KYMT-Q7U4TF7-5SUSSYZ-IMBGYDR-UZI7LLM-PPJJPA7"; };
+        "mac"  = { id = "FUE7TEM-KDS7JVG-ALHYAR7-PRMGCNS-H3A5NAE-OFUTQUE-7A7UISG-76U6AQS"; };
       };
       folders = {
         "writing" = {
@@ -20,6 +22,7 @@
           devices = [
             "t470"
             "x220"
+            "hua"
           ];
         };
         "books" = {
@@ -27,6 +30,7 @@
           devices = [
             "t470"
             "x220"
+            "hua"
           ];
         };
         "music" = {
@@ -34,6 +38,8 @@
           devices = [
             "t470"
             "x220"
+            "hua"
+            "mac"
           ];
         };
         "sec" = {
@@ -41,6 +47,8 @@
           devices = [
             "t470"
             "x220"
+            "hua"
+            "mac"
           ];
         };
       };
