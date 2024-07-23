@@ -3,6 +3,7 @@
 {
   home.packages = with pkgs; [
     git
+    act
     lazygit
   ];
   programs.git = {
