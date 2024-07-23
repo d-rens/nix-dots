@@ -2,9 +2,15 @@
   programs.nixvim = {
     plugins.vimtex = {
       enable = true;
+      texlivePackage = null;
 
       settings = {
         view_method = "zathura";
+
+        # has to be done somewhat else
+        #compiler_method = "lualatex";
+
+        # disallows vimtex to install texlive
 
         quickfix_enabled = true;
         quickfix_open_on_warning = false;
