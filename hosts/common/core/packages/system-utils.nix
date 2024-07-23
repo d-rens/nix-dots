@@ -3,13 +3,14 @@
 {
   environment.systemPackages = with pkgs; [
     cargo
-    wget
-    lf
-    tree
-    gdu
+    eza
     gcc # for treesitter
-    grub2
+    gdu
     gparted
+    grub2
+    lf
     parted
+    tree
+    wget
   ];
 }
