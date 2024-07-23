@@ -29,22 +29,20 @@
 
     fonts = {
       serif = {
-        package = pkgs.cm_unicode;
-        name = "CMU Serif";
+        package = pkgs.nerdfonts;
+        name = "LiterationSerif Nerd Font Propo";
       };
       sansSerif = {
-        package = pkgs.dejavu_fonts;
-        name = "DejaVu Sans";
+        package = pkgs.nerdfonts;
+        name = "NotoSans Nerd Font Propo";
       };
       monospace = {
-        #package = pkgs.iosevka;
-        package = pkgs.jetbrains-mono;
-        #name = "Iosevka";
-        name = "JetBrains Mono";
+        package = pkgs.nerdfonts;
+        name = "IosevkaTermSlab Nerd Font Mono";
       };
       emoji = {
-        package = pkgs.noto-fonts-emoji;
-        name = "Noto Color Emoji";
+        package = pkgs.nerdfonts;
+        name = "Symbols Nerd Font";
       };
     };
   };

@@ -8,6 +8,7 @@
   ];
 
   fonts.packages = with pkgs; [
+    nerdfonts
     jetbrains-mono
     cm_unicode
     dina-font
