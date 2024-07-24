@@ -5,16 +5,18 @@
 {
   imports = [
     #../optional/river.nix
-    ../optional/keyd.nix
+    #../optional/virtualisation.nix
+    #../optional/wireguard.nix
+
+    ../optional/borg.nix
     ../optional/jabref.nix
+    ../optional/keyd.nix
     ../optional/msmtp.nix
     ../optional/music.nix
     ../optional/printing.nix
     ../optional/sway.nix
     ../optional/syncthing.nix
     ../optional/wayland.nix
-    #../optional/wireguard.nix
-    #../optional/virtualisation.nix
   ];
 
   users = {
