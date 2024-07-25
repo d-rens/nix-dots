@@ -11,6 +11,7 @@
     croc
     fastfetch
     fish
+    just
     keepassxc
     syncthing
     libnotify
