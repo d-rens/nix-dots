@@ -31,13 +31,18 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    disko = {
+      url = "github:nix-community/disko";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs@{
+      disko,
+      home-manager,
+      nixpkgs,
       self,
       sops-nix,
-      nixpkgs,
-      home-manager,
       stylix,
       ...
     }:
@@ -57,6 +62,7 @@
               home-manager = {
                 useGlobalPkgs = true;
                 useUserPackages = true;
+                backupFileExtension = "backup";
                 extraSpecialArgs = {
                   inherit inputs;
                 }; # allows access to flake inputs in hm modules
@@ -75,7 +81,8 @@
         x220 = lib.nixosSystem {
           system = "x86_64-linux";
           modules = [
-            ./hosts/x220
+            ./hosts/x220 # disko gets added here
+            disko.nixosModules.disko
             stylix.nixosModules.stylix
             home-manager.nixosModules.home-manager
             sops-nix.nixosModules.sops

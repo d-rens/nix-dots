@@ -23,7 +23,7 @@
     extraModulePackages = [ ];
   };
 
-  fileSystems = {
+  fileSystems = lib.mkDefault {
     "/" = { 
     device = "/dev/disk/by-uuid/1630128e-e86c-4e3f-bdd2-c6d027e59cf3";
       fsType = "ext4";
