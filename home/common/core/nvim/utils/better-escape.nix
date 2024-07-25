@@ -2,7 +2,7 @@
   programs.nixvim= {
     plugins.better-escape = {
       enable = true;
-      clearEmptyLines = true;
+      #clearEmptyLines = true;
       timeout = 100;
     };
   };
