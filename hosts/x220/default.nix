@@ -5,7 +5,8 @@
 {
   imports = [ 
       ./hardware-configuration.nix
-      ./disk-configuration.nix
+      #./disk-configuration.nix
+      ./disk-config-luks-swap.nix
 
       ../common/core
 
