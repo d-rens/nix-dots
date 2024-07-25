@@ -1,4 +1,7 @@
-{ pkgs, config, ...}:
+{
+  pkgs,
+  ...
+}:
 {
   # Core Utilities
   environment.systemPackages = with pkgs; [

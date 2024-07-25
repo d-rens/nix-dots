@@ -3,7 +3,7 @@
     plugins.better-escape = {
       enable = true;
       #clearEmptyLines = true;
-      timeout = 100;
+      #timeout = 100;
     };
   };
 }

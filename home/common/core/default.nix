@@ -1,4 +1,6 @@
-{ pkgs, config, ... }:
+{
+  ...
+}:
 {
   imports = [
     ./lf
