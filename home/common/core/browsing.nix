@@ -1,9 +1,11 @@
-{ pkgs, config, ... }:
 {
-  # firefox could be fully declared, but is still firefox
+  pkgs,
+  ...
+}:
+{
   home.packages = with pkgs; [
     librewolf
-    firefox
+    #firefox # gets managed by home-manager
     lynx
   ];
 }

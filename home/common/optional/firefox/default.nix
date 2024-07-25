@@ -11,17 +11,6 @@
   programs.firefox = {
     enable = true;
 
-    # breaks home manager :(
-    #policies = {
-    # DisableFirefoxStudies = true;
-    # DisablePocket = true;
-    # DisableTelemetry = true;
-    # EnableTrackingProtection = true;
-    # NewTapPage = false;
-    # OfferToSaveLogins = false;
-    # TranslateEnabled = false;
-    #};
-
     profiles.default = {
       settings = {
         "browser.activity-stream.showSponsored" = false;
@@ -29,7 +18,7 @@
         "browser.bookmarks.addedImportButton" = false;
         "browser.compactmode.show" = true;
         "browser.download.panel.shown" = true;
-        "browser.newtabpage.activity-stream.default.sites" = "https://github.com, https://test.test" ;
+        #"browser.newtabpage.activity-stream.default.sites" = "https://github.com" ;
         "browser.newtabpage.activity-stream.discoverystream.sendToPocket.enabled" = false;
         "browser.newtabpage.activity-stream.system.showSponsored" = false;
         "browser.startup.blankWindow" = true;
@@ -38,21 +27,21 @@
         "browser.toolbars.bookmarks.visibility" = "newtab";
         "browser.uidensity" = 1;
         "browser.urlbar.autoFill" = false;
-        "browser.urlbar.quicksuggeust.enabled" = false;
         "browser.urlbar.maxRichResults" = 20;
+        "browser.urlbar.quicksuggeust.enabled" = false;
         "browser.urlbar.suggest.history" = false;
+        "browser.urlbar.suggest.pocket" = false;
         "browser.urlbar.suggest.recentsearches" = true;
         "browser.urlbar.suggest.searches" = false;
+        "browser.urlbar.suggest.topsites" = false;
         "browser.urlbar.suggest.trending" = false;
         "browser.urlbar.suggest.weather" = false;
         "browser.urlbar.suggest.yelp" = false;
-        "browser.urlbar.suggest.pocket" = false;
-        "browser.urlbar.suggest.topsites" = false;
         "dom.push.enabled" = false;
         "dom.security.https_only_mode" = false; # for local sites
         "dom.webnotifications.serviceworker.enabled" = false;
-        "extensions.packet.showHome" = false;
         "extensions.pocket.enabled" = false;
+        "extensions.pocket.showHome" = false;
         "extensions.quarantinedDomains" = false;
         "identity.fxaccounts.enabled" = false;
         "keyword.enabled" = true;

@@ -3,12 +3,10 @@
   ...
 }:
 let
-snowflake = "${pkgs.nixos-icons}/share/icons/hicolor/scalable/apps/nix-snowflake-white.svg";
+  snowflake = "${pkgs.nixos-icons}/share/icons/hicolor/scalable/apps/nix-snowflake-white.svg";
 in
 {
   programs.firefox = {
-    enable = true;
-
     profiles.default = {
       search = {
         force = true;
