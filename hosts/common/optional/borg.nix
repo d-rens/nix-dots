@@ -28,6 +28,6 @@
 
     repo = "ssh://pi@192.168.0.137:22/mnt/data/borg/t470";
     compression = "zstd,1";
-    startAt = "daily";
+    startAt = "hourly";
   };
 }
