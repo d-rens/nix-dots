@@ -1,3 +1,14 @@
+> [!IMPORTANT]  
+> Moved to [sourcehut](https://git.sr.ht/~d-rens/nixos-dotfiles).
+> The config here will be outdated and worse.
+> It will maybe eventually be mirrored, but not currently.
+
+
+
+
+
+
+
 # nix
 
 ## structure
